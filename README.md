@@ -5,19 +5,19 @@
 <p align="center">
   <!-- Patreon -->
   <a href="https://www.patreon.com/daltonmenezes">
-    <img alt="patreon url" src="https://img.shields.io/badge/support%20on-patreon-4dbb99?style=for-the-badge&color=4dbb99">
+    <img alt="patreon url" src="https://img.shields.io/badge/support%20on-patreon-1C1E26?style=for-the-badge&labelColor=1C1E26&color=4dbb99">
   </a>
   <!-- marketplace version -->
   <a href="https://marketplace.visualstudio.com/items?itemName=DaltonMenezes.aura-theme">
-    <img alt="marketplace version" src="https://img.shields.io/vscode-marketplace/v/DaltonMenezes.aura-theme.svg?maxAge=3600&style=for-the-badge&labelColor=1C1E26&color=4dbb99">
+    <img alt="marketplace version" src="https://img.shields.io/vscode-marketplace/v/DaltonMenezes.aura-theme.svg?style=for-the-badge&labelColor=1C1E26&color=4dbb99">
   </a>
   <!-- downloads -->
   <a href="https://marketplace.visualstudio.com/items?itemName=DaltonMenezes.aura-theme">
-    <img alt="downloads" src="https://img.shields.io/visual-studio-marketplace/d/DaltonMenezes.aura-theme.svg?maxAge=3600&style=for-the-badge&labelColor=1C1E26&color=4dbb99">
+    <img alt="downloads" src="https://img.shields.io/visual-studio-marketplace/d/DaltonMenezes.aura-theme.svg?style=for-the-badge&labelColor=1C1E26&color=4dbb99">
   </a>
   <!-- rating -->
   <a href="https://marketplace.visualstudio.com/items?itemName=DaltonMenezes.aura-theme">
-    <img alt="rating" src="https://img.shields.io/visual-studio-marketplace/stars/DaltonMenezes.aura-theme.svg?maxAge=86400&style=for-the-badge&labelColor=1C1E26&color=4dbb99">
+    <img alt="rating" src="https://img.shields.io/visual-studio-marketplace/stars/DaltonMenezes.aura-theme.svg?style=for-the-badge&labelColor=1C1E26&color=4dbb99">
   </a>
 </p>
 
