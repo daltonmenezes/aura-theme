@@ -27,8 +27,11 @@
 
 # Themes available
   - Aura Dark
+    - & `Soft Text`
   - Aura Dark Plus
+    - & `Soft Text`
   - Aura Soft Dark
+    - & `Soft Text`
 
 # Installation
 1. Open the **Extensions** sidebar in VS Code
