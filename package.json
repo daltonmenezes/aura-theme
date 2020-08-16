@@ -41,6 +41,11 @@
         "path": "./themes/aura-dark-color-theme.json"
       },
       {
+        "label": "Aura Dark Soft Text",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aura-dark-soft-text-color-theme.json"
+      },
+      {
         "label": "Aura Dark Plus",
         "uiTheme": "vs-dark",
         "path": "./themes/aura-dark-plus-color-theme.json"
