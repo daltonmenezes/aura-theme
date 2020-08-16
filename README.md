@@ -17,7 +17,7 @@
   </a>
   <!-- rating -->
   <a href="https://marketplace.visualstudio.com/items?itemName=DaltonMenezes.aura-theme">
-    <img alt="rating" src="https://img.shields.io/visual-studio-marketplace/stars/DaltonMenezes.aura-theme.svg?maxAge=86400&style=for-the-badge&labelColor=1C1E26&color=4dbb99">
+    <img alt="rating" src="https://img.shields.io/visual-studio-marketplace/stars/DaltonMenezes.aura-theme.svg?style=for-the-badge&labelColor=1C1E26&color=4dbb99">
   </a>
 </p>
 
