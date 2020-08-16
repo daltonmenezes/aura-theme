@@ -5,7 +5,7 @@
 <p align="center">
   <!-- Patreon -->
   <a href="https://www.patreon.com/daltonmenezes">
-    <img alt="patreon url" src="https://img.shields.io/badge/support%20on-patreon-4dbb99?style=for-the-badge&color=4dbb99">
+    <img alt="patreon url" src="https://img.shields.io/badge/support%20on-patreon-1C1E26?style=for-the-badge&labelColor=1C1E26&color=4dbb99">
   </a>
   <!-- marketplace version -->
   <a href="https://marketplace.visualstudio.com/items?itemName=DaltonMenezes.aura-theme">
