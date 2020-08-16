@@ -1,0 +1,15 @@
+{
+	"version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Extension",
+        "type": "extensionHost",
+        "request": "launch",
+        "runtimeExecutable": "${execPath}",
+        "preLaunchTask": "npm: build",
+        "args": [
+          "--extensionDevelopmentPath=${workspaceFolder}"
+         ]
+      }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+  "name": "aura-theme",
+  "displayName": "Aura Theme",
+  "description": "A beautiful theme for Visual Studio Code",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "yarn build && yarn watch",
+    "build": "node src/build.js",
+    "watch": "chokidar \"src/**/*.js\" \"src/**/*.sass\" \"src/**/*.json\" -c \"yarn build\"",
+    "publich": "yarn build && vsce publish"
+  },
+  "publisher": "DaltonMenezes",
+  "author": {
+    "name": "Dalton Menezes",
+    "email": "daltonmenezes@outlook.com",
+    "url": "https://daltonmenezes.github.io"
+  },
+  "icon": "logo.png",
+  "galleryBanner": {
+    "color": "#21202e",
+    "theme": "dark"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.47.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "aura",
+    "color-theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Aura Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aura-dark-color-theme.json"
+      },
+      {
+        "label": "Aura Dark Plus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aura-dark-plus-color-theme.json"
+      },
+      {
+        "label": "Aura Soft Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aura-soft-dark-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daltonmenezes/aura-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/daltonmenezes/aura-theme/issues"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "eslint . --cache"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^2.1.0",
+    "eslint": "^7.7.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5"
+  }
+}

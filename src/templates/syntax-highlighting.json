@@ -1,0 +1,166 @@
+{
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "settings": {
+        "foreground": "$accent8"
+      }
+    },
+    {
+      "name": "Constant",
+      "scope": "constant",
+      "settings": {
+        "foreground": "$accent2"
+      }
+    },
+    {
+      "name": "Entity",
+      "scope": "entity",
+      "settings": {
+        "foreground": "$accent3"
+      }
+    },
+    {
+      "name": "Entity",
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "$accent2"
+      }
+    },
+    {
+      "name": "Entity",
+      "scope": "entity.name.tag",
+      "settings": {
+        "foreground": "$accent1"
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": "invalid",
+      "settings": {
+        "foreground": "$accent5"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword",
+      "settings": {
+        "foreground": "$accent1"
+      }
+    },
+    {
+      "name": "Storage",
+      "scope": "storage",
+      "settings": {
+        "foreground": "$accent1"
+        
+      }
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "settings": {
+        "foreground": "$accent2"
+      }
+    },
+    {
+      "name": "String",
+      "scope": "string.unquoted",
+      "settings": {
+        "foreground": "$accent6"
+      }
+    },
+    {
+      "name": "Support",
+      "scope": "support",
+      "settings": {
+        "foreground": "$accent1"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": "variable",
+      "settings": {
+        "foreground": "$accent7"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "$accent5"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword.operator",
+      "settings": {
+        "foreground": "$accent4"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": "punctuation.separator",
+      "settings": {
+        "foreground": "$accent6"
+      }
+    },
+    {
+      "name": "Markup Heading",
+      "scope": "markup.heading",
+      "settings": {
+        "foreground": "$accent1"
+      }
+    },
+    {
+      "name": "Markup Deleted",
+      "scope": "markup.deleted",
+      "settings": {
+        "foreground": "$accent5"
+      }
+    },
+    {
+      "name": "Markup Inserted",
+      "scope": "markup.inserted",
+      "settings": {
+        "foreground": "$accent2"
+      }
+    },
+    {
+      "name": "Markup Changed",
+      "scope": "markup.changed",
+      "settings": {
+        "foreground": "$accent3"
+      }
+    },
+    {
+      "name": "Markup Underline",
+      "scope": "markup.underline",
+      "settings": {
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Markup Underline Link",
+      "scope": "markup.underline.link",
+      "settings": {
+        "foreground": "$accent1"
+      }
+    },
+    {
+      "name": "Markup List",
+      "scope": "markup.list",
+      "settings": {
+        "foreground": "$accent7"
+      }
+    },
+    {
+      "name": "Markup Raw",
+      "scope": "markup.raw",
+      "settings": {
+        "foreground": "$accent2"
+      }
+    }
+  ]
+}

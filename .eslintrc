@@ -1,0 +1,20 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "globals": {
+    "document": "readonly",
+    "navigator": "readonly",
+    "window": "readonly"
+  },
+  "plugins": ["prettier"],
+  "extends": ["prettier", "plugin:prettier/recommended"],
+  "rules": {
+    "no-console": 1
+  }
+}
