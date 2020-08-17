@@ -7,23 +7,14 @@
     "start": "yarn build && yarn watch",
     "build": "node src/build.js",
     "watch": "chokidar \"src/**/*.js\" \"src/**/*.sass\" \"src/**/*.json\" -c \"yarn build\"",
-    "publich": "yarn build && vsce publish"
+    "publish:vscode": "yarn build && cd packages/vscode && yarn publish"
   },
-  "publisher": "DaltonMenezes",
   "author": {
     "name": "Dalton Menezes",
     "email": "daltonmenezes@outlook.com",
     "url": "https://daltonmenezes.github.io"
   },
-  "icon": "logo.png",
-  "galleryBanner": {
-    "color": "#21202e",
-    "theme": "dark"
-  },
   "license": "MIT",
-  "engines": {
-    "vscode": "^1.47.0"
-  },
   "categories": [
     "Themes"
   ],
@@ -33,40 +24,6 @@
     "aura",
     "color-theme"
   ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Aura Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/aura-dark-color-theme.json"
-      },
-      {
-        "label": "Aura Dark Soft Text",
-        "uiTheme": "vs-dark",
-        "path": "./themes/aura-dark-soft-text-color-theme.json"
-      },
-      {
-        "label": "Aura Dark Plus",
-        "uiTheme": "vs-dark",
-        "path": "./themes/aura-dark-plus-color-theme.json"
-      },
-      {
-        "label": "Aura Dark Plus Soft Text",
-        "uiTheme": "vs-dark",
-        "path": "./themes/aura-dark-plus-soft-text-color-theme.json"
-      },
-      {
-        "label": "Aura Soft Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/aura-soft-dark-color-theme.json"
-      },
-      {
-        "label": "Aura Soft Dark Soft Text",
-        "uiTheme": "vs-dark",
-        "path": "./themes/aura-soft-dark-soft-text-color-theme.json"
-      }
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/daltonmenezes/aura-theme.git"
