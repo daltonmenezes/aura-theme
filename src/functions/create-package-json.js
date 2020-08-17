@@ -1,18 +1,16 @@
-const { resolve } = require('path')
 const { writeFileSync } = require('fs')
-const packageJSON = require('../../package.json')
 
-module.exports = (toAppend) => {
+module.exports = ({ from, to, append }) => {
   try {
+    const packageBase = from ? require(from) : {}
+    const output = to ? to : from
+
     const serializedPackageJSON = {
-      ...packageJSON,
-      ...toAppend,
+      ...packageBase,
+      ...append,
     }
 
-    writeFileSync(
-      resolve(__dirname, '..', '..', 'package.json'),
-      JSON.stringify(serializedPackageJSON, null, 2)
-    )
+    writeFileSync(output, JSON.stringify(serializedPackageJSON, null, 2))
   } catch {
     throw Error(`
       Something went wrong.
