@@ -25,6 +25,8 @@
   <img alt="preview" src="https://github.com/daltonmenezes/assets/blob/master/images/aura-theme/preview.png?raw=true" >
 </p>
 
+> Aura Theme is a beautiful dark theme with six variants for Visual Studio Code. Three of these variants are focused on long-term work without causing any discomfort to the eyes.
+
 # Themes available
   - Aura Dark
     - & `Soft Text`
