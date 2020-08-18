@@ -7,17 +7,15 @@
   <a href="https://www.patreon.com/daltonmenezes">
     <img alt="patreon url" src="https://img.shields.io/badge/support%20on-patreon-1C1E26?style=for-the-badge&labelColor=1C1E26&color=4dbb99">
   </a>
-  <!-- marketplace version -->
-  <a href="https://marketplace.visualstudio.com/items?itemName=DaltonMenezes.aura-theme">
-    <img alt="marketplace version" src="https://img.shields.io/vscode-marketplace/v/DaltonMenezes.aura-theme.svg?style=for-the-badge&labelColor=1C1E26&color=4dbb99">
+
+  <!-- IssueHunt -->
+  <a href="https://issuehunt.io/r/daltonmenezes/aura-theme">
+    <img alt="issuehunt url" src="https://img.shields.io/badge/fund%20issues-issuehunt-1C1E26?style=for-the-badge&labelColor=1C1E26&color=4dbb99">
   </a>
-  <!-- downloads -->
-  <a href="https://marketplace.visualstudio.com/items?itemName=DaltonMenezes.aura-theme">
-    <img alt="downloads" src="https://img.shields.io/visual-studio-marketplace/d/DaltonMenezes.aura-theme.svg?style=for-the-badge&labelColor=1C1E26&color=4dbb99">
-  </a>
-  <!-- rating -->
-  <a href="https://marketplace.visualstudio.com/items?itemName=DaltonMenezes.aura-theme">
-    <img alt="rating" src="https://img.shields.io/visual-studio-marketplace/stars/DaltonMenezes.aura-theme.svg?style=for-the-badge&labelColor=1C1E26&color=4dbb99">
+
+  <!-- ProductHunt -->
+  <a href="https://www.producthunt.com/posts/aura-theme">
+    <img alt="producthunt url" src="https://img.shields.io/badge/vote%20on-producthunt-1C1E26?style=for-the-badge&labelColor=1C1E26&color=4dbb99">
   </a>
 </p>
 
@@ -25,27 +23,23 @@
   <img alt="preview" src="https://github.com/daltonmenezes/assets/blob/master/images/aura-theme/preview.png?raw=true" >
 </p>
 
-> Aura Theme is a beautiful dark theme with six variants for Visual Studio Code. Three of these variants are focused on long-term work without causing any discomfort to the eyes.
+> Aura Theme is a beautiful dark theme including variants focused on long-term work without causing any discomfort to the eyes.
+Available now for Visual Studio Code and soon for more applications.
 
-# Themes available
-  - Aura Dark
-    - & `Soft Text`
-  - Aura Dark Plus
-    - & `Soft Text`
-  - Aura Soft Dark
-    - & `Soft Text`
+# Themes
+[![vscode](https://github.com/daltonmenezes/assets/blob/master/images/icons/vscode.png?raw=true)](https://github.com/daltonmenezes/aura-theme/tree/master/packages/vscode)
 
-# Installation
-1. Open the **Extensions** sidebar in VS Code
-2. Search for [Aura Theme](https://marketplace.visualstudio.com/items?itemName=DaltonMenezes.aura-theme)
-3. Click **Install**
-4. Open the **Command Palette** with `Ctrl+Shift+P` or `⇧⌘P`
-5. Select **Preferences: Color Theme** and choose an Aura variant.
+# Contributing
+Contributions are always welcome.
 
-# Getting full experience
-1. Install [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
-2. Install [Fira Code font](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)
-3. Install [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+There's a bunch of ways you can contribute to this project, like by:
+- :electric_plug: Making a port of this theme for another apps
+- :wave: Requesting a port
+- :beetle: Reporting a bug
+- :page_facing_up: Improving this documentation
+- :rotating_light: Sharing this project and recommending it to your friends
+- :dollar: Supporting this project on Patreon
+- :star2: Dropping a star on this repository
 
 # License
 [MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/master/LICENSE)
