@@ -6,4 +6,5 @@ module.exports = {
   createThemeFile: require('./create-theme-file'),
   createVsCodeContributesInfo: require('./create-vscode-contributes-info'),
   readStyleFile: require('./read-style-file'),
+  requireAll: require('./require-all'),
 }
