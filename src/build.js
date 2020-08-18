@@ -1,18 +1,27 @@
-const themes = require('./index')
+const { resolve } = require('path')
+const themes = require('./themes/vscode')
 
 const {
-  generateFileName,
   createPackageJSON,
   createThemeFile,
-  createContributesInfo,
+  createVsCodeContributesInfo,
+  generateFileName,
 } = require('./functions')
 
+const VSCODE_PACKAGE_PATH = resolve(__dirname, '..', 'packages', 'vscode')
+
 for (theme of themes) {
-  createThemeFile(theme)
+  createThemeFile({
+    from: theme,
+    to: resolve(VSCODE_PACKAGE_PATH, 'themes', generateFileName(theme.name)),
+  })
 }
 
 createPackageJSON({
-  contributes: {
-    themes: createContributesInfo(themes),
+  from: resolve(VSCODE_PACKAGE_PATH, 'package.json'),
+  append: {
+    contributes: {
+      themes: createVsCodeContributesInfo(themes),
+    },
   },
 })

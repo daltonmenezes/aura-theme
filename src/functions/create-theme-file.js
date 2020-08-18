@@ -1,19 +1,12 @@
-const { resolve } = require('path')
 const { writeFileSync } = require('fs')
-const generateFileName = require('./generate-file-name')
 
-module.exports = (theme) => {
-  const filename = generateFileName(theme.name)
-
+module.exports = ({ from: theme, to: output }) => {
   try {
-    writeFileSync(
-      resolve(__dirname, '..', '..', 'themes', filename),
-      JSON.stringify(theme, null, 2)
-    )
+    writeFileSync(output, JSON.stringify(theme, null, 2))
   } catch {
     throw Error(`
       Something went wrong.
-        There was a problem creating the ${filename} file.
+        There was a problem creating the ${output} file.
     `)
   }
 }
