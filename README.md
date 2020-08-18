@@ -39,7 +39,9 @@ There's a bunch of ways you can contribute to this project, like by:
 - :page_facing_up: Improving this documentation
 - :rotating_light: Sharing this project and recommending it to your friends
 - :dollar: Supporting this project on Patreon
+- :bug: Funding an issue on IssueHunt
 - :star2: Dropping a star on this repository
+- :thumbsup: Voting on ProductHunt
 
 # License
 [MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/master/LICENSE)
