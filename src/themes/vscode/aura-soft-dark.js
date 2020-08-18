@@ -1,4 +1,8 @@
-const { createVirtualTheme, sassToJS, readStyleFile } = require('../functions')
+const {
+  createVirtualTheme,
+  sassToJS,
+  readStyleFile,
+} = require('../../functions')
 
 module.exports = createVirtualTheme({
   name: 'Aura Soft Dark',
