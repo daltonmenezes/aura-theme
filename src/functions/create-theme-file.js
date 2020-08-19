@@ -2,7 +2,7 @@ const { writeFileSync } = require('fs')
 
 module.exports = ({ from: theme, to: output }) => {
   try {
-    writeFileSync(output, JSON.stringify(theme, null, 2))
+    writeFileSync(output, theme)
   } catch {
     throw Error(`
       Something went wrong.
