@@ -24,10 +24,11 @@
 </p>
 
 > Aura Theme is a beautiful dark theme including variants focused on long-term work without causing any discomfort to the eyes.
-Available now for Visual Studio Code and soon for more applications.
+Available now for Visual Studio Code and Hyper terminal.
 
 # Themes
 [![vscode](https://github.com/daltonmenezes/assets/blob/master/images/icons/vscode.png?raw=true)](https://github.com/daltonmenezes/aura-theme/tree/master/packages/vscode)
+[![hyper](https://github.com/daltonmenezes/assets/blob/master/images/icons/hyper.png?raw=true)](https://github.com/daltonmenezes/aura-theme/tree/master/packages/hyper-terminal)
 
 # Contributing
 Contributions are always welcome.
