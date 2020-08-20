@@ -29,6 +29,7 @@ Available now for Visual Studio Code and Hyper terminal.
 # Themes
 [![vscode](https://github.com/daltonmenezes/assets/blob/master/images/icons/vscode.png?raw=true)](https://github.com/daltonmenezes/aura-theme/tree/master/packages/vscode)
 [![hyper](https://github.com/daltonmenezes/assets/blob/master/images/icons/hyper.png?raw=true)](https://github.com/daltonmenezes/aura-theme/tree/master/packages/hyper-terminal)
+[![hyper](https://github.com/daltonmenezes/assets/blob/master/images/icons/slack.png?raw=true)](https://github.com/daltonmenezes/aura-theme/tree/master/packages/slack)
 
 # Contributing
 Contributions are always welcome.
