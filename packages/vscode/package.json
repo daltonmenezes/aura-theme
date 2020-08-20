@@ -2,7 +2,7 @@
   "name": "aura-theme",
   "displayName": "Aura Theme",
   "description": "A beautiful theme for Visual Studio Code",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "scripts": {
     "publish": "vsce publish"
   },
@@ -33,14 +33,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Aura Dark",
+        "label": "Aura Dark Plus Soft Text",
         "uiTheme": "vs-dark",
-        "path": "./themes/aura-dark-color-theme.json"
-      },
-      {
-        "label": "Aura Dark Soft Text",
-        "uiTheme": "vs-dark",
-        "path": "./themes/aura-dark-soft-text-color-theme.json"
+        "path": "./themes/aura-dark-plus-soft-text-color-theme.json"
       },
       {
         "label": "Aura Dark Plus",
@@ -48,19 +43,24 @@
         "path": "./themes/aura-dark-plus-color-theme.json"
       },
       {
-        "label": "Aura Dark Plus Soft Text",
+        "label": "Aura Dark Soft Text",
         "uiTheme": "vs-dark",
-        "path": "./themes/aura-dark-plus-soft-text-color-theme.json"
+        "path": "./themes/aura-dark-soft-text-color-theme.json"
       },
       {
-        "label": "Aura Soft Dark",
+        "label": "Aura Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/aura-soft-dark-color-theme.json"
+        "path": "./themes/aura-dark-color-theme.json"
       },
       {
         "label": "Aura Soft Dark Soft Text",
         "uiTheme": "vs-dark",
         "path": "./themes/aura-soft-dark-soft-text-color-theme.json"
+      },
+      {
+        "label": "Aura Soft Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aura-soft-dark-color-theme.json"
       }
     ]
   },

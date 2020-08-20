@@ -6,7 +6,7 @@
     "foreground": "#dbdbdb",
     "errorForeground": "#d46a6a",
     "widget.shadow": "#0f0f0f",
-    "selection.background": "#4d4d4d",
+    "selection.background": "#9d7de0",
     "statusBar.background": "#181818",
     "statusBar.foreground": "#adacae",
     "statusBar.border": "#111111",

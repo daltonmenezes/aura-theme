@@ -4,7 +4,7 @@
     "foreground": "$accent7",
     "errorForeground": "$accent5",
     "widget.shadow": "$accent0",
-    "selection.background": "$accent15",
+    "selection.background": "$accent1",
 
     "statusBar.background": "$accent24",
     "statusBar.foreground": "$accent10",
