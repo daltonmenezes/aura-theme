@@ -3,16 +3,7 @@ const { resolve } = require('path')
 
 const templateFromFile = String(
   readFileSync(
-    resolve(
-      __dirname,
-      '..',
-      '..',
-      '..',
-      '..',
-      'templates',
-      'hyper-terminal',
-      'index.js'
-    )
+    resolve(__dirname, '..', '..', 'templates', 'insomnia', 'index.js')
   )
 )
 

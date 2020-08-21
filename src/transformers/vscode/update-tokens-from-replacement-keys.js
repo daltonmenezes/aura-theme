@@ -1,6 +1,4 @@
-const {
-  tokenColors,
-} = require('../../../../templates/vscode/syntax-highlighting')
+const { tokenColors } = require('../../templates/vscode/syntax-highlighting')
 
 module.exports = (colors) => {
   return tokenColors.map((current) => {

@@ -1,4 +1,4 @@
-const { colors: ui } = require('../../../../templates/vscode/ui')
+const { colors: ui } = require('../../templates/vscode/ui')
 
 module.exports = (colors) => {
   return Object.entries(ui).reduce((acc, current) => {
