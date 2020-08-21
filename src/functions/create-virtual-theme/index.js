@@ -1,6 +1,6 @@
 module.exports = ({ transformer, ...rest }) => {
   try {
-    const runTransformer = require(`./transformers/${transformer}`)
+    const runTransformer = require(`../../transformers/${transformer}`)
 
     return runTransformer(rest)
   } catch {
