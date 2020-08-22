@@ -27,10 +27,47 @@
 Available now for Visual Studio Code, Hyper terminal, Slack and Insomnia.
 
 # Themes
-[![vscode](https://github.com/daltonmenezes/assets/blob/master/images/icons/vscode.png?raw=true)](https://github.com/daltonmenezes/aura-theme/tree/master/packages/vscode)
-[![hyper](https://github.com/daltonmenezes/assets/blob/master/images/icons/hyper.png?raw=true)](https://github.com/daltonmenezes/aura-theme/tree/master/packages/hyper-terminal)
-[![slack](https://github.com/daltonmenezes/assets/blob/master/images/icons/slack.png?raw=true)](https://github.com/daltonmenezes/aura-theme/tree/master/packages/slack)
-[![insomnia](https://github.com/daltonmenezes/assets/blob/master/images/icons/insomnia.png?raw=true)](https://github.com/daltonmenezes/aura-theme/tree/master/packages/insomnia)
+<table>
+  <tr>
+    <td valign="top">
+     <p align="center">
+      <a href="https://github.com/daltonmenezes/aura-theme/tree/master/packages/vscode">
+        <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/vscode.png?raw=true" align="center" />
+      </a>
+      <br/><br/>
+      <span>Visual Studio Code</span>
+      </p>
+    </td>
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/master/packages/hyper-terminal">
+          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/hyper.png?raw=true" align="center" />
+        </a>
+       <br/><br/>
+        <span>Hyper Terminal</span>
+      </p>
+    </td>
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/master/packages/slack">
+          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/slack.png?raw=true" align="center" />
+        </a>
+        <br/><br/>
+        <span>Slack</span>
+      </p>
+    </td>
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/master/packages/insomnia">
+          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/insomnia.png?raw=true" align="center" />
+        </a>
+        <br/><br/>
+        <span>Insomnia</span>
+      </p>
+    </td>    
+  </tr>
+ </table>
+
 
 # Contributing
 Contributions are always welcome.
