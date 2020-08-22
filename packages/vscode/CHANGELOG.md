@@ -1,4 +1,4 @@
-# Aura Theme ChangeLog
+# Aura Theme Changelog
 
 ## 1.2.0 (August 21, 2020)
 - Add title bar colors - [#8](https://github.com/daltonmenezes/aura-theme/issues/8)
