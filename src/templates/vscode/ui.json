@@ -6,6 +6,10 @@
     "widget.shadow": "$accent0",
     "selection.background": "$accent1",
 
+    "titleBar.activeBackground": "$accent28",
+    "titleBar.border": "$accent29",
+    "titleBar.inactiveBackground": "$accent30",
+
     "statusBar.background": "$accent24",
     "statusBar.foreground": "$accent10",
     "statusBar.border": "$accent11",

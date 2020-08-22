@@ -47,5 +47,12 @@
 2. Install [Fira Code font](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)
 3. Install [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
+# Changelog
+
+## 1.2.0 (August 21, 2020)
+- Add title bar colors - [#8](https://github.com/daltonmenezes/aura-theme/issues/8)
+
+[See full changelog](https://github.com/daltonmenezes/aura-theme/blob/master/packages/vscode/CHANGELOG.md)
+
 # License
 [MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/master/LICENSE)
