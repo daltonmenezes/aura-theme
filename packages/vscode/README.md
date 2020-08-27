@@ -53,6 +53,9 @@
 - Update list item colors
   ![image](https://github.com/daltonmenezes/assets/blob/master/images/aura-theme/changelogs/v1.3.0/list-selection.gif?raw=true)
 
+- Update attribute names to be more consistent with object keys color
+  ![image](https://github.com/daltonmenezes/assets/blob/master/images/aura-theme/changelogs/v1.3.0/attribute-names.png?raw=true)
+
 [See full changelog](https://github.com/daltonmenezes/aura-theme/blob/master/packages/vscode/CHANGELOG.md)
 
 # License

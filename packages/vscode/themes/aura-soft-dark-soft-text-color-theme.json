@@ -162,6 +162,13 @@
     },
     {
       "name": "Entity",
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "#cf70bf"
+      }
+    },
+    {
+      "name": "Entity",
       "scope": "entity.name.tag",
       "settings": {
         "foreground": "#9d7de0"

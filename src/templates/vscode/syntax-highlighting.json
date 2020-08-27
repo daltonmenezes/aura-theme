@@ -30,6 +30,13 @@
     },
     {
       "name": "Entity",
+      "scope": "entity.other.attribute-name",
+      "settings": {          
+        "foreground": "$accent6"
+      }
+    },
+    {
+      "name": "Entity",
       "scope": "entity.name.tag",
       "settings": {
         "foreground": "$accent1"
