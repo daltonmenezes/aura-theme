@@ -25,7 +25,7 @@
       "name": "Entity",
       "scope": "entity.name.function",
       "settings": {
-        "foreground": "$accent2"
+        "foreground": "$accent31"
       }
     },
     {
