@@ -30,14 +30,14 @@
     "button.hoverBackground": "$accent25",
 
     "list.activeSelectionBackground": "$accent12",
-    "list.activeSelectionForeground": "$accent7",
+    "list.activeSelectionForeground": "$accent1",
     "list.focusBackground": "$accent23",
-    "list.focusForeground": "$accent7",
+    "list.focusForeground": "$accent1",
     "list.highlightForeground": "$accent3",
     "list.hoverBackground": "$accent23",
     "list.hoverForeground": "$accent7",
     "list.inactiveSelectionBackground": "$accent12",
-    "list.inactiveSelectionForeground": "$accent7",
+    "list.inactiveSelectionForeground": "$accent1",
 
     "editor.background": "$accent12",
     "editor.foreground": "$accent7",

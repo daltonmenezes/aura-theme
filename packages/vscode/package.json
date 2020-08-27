@@ -2,7 +2,7 @@
   "name": "aura-theme",
   "displayName": "Aura Theme",
   "description": "A beautiful theme for Visual Studio Code",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "scripts": {
     "publish": "vsce publish"
   },

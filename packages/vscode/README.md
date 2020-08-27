@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-  <img alt="preview" src="https://github.com/daltonmenezes/assets/blob/master/images/aura-theme/preview.png?raw=true" >
+  <img alt="preview" src="https://github.com/daltonmenezes/assets/blob/master/images/aura-theme/aura-vscode-preview.png?raw=true" >
 </p>
 
 > Aura Theme is a beautiful dark theme with six variants for Visual Studio Code. Three of these variants are focused on long-term work without causing any discomfort to the eyes.
@@ -49,8 +49,18 @@
 
 # Changelog
 
-## 1.2.0 (August 21, 2020)
-- Add title bar colors - [#8](https://github.com/daltonmenezes/aura-theme/issues/8)
+## 1.3.0 (August 27, 2020)
+- Update list item colors
+
+![image](https://github.com/daltonmenezes/assets/blob/master/images/aura-theme/changelogs/v1.3.0/list-selection.gif?raw=true)
+
+- Update attribute names to be more consistent with object keys color
+
+![image](https://github.com/daltonmenezes/assets/blob/master/images/aura-theme/changelogs/v1.3.0/attribute-names.png?raw=true)
+
+- Update function names to be more easier to identify by changing its color
+
+![image](https://github.com/daltonmenezes/assets/blob/master/images/aura-theme/changelogs/v1.3.0/function-names.png?raw=true)
 
 [See full changelog](https://github.com/daltonmenezes/aura-theme/blob/master/packages/vscode/CHANGELOG.md)
 

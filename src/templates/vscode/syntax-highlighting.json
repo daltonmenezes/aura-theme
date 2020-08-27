@@ -25,7 +25,14 @@
       "name": "Entity",
       "scope": "entity.name.function",
       "settings": {
-        "foreground": "$accent2"
+        "foreground": "$accent31"
+      }
+    },
+    {
+      "name": "Entity",
+      "scope": "entity.other.attribute-name",
+      "settings": {          
+        "foreground": "$accent6"
       }
     },
     {

@@ -26,14 +26,14 @@
     "button.foreground": "#15141b",
     "button.hoverBackground": "#49c29a",
     "list.activeSelectionBackground": "#15141b",
-    "list.activeSelectionForeground": "#edecee",
+    "list.activeSelectionForeground": "#a277ff",
     "list.focusBackground": "#3b334b",
-    "list.focusForeground": "#edecee",
+    "list.focusForeground": "#a277ff",
     "list.highlightForeground": "#ffe46a",
     "list.hoverBackground": "#3b334b",
     "list.hoverForeground": "#edecee",
     "list.inactiveSelectionBackground": "#15141b",
-    "list.inactiveSelectionForeground": "#edecee",
+    "list.inactiveSelectionForeground": "#a277ff",
     "editor.background": "#15141b",
     "editor.foreground": "#edecee",
     "editorLineNumber.foreground": "#a394f033",
@@ -157,7 +157,14 @@
       "name": "Entity",
       "scope": "entity.name.function",
       "settings": {
-        "foreground": "#61ffca"
+        "foreground": "#e5d68f"
+      }
+    },
+    {
+      "name": "Entity",
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "#ff71e7"
       }
     },
     {
