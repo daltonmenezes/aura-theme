@@ -20,11 +20,12 @@
 > Aura Theme is a beautiful dark theme for iTerm and another apps focused on long-term work without causing any discomfort to the eyes.
 
 # Installation
-1. iTerm2 > Preferences > Profiles > Colors Tab
-2. Open the `Color Presets...` drop-down in the bottom right corner
-3. Select `Import...` from the list
-4. Select the Aura.itermcolors file
-5. Select the Aura from Color `Presets...`
+1. Open [Aura.itermcolors](https://raw.githubusercontent.com/daltonmenezes/aura-theme/master/packages/iterm/Aura.itermcolors) and save it
+2. On iTerm menu, go to `iTerm2 > Preferences > Profiles > Colors Tab`
+3. Open the `Color Presets...` drop-down in the bottom right corner
+4. Select `Import...` from the list
+5. Select the `Aura.itermcolors` file
+6. Select the `Aura` from Color `Presets...`
 
 # License
 [MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/master/LICENSE)
