@@ -24,7 +24,7 @@
 </p>
 
 > Aura Theme is a beautiful dark theme including variants focused on long-term work without causing any discomfort to the eyes.
-Available now for Visual Studio Code, Hyper terminal, Slack and Insomnia.
+Available now for Visual Studio Code, Hyper terminal, iTerm, Slack and Insomnia.
 
 # Themes
 <table>
@@ -45,6 +45,15 @@ Available now for Visual Studio Code, Hyper terminal, Slack and Insomnia.
         </a>
        <br/><br/>
         <span>Hyper Terminal</span>
+      </p>
+    </td>
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/master/packages/iterm">
+          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/iterm.png?raw=true" align="center" />
+        </a>
+       <br/><br/>
+        <span>iTerm</span>
       </p>
     </td>
     <td valign="top">
