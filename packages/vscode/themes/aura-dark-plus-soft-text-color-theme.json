@@ -133,143 +133,135 @@
   },
   "tokenColors": [
     {
-      "name": "Comment",
+      "name": "Accent1",
+      "scope": [
+        "keyword",
+        "storage",
+        "support",
+        "entity.name.tag",
+        "variable.language",
+        "keyword.control.flow",
+        "storage.modifier",
+        "keyword.operator",
+        "entity.other.attribute-name.class.css",
+        "entity.other.keyframe-offset",
+        "markup.heading",
+        "markup.underline.link"
+      ],
+      "settings": {
+        "foreground": "#9479ce"
+      }
+    },
+    {
+      "name": "Accent2",
+      "scope": [
+        "string",
+        "markup.inserted",
+        "markup.raw",
+        "constant"
+      ],
+      "settings": {
+        "foreground": "#68bb9f"
+      }
+    },
+    {
+      "name": "Accent3",
+      "scope": [
+        "markup.changed",
+        "entity"
+      ],
+      "settings": {
+        "foreground": "#ccba6d"
+      }
+    },
+    {
+      "name": "Accent5",
+      "scope": [
+        "invalid",
+        "markup.deleted"
+      ],
+      "settings": {
+        "foreground": "#c76d6d"
+      }
+    },
+    {
+      "name": "Accent6",
+      "scope": [
+        "string.unquoted",
+        "punctuation.separator",
+        "entity.other.attribute-name",
+        "meta.object-literal.key",
+        "variable.object.property",
+        "variable.other.property",
+        "variable.other.object.property",
+        "meta.class",
+        "meta.type.annotation",
+        "meta.method.declaration",
+        "support.type.property-name.css",
+        "support.type.vendored"
+      ],
+      "settings": {
+        "foreground": "#bb74af"
+      }
+    },
+    {
+      "name": "Accent7",
+      "scope": [
+        "variable",
+        "markup.list",
+        "support.constant.property-value.css",
+        "variable.parameter.keyframe-list.css",
+        "source.css",
+        "support.constant.font-name",
+        "support.constant.vendored.property-value"
+      ],
+      "settings": {
+        "foreground": "#c2c2c2"
+      }
+    },
+    {
+      "name": "Accent8",
       "scope": "comment",
       "settings": {
         "foreground": "#6d6d6d"
       }
     },
     {
-      "name": "Constant",
-      "scope": "constant",
-      "settings": {
-        "foreground": "#68bb9f"
-      }
-    },
-    {
-      "name": "Entity",
-      "scope": "entity",
-      "settings": {
-        "foreground": "#ccba6d"
-      }
-    },
-    {
-      "name": "Entity",
-      "scope": "entity.name.function",
+      "name": "Accent31",
+      "scope": [
+        "entity.name.function",
+        "variable.parameter",
+        "support.function"
+      ],
       "settings": {
         "foreground": "#bcbd81"
       }
     },
     {
-      "name": "Entity",
-      "scope": "entity.other.attribute-name",
+      "name": "Accent32",
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "support.class.builtin",
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end"
+      ],
       "settings": {
-        "foreground": "#bb74af"
+        "foreground": "#75b5c9"
       }
     },
     {
-      "name": "Entity",
-      "scope": "entity.name.tag",
+      "name": "Italics",
+      "scope": [
+        "meta.parameters",
+        "meta.type.parameters",
+        "meta.return.type",
+        "entity.name.type.interface",
+        "meta.type.annotation",
+        "meta.function.parameters"
+      ],
       "settings": {
-        "foreground": "#9479ce"
-      }
-    },
-    {
-      "name": "Invalid",
-      "scope": "invalid",
-      "settings": {
-        "foreground": "#c76d6d"
-      }
-    },
-    {
-      "name": "Keyword",
-      "scope": "keyword",
-      "settings": {
-        "foreground": "#9479ce"
-      }
-    },
-    {
-      "name": "Storage",
-      "scope": "storage",
-      "settings": {
-        "foreground": "#9479ce"
-      }
-    },
-    {
-      "name": "String",
-      "scope": "string",
-      "settings": {
-        "foreground": "#68bb9f"
-      }
-    },
-    {
-      "name": "String",
-      "scope": "string.unquoted",
-      "settings": {
-        "foreground": "#bb74af"
-      }
-    },
-    {
-      "name": "Support",
-      "scope": "support",
-      "settings": {
-        "foreground": "#9479ce"
-      }
-    },
-    {
-      "name": "Variable",
-      "scope": "variable",
-      "settings": {
-        "foreground": "#c2c2c2"
-      }
-    },
-    {
-      "name": "Variable",
-      "scope": "variable.language",
-      "settings": {
-        "foreground": "#c76d6d"
-      }
-    },
-    {
-      "name": "Keyword",
-      "scope": "keyword.operator",
-      "settings": {
-        "foreground": "#96d372"
-      }
-    },
-    {
-      "name": "Punctuation",
-      "scope": "punctuation.separator",
-      "settings": {
-        "foreground": "#bb74af"
-      }
-    },
-    {
-      "name": "Markup Heading",
-      "scope": "markup.heading",
-      "settings": {
-        "foreground": "#9479ce"
-      }
-    },
-    {
-      "name": "Markup Deleted",
-      "scope": "markup.deleted",
-      "settings": {
-        "foreground": "#c76d6d"
-      }
-    },
-    {
-      "name": "Markup Inserted",
-      "scope": "markup.inserted",
-      "settings": {
-        "foreground": "#68bb9f"
-      }
-    },
-    {
-      "name": "Markup Changed",
-      "scope": "markup.changed",
-      "settings": {
-        "foreground": "#ccba6d"
+        "fontStyle": "italic"
       }
     },
     {
@@ -277,27 +269,6 @@
       "scope": "markup.underline",
       "settings": {
         "fontStyle": "underline"
-      }
-    },
-    {
-      "name": "Markup Underline Link",
-      "scope": "markup.underline.link",
-      "settings": {
-        "foreground": "#9479ce"
-      }
-    },
-    {
-      "name": "Markup List",
-      "scope": "markup.list",
-      "settings": {
-        "foreground": "#c2c2c2"
-      }
-    },
-    {
-      "name": "Markup Raw",
-      "scope": "markup.raw",
-      "settings": {
-        "foreground": "#68bb9f"
       }
     }
   ]
