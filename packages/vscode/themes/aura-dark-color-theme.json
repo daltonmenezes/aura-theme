@@ -244,7 +244,9 @@
         "entity.name.class",
         "support.class.builtin",
         "punctuation.definition.template-expression.begin",
-        "punctuation.definition.template-expression.end"
+        "punctuation.definition.template-expression.end",
+        "punctuation.quasi.element.begin",
+        "punctuation.quasi.element.end"
       ],
       "settings": {
         "foreground": "#82e2ff"
