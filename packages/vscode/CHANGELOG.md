@@ -1,5 +1,14 @@
 # Aura Theme Changelog
 
+## 1.4.0 (November 12, 2020)
+- Add italics on parameters
+- Update scope colors
+- Update TypeScript scope colors
+- Update CSS scope colors
+- Update template expression colors
+- Update object properties access color to be consistent with object keys
+- Update interface and class names and Object intances to the same color
+
 ## 1.3.0 (August 27, 2020)
 - Update list item colors
 
