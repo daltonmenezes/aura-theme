@@ -82,7 +82,7 @@ Available now for Visual Studio Code, Hyper terminal, iTerm, Slack and Insomnia.
 Contributions are always welcome.
 
 There's a bunch of ways you can contribute to this project, like by:
-- :electric_plug: Making a port of this theme for another apps
+- :electric_plug: Making a port of this theme for another apps (ask first, please)
 - :wave: Requesting a port
 - :beetle: Reporting a bug
 - :page_facing_up: Improving this documentation
