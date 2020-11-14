@@ -9,7 +9,7 @@
   </a>
 
   <!-- IssueHunt -->
-  <a href="https://issuehunt.io/r/daltonmenezes/aura-theme">
+  <a href="https://issuehunt.io/r/daltonmenezes/aura-theme?tab=idle">
     <img alt="issuehunt url" src="https://img.shields.io/badge/fund%20issues-issuehunt-1C1E26?style=for-the-badge&labelColor=1C1E26&color=4dbb99">
   </a>
 
