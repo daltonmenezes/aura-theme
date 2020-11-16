@@ -1,5 +1,9 @@
 # Aura Theme Changelog
 
+## 1.4.2 (November 15, 2020)
+- Update `entity.other.inherited-class` to be consistent with interface and classes colors
+- Update `variable.parameter.tsx` to be consistent with foreground editor color
+
 ## 1.4.0 (November 12, 2020)
 - Add italics on parameters
 - Update scope colors

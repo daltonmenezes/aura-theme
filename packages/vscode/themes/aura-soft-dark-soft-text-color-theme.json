@@ -213,7 +213,8 @@
         "variable.parameter.keyframe-list.css",
         "source.css",
         "support.constant.font-name",
-        "support.constant.vendored.property-value"
+        "support.constant.vendored.property-value",
+        "variable.parameter.tsx"
       ],
       "settings": {
         "foreground": "#dbdbdb"
@@ -246,7 +247,8 @@
         "punctuation.definition.template-expression.begin",
         "punctuation.definition.template-expression.end",
         "punctuation.quasi.element.begin",
-        "punctuation.quasi.element.end"
+        "punctuation.quasi.element.end",
+        "entity.other.inherited-class"
       ],
       "settings": {
         "foreground": "#75b5c9"
