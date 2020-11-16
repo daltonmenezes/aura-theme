@@ -247,7 +247,8 @@
         "punctuation.definition.template-expression.begin",
         "punctuation.definition.template-expression.end",
         "punctuation.quasi.element.begin",
-        "punctuation.quasi.element.end"
+        "punctuation.quasi.element.end",
+        "entity.other.inherited-class"
       ],
       "settings": {
         "foreground": "#82e2ff"
