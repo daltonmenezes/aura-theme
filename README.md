@@ -27,56 +27,62 @@
 Available now for Visual Studio Code, Hyper terminal, iTerm, Slack and Insomnia.
 
 # Themes
-<table>
+
+<table align="center">
   <tr>
     <td valign="top">
+     <br/>
      <p align="center">
       <a href="https://github.com/daltonmenezes/aura-theme/tree/master/packages/vscode">
-        <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/vscode.png?raw=true" align="center" />
+        <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/vscode.png?raw=true" />
+        <br/>
+        <br/>
+        <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
       </a>
-      <br/><br/>
-      <span>Visual Studio Code</span>
-      </p>
+     </p>
     </td>
     <td valign="top">
+      <br/>
       <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/master/packages/hyper-terminal">
-          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/hyper.png?raw=true" align="center" />
+          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/hyper.png?raw=true" />
+          <br/><br/>
+          <img src="https://img.shields.io/badge/Hyper-000000?style=for-the-badge&logo=hyper&logoColor=white" />
         </a>
-       <br/><br/>
-        <span>Hyper Terminal</span>
       </p>
     </td>
     <td valign="top">
+      <br/>
       <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/master/packages/iterm">
-          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/iterm.png?raw=true" align="center" />
+          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/iterm.png?raw=true" />
+          <br/><br/>
+          <img src="https://img.shields.io/badge/iTerm2-000000?style=for-the-badge&logo=iterm2&logoColor=white" />
         </a>
-       <br/><br/>
-        <span>iTerm</span>
       </p>
     </td>
     <td valign="top">
+      <br/>
       <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/master/packages/slack">
-          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/slack.png?raw=true" align="center" />
+          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/slack.png?raw=true" />
+          <br/><br/>
+          <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" />
         </a>
-        <br/><br/>
-        <span>Slack</span>
       </p>
     </td>
     <td valign="top">
+      <br/>
       <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/master/packages/insomnia">
-          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/insomnia.png?raw=true" align="center" />
+          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/insomnia.png?raw=true" />
+          <br/><br/>
+          <img src="https://img.shields.io/badge/Insomnia-5849be?style=for-the-badge&logo=Insomnia&logoColor=white" />
         </a>
-        <br/><br/>
-        <span>Insomnia</span>
       </p>
     </td>    
   </tr>
  </table>
-
 
 # Contributing
 Contributions are always welcome.
