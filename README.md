@@ -73,7 +73,25 @@ Available now for Visual Studio Code, Hyper terminal, iTerm, Slack and Insomnia.
         <br/><br/>
         <span>Insomnia</span>
       </p>
-    </td>    
+    </td>
+    <td valign="top">
+      <p align="center">
+        <a href="https://chrome.google.com/webstore/detail/aura-theme/ddipnaombfnagpagnpdkdinoekfhfjoh">
+          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/chrome.png?raw=true" align="center" />
+        </a>
+        <br/><br/>
+        <span>Google Chrome</span>
+      </p>
+    </td>
+    <td valign="top">
+      <p align="center">
+        <a href="https://addons.mozilla.org/en-US/firefox/addon/aura-theme">
+          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/firefox.png?raw=true" align="center" />
+        </a>
+        <br/><br/>
+        <span>Firefox</span>
+      </p>
+    </td>
   </tr>
  </table>
 
