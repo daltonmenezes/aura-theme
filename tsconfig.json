@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es6",                        
+    "module": "commonjs",                   
+    "strict": true,                         
+    "moduleResolution": "node",
+    "resolveJsonModule": true,          
+    "baseUrl": "./src",                
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,                
+    "skipLibCheck": true,                   
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "root/*": [
+        "../*"
+      ]
+    },
+    "typeRoots": [
+      "./@types/**",
+      "./src/core/@types/**",
+      "./node_modules/@types"
+    ]
+  }
+}

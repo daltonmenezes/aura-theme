@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "name": "Aura Theme",
+  "short_name": "Aura",
+  "theme": {
+    "colors": {
+      "button_background_active": "#a277ff",
+      "button_background_hover": "#2d2d2d",
+      "frame": "#15141b",
+      "frame_inactive": "#2d2b38",
+      "icons": "#61ffca",
+      "icons_attention": "#61ffca",
+      "ntp_background": "#15141b",
+      "ntp_text": "#edecee",
+      "popup": "#15141b",
+      "popup_border": "#a277ff",
+      "popup_highlight": "#a277ff",
+      "popup_highlight_text": "#edecee",
+      "popup_text": "#edecee",
+      "tab_background_text": "#edecee",
+      "tab_selected": "#15141b",
+      "tab_line": "#61ffca",
+      "tab_text": "#61ffca",
+      "toolbar": "#15141b",
+      "toolbar_field": "#110f18",
+      "toolbar_field_border": "#110f18",
+      "toolbar_field_border_focus": "#a277ff",
+      "toolbar_field_highlight": "#a277ff",
+      "toolbar_field_highlight_text": "#edecee",
+      "toolbar_field_text": "#a277ff",
+      "toolbar_field_separator": "#2d2d2d",
+      "toolbar_text": "#edecee",
+      "toolbar_top_separator": "#2d2d2d"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+! special
+*.foreground:   {{ accent7 }}
+*.background:   {{ accent21 }}
+*.cursorColor:  {{ accent1 }}
+
+! black
+*.color0:       {{ accent21 }}
+*.color8:       {{ accent15 }}
+
+! red
+*.color1:       {{ accent5 }}
+*.color9:       {{ accent3 }}
+
+! green
+*.color2:       {{ accent2 }}
+*.color10:      {{ accent2 }}
+
+! yellow
+*.color3:       {{ accent3 }}
+*.color11:      {{ accent3 }}
+
+! blue
+*.color4:       {{ accent1 }}
+*.color12:      {{ accent1 }}
+
+! magenta
+*.color5:       {{ accent1 }}
+*.color13:      {{ accent1 }}
+
+! cyan
+*.color6:       {{ accent2 }}
+*.color14:      {{ accent2 }}
+
+! white
+*.color7:       {{ accent7 }}
+*.color15:      {{ accent7 }}

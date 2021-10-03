@@ -1,0 +1,1 @@
+<td><a href="{{{ author.repository }}}">{{ author.name }}</a></td>

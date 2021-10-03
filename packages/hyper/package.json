@@ -1,0 +1,29 @@
+{
+  "name": "hyper-aura-theme",
+  "version": "2.0.0",
+  "description": "A beautiful dark theme for Hyper terminal",
+  "main": "index.js",
+  "keywords": [
+    "theme",
+    "dark",
+    "hyper",
+    "hyper-theme",
+    "color-theme",
+    "aura-theme"
+  ],
+  "author": {
+    "name": "Dalton Menezes",
+    "email": "daltonmenezes@outlook.com",
+    "url": "https://daltonmenezes.github.io"
+  },
+  "scripts": {
+    "publish": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daltonmenezes/aura-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/daltonmenezes/aura-theme/issues"
+  }
+}

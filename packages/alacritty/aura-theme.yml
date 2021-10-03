@@ -1,0 +1,31 @@
+# Colors (Aura Theme)
+colors:
+  # Default colors
+  primary:
+    background: '#15141b'
+    foreground: '#edecee'
+
+  cursor:
+    cursor: '#a277ff'
+
+  # Normal colors
+  normal:
+    black:   '#110f18'
+    red:     '#ff6767'
+    green:   '#61ffca'
+    yellow:  '#ffca85'
+    blue:    '#a277ff'
+    magenta: '#a277ff'
+    cyan:    '#61ffca'
+    white:   '#edecee'
+
+  # Bright colors
+  bright:
+    black:   '#4d4d4d'
+    red:     '#ff6767'
+    green:   '#61ffca'
+    yellow:  '#ffca85'
+    blue:    '#a277ff'
+    magenta: '#a277ff'
+    cyan:    '#61ffca'
+    white:   '#edecee'

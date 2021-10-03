@@ -1,0 +1,53 @@
+:root {
+  --black: {{ accent12 }};
+  --white: {{ accent7 }};
+  --gray: {{ accent8 }};
+  --purple: {{ accent1 }};
+  --purple-fading: {{ accent17 }};
+  --green: {{ accent2 }};
+  --orange: {{ accent3 }};
+  --pink: {{ accent6 }};
+  --blue: {{ accent32 }};
+  --red: 	{{ accent5 }};
+
+  --background-color: var(--black);
+  --foreground-color: var(--white);
+  --muted-color: var(--gray);
+  --selection-color: var(--purple-fading);
+  --primary-color: var(--purple);
+  --secondary-color: var(--green);
+  --tertiary-color: var(--orange);
+  --quaternary-color: var(--pink);
+  --quinary-color: var(--blue);
+  --senary-color: var(--red);
+
+  --warning-color: var(--orange);
+  --success-color: var(--green);
+  --error-color: var(--red);  
+  
+  --black-soft: {{ accent12Soft }};
+  --white-soft: {{ accent7Soft }};
+  --gray-soft: {{ accent8Soft }};
+  --purple-soft: {{ accent1Soft }};
+  --purple-fading-soft: {{ accent17Soft }};
+  --green-soft: {{ accent2Soft }};
+  --orange-soft: {{ accent3Soft }};
+  --pink-soft: {{ accent6Soft }};
+  --blue-soft: {{ accent32Soft }};
+  --red-soft: {{ accent5Soft }};
+
+  --background-soft-color: var(--black-soft);  
+  --foreground-soft-color: var(--white-soft);
+  --muted-soft-color: var(--gray-soft);
+  --selection-soft-color: var(--purple-fading-soft);
+  --primary-soft-color: var(--purple-soft);
+  --secondary-soft-color: var(--green-soft);
+  --tertiary-soft-color: var(--orange-soft);
+  --quaternary-soft-color: var(--pink-soft);
+  --quinary-soft-color: var(--blue-soft);
+  --senary-soft-color: var(--red-soft);
+
+  --warning-soft-color: var(--orange-soft);
+  --success-soft-color: var(--green-soft);
+  --error-soft-color: var(--red-soft);  
+}

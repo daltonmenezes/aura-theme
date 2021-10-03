@@ -1,0 +1,80 @@
+{
+  "name": "aura-theme",
+  "theme": {
+    "slug": "aura-theme",
+    "displayName": "Aura Theme",
+    "shortName": "Aura",
+    "repository": "https://github.com/daltonmenezes/aura-theme",
+    "badges": {
+      "primaryColor": "1C1E26",
+      "secondaryColor": "61ffca"
+    },
+    "author": {
+      "name": "Dalton Menezes",
+      "username": "daltonmenezes",
+      "repository": "https://github.com/daltonmenezes",
+      "email": "daltonmenezes@outlook.com",
+      "website": "https://daltonmenezes.github.io"
+    }
+  },
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Dalton Menezes <daltonmenezes@outlook.com>",
+  "scripts": {
+    "dev": "DEBUG=aura* NODE_ENV=development yarn aura:dev dev",
+    "build": "DEBUG=aura* NODE_ENV=production yarn aura build",
+    "make": "yarn aura make",
+    "tokenize": "yarn aura tokenize",
+    "test": "jest --runInBand",
+    "aura": "yarn tsnd src/core/cli/aura.ts",
+    "aura:dev": "yarn tsnd --quiet --respawn src/core/cli/aura.ts",
+    "tsnd": "tsnd -r tsconfig-paths/register --transpile-only --ignore-watch node_modules",
+    "clean": "rimraf",
+    "clean:packages": "yarn clean packages",
+    "lint-staged": "lint-staged",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "yarn eslint --quiet --fix"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "@types/adm-zip": "^0.4.34",
+    "@types/color-convert": "^2.0.0",
+    "@types/debug": "^4.1.7",
+    "@types/fs-extra": "^9.0.12",
+    "@types/jest": "^27.0.2",
+    "@types/mustache": "^4.1.1",
+    "@types/node": "^15.12.5",
+    "@types/ramda": "^0.27.44",
+    "@types/rimraf": "^3.0.2",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "adm-zip": "^0.5.6",
+    "color-convert": "^2.0.1",
+    "cpy": "^8.1.2",
+    "debug": "^4.3.2",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "fs-extra": "^10.0.0",
+    "husky": "^7.0.2",
+    "jest": "^27.2.2",
+    "lint-staged": "^11.1.2",
+    "mustache": "^4.2.0",
+    "polished": "^4.1.3",
+    "prettier": "^2.3.2",
+    "ramda": "^0.27.1",
+    "rimraf": "^3.0.2",
+    "termcolors": "^0.7.3",
+    "ts-jest": "^27.0.5",
+    "ts-node-dev": "^1.1.6",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^4.3.4",
+    "zip-a-folder": "^1.1.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "{{ npmPackage }}",
+  "version": "{{ version }}",
+  "description": "A beautiful dark theme for {{ portName }}",
+  "main": "index.js",
+  "keywords": [
+    "theme",
+    "dark",
+    "hyper",
+    "hyper-theme",
+    "color-theme",
+    "{{ slug }}"
+  ],
+  "author": {
+    "name": "{{ author.name }}",
+    "email": "{{ author.email }}",
+    "url": "{{{ author.website }}}"
+  },
+  "scripts": {
+    "publish": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "{{{ repository }}}.git"
+  },
+  "bugs": {
+    "url": "{{{ repository }}}/issues"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "version": "{{ version }}",
+  "name": "{{ displayName }}",
+  "theme": {
+    "colors" : {
+      "frame": [{{ accent12 }}],
+      "frame_inactive": [{{ accent30 }}],
+      "toolbar": [{{ accent12 }}],
+      "toolbar_button_icon": [{{ accent2 }}],
+      "ntp_background": [{{ accent12 }}],
+      "ntp_text": [{{ accent7 }}],
+      "ntp_link": [{{ accent7 }}],
+      "ntp_section": [{{ accent1 }}],
+      "tab_text": [{{ accent2 }}],
+      "tab_background_text": [{{ accent7 }}],
+      "bookmark_text": [{{ accent7 }}],
+      "omnibox_text": [{{ accent1 }}],
+      "omnibox_background": [{{ accent21 }}],
+      "button_background": [{{ accent1 }}]
+    },
+    "tints" : {
+      "buttons" : [0.33, 0.5, 0.47]
+    },
+    "properties" : {
+      "ntp_background_alignment" : "bottom"
+    },
+    "images" : {
+      "theme_toolbar": "theme_tab_background.png"
+    }
+  }
+}

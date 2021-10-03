@@ -1,0 +1,23 @@
+{
+  "name": "Aura Theme",
+  "cursorColor": "#a277ff",
+  "selectionBackground": "#a394f0",
+  "background": "#15141b",
+  "foreground": "#edecee",
+  "black": "#110f18",
+  "blue": "#61ffca",
+  "cyan": "#edecee",
+  "green": "#61ffca",
+  "purple": "#a277ff",
+  "red": "#ff6767",
+  "white": "#edecee",
+  "yellow": "#ffca85",
+  "brightBlack": "#4d4d4d",
+  "brightBlue": "#a277ff",
+  "brightCyan": "#61ffca",
+  "brightGreen": "#a277ff",
+  "brightPurple": "#a277ff",
+  "brightRed": "#ffca85",
+  "brightWhite": "#edecee",
+  "brightYellow": "#ffca85"
+}

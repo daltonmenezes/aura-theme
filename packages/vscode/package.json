@@ -1,0 +1,64 @@
+{
+  "name": "aura-theme",
+  "displayName": "Aura Theme",
+  "description": "A beautiful dark theme for Visual Studio Code",
+  "version": "2.0.1",
+  "scripts": {
+    "publish": "vsce publish"
+  },
+  "publisher": "DaltonMenezes",
+  "author": {
+    "name": "Dalton Menezes",
+    "email": "daltonmenezes@outlook.com",
+    "url": "https://daltonmenezes.github.io"
+  },
+  "icon": "logo.png",
+  "galleryBanner": {
+    "color": "#15141b",
+    "theme": "dark"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.47.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "aura-theme",
+    "color-theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Aura Dark (Soft Text)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aura-dark-soft-text-color-theme.json"
+      },
+      {
+        "label": "Aura Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aura-dark-color-theme.json"
+      },
+      {
+        "label": "Aura Soft Dark (Soft Text)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aura-soft-dark-soft-text-color-theme.json"
+      },
+      {
+        "label": "Aura Soft Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aura-soft-dark-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daltonmenezes/aura-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/daltonmenezes/aura-theme/issues"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "{{ slug }}",
+  "displayName": "{{ displayName }}",
+  "description": "A beautiful dark theme for {{ portName }}",
+  "version": "{{ version }}",
+  "scripts": {
+    "publish": "vsce publish"
+  },
+  "publisher": "DaltonMenezes",
+  "author": {
+    "name": "{{ author.name }}",
+    "email": "{{ author.email }}",
+    "url": "{{{ author.website }}}"
+  },
+  "icon": "logo.png",
+  "galleryBanner": {
+    "color": "{{ accent12 }}",
+    "theme": "{{ type }}"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.47.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "{{ type }}",
+    "{{ slug }}",
+    "color-theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "{{ auraDarkSoftText }}",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aura-dark-soft-text-color-theme.json"
+      },
+      {
+        "label": "{{ auraDark }}",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aura-dark-color-theme.json"
+      },
+      {
+        "label": "{{ auraSoftDarkSoftText }}",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aura-soft-dark-soft-text-color-theme.json"
+      },
+      {
+        "label": "{{ auraSoftDark }}",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aura-soft-dark-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "{{{ repository }}}.git"
+  },
+  "bugs": {
+    "url": "{{{ repository }}}/issues"
+  }
+}

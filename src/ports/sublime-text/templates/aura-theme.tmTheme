@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>{{ displayName }}</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#15141b</string>
+				<key>caret</key>
+				<string>{{ accent7 }}</string>
+				<key>foreground</key>
+				<string>{{ accent7 }}</string>
+				<key>lineHighlight</key>
+				<string>{{ accent17 }}</string>
+				<key>selection</key>
+				<string>{{ accent17 }}</string>
+				<key>findHighlight</key>
+				<string>{{ accent19 }}</string>
+				<key>findHighlightForeground</key>
+				<string>{{ accent7 }}</string>
+				<key>selectionBorder</key>
+				<string>{{ accent14 }}</string>
+				<key>bracketsForeground</key>
+				<string>{{ accent17 }}</string>
+				<key>bracketsOptions</key>
+				<string>normal</string>
+				<key>bracketContentsForeground</key>
+				<string>{{ accent17 }}</string>
+				<key>bracketContentsOptions</key>
+				<string>normal</string>
+				<key>tagsOptions</key>
+				<string>stippled_normal</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>scope</key>
+			<string>
+				comment,
+				string.quoted.multiline.graphql
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>{{ accent8 }}</string>
+				<key>fontStyle</key>
+				<string></string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>String</string>
+			<key>scope</key>
+			<string>
+				constant.other.js,
+				string,
+				constant.numeric,
+				diff.inserted,
+				constant.language.boolean,
+				punctuation.separator.path.html,
+				meta.link.inline.description.markdown,
+				punctuation.separator.path.css,
+				entity.other.attribute-name.id.css,
+				support.type.graphql
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>{{ accent2 }}</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Class name</string>
+			<key>scope</key>
+			<string>
+				entity.name.type,
+				entity.name.interface,
+				meta.function-call.constructor,
+				punctuation.section.interpolation,
+				support.class,
+				support.other.namespace,
+				storage.type.namespace,
+				storage.type,
+				meta.function.parameters.js,
+				entity.other.inherited-class,
+				meta.path,
+				entity.name.class,
+				entity.other.attribute-name.class.css
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>normal</string>
+				<key>foreground</key>
+				<string>{{ accent32 }}</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Library constant</string>
+			<key>scope</key>
+			<string>
+				punctuation.definition.italic.begin.markdown,
+				punctuation.definition.italic.end.markdown,
+				punctuation.definition.list_item.markdown,
+				punctuation.definition.bold.begin.markdown,
+				punctuation.definition.bold.end.markdown,
+				punctuation.definition.heading.begin.markdown,
+				punctuation.definition.raw.code-fence.begin.markdown,
+				punctuation.definition.raw.code-fence.end.markdown,
+				storage.type.js, meta.mapping.key.json
+				string.quoted.double.json,
+				variable.type.graphql,
+				entity.name.type.object.graphql,
+				storage.modifier,
+				keyword,
+				constant.character.escaped,
+				constant.character.escape,
+				string source,
+				string
+				source.ruby,
+				constant.character,
+				constant.other,
+				constant.language,
+				entity.name.tag,
+				variable.language,
+				support.type,
+				punctuation.separator.type,
+				markup.underline.link.markdown,
+				constant.numeric.suffix.css,
+				punctuation.definition.blockquote.markdown,
+				entity.name.function.constructor.js,
+				support.constant.node.js
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>{{ accent1 }}</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>diff.deleted</string>
+			<key>scope</key>
+			<string>
+				markup.deleted
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>{{ accent5 }}</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Punctuation Accessor</string>
+			<key>scope</key>
+			<string>
+				source.ts
+				meta.export.js
+				meta.type-alias.js
+				meta.block.js
+				variable.other.readwrite.js,
+				source.ts
+				meta.interface.js
+				meta.block.js
+				variable.other.readwrite.js,
+				meta.tag.attributes
+				entity.other.attribute-name,
+				meta.mapping.key,
+				meta.binding.destructuring.mapping,
+				storage.type.class,
+				meta.property.object,
+				punctuation.separator,
+				punctuation.terminator.statement,
+				storage.modifier.array,
+				punctuation.section,
+				source.ts
+				meta.export.js
+				meta.class.js
+				meta.block.js
+				source.ts
+				meta.export.js
+				meta.mapping.js
+				punctuation.separator.comma.js,
+				punctuation.section.embedded.begin,
+				punctuation.section.embedded.end,
+				punctuation.separator.namespace,
+				meta.function.return-type,
+				punctuation.accessor,
+				source.ts
+				meta.export.js
+				meta.mapping.js
+				meta.mapping.key.js,
+				meta.property-name.css support.type.property-name.css,
+				punctuation.definition.pseudo-class.css,
+				entity.other.pseudo-class.css,
+				source.ts meta.type-alias.js meta.block.js variable.other.readwrite.js,
+				entity.name.field.graphql,
+				entity.other.attribute-name.(.*).html,
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>{{ accent6 }}</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Punctuation Section Block Begin</string>
+			<key>scope</key>
+			<string>
+				punctuation.section.block,
+				punctuation.section.group,
+				variable.parameter.function,
+				variable.other,
+				string.unquoted.css,
+				constant.other.language-name.markdown,
+				source.ts punctuation.terminator.statement.empty.js,
+				source.ts meta.type-alias.js meta.block.js punctuation.separator.js,
+				punctuation.terminator.statement.js,
+				punctuation.section.(.*).(.*).json,
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>{{ accent7 }}</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Variable Function</string>
+			<key>scope</key>
+			<string>
+				entity.name.section.markdown,
+				entity.name.type.scalar.graphql,
+				variable.language.super,
+				entity.name.function,
+				support.function,
+				variable.function,
+				source.tsx
+				meta.export.js
+				meta.function.js
+				meta.block.js
+				meta.group.js
+				meta.jsx.js
+				meta.tag.name.js
+				entity.name.tag.js,
+				source.tsx
+				meta.function-call.method.js
+				meta.group.js
+				meta.jsx.js
+				meta.tag.name.js
+				entity.name.tag.js,
+				meta.function-call.constructor.js
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>{{ accent3 }}</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Support Other Namespace</string>
+			<key>scope</key>
+			<string>
+				support.class,
+				support.other.namespace
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>		
+
+		<dict>
+			<key>name</key>
+			<string>Variable</string>
+			<key>scope</key>
+			<string>variable</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Function argument</string>
+			<key>scope</key>
+			<string>variable.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Storage type</string>
+			<key>scope</key>
+			<string>
+				storage.type.namespace,
+				storage.type
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Italics</string>
+			<key>scope</key>
+			<string>
+				storage.type.class,
+				markup.italic.markdown
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>	
+
+		<dict>
+			<key>name</key>
+			<string>Bold</string>
+			<key>scope</key>
+			<string>markup.bold.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>	
+	</array>
+	<key>uuid</key>
+	<string>9409d745-9273-4b52-92c7-54fcb236c5f5</string>
+	<key>colorSpaceName</key>
+	<string>sRGB</string>
+	<key>semanticClass</key>
+	<string>theme.AuraTheme</string>
+	<key>author</key>
+	<string>{{ author.name }}</string>
+</dict>
+</plist>

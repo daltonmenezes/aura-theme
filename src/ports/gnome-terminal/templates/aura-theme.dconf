@@ -1,0 +1,14 @@
+[/]
+background-color='rgb({{ accent12 }})'
+bold-color='rgb({{ accent7 }})'
+bold-color-same-as-fg=false
+bold-is-bright=false
+cursor-background-color='rgb({{ accent1 }})'
+cursor-colors-set=true
+cursor-foreground-color='rgb({{ accent1 }})'
+foreground-color='rgb({{ accent7 }})'
+highlight-background-color='rgb({{ accent1 }})'
+highlight-colors-set=true
+palette=['rgb({{ accent21 }})', 'rgb({{ accent5 }})', 'rgb({{ accent2 }})', 'rgb({{ accent3 }})', 'rgb({{ accent1 }})', 'rgb({{ accent1 }})', 'rgb({{ accent2 }})', 'rgb({{ accent7 }})', 'rgb({{ accent8 }})', 'rgb({{ accent3 }})', 'rgb({{ accent1 }})', 'rgb({{ accent3 }})', 'rgb({{ accent1 }})', 'rgb({{ accent1 }})', 'rgb({{ accent2 }})', 'rgb({{ accent7 }})']
+use-theme-colors=false
+visible-name='Aura Theme'

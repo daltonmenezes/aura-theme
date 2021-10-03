@@ -1,0 +1,23 @@
+{
+  "name": "{{ displayName }}",
+  "cursorColor": "{{ accent1 }}",
+  "selectionBackground": "{{ accent17 }}",
+  "background": "{{ accent12 }}",
+  "foreground": "{{ accent7 }}",
+  "black": "{{ accent21 }}",
+  "blue": "{{ accent2 }}",
+  "cyan": "{{ accent7 }}",
+  "green": "{{ accent2 }}",
+  "purple": "{{ accent1 }}",
+  "red": "{{ accent5 }}",
+  "white": "{{ accent7 }}",
+  "yellow": "{{ accent3 }}",
+  "brightBlack": "{{ accent15 }}",
+  "brightBlue": "{{ accent1 }}",
+  "brightCyan": "{{ accent2 }}",
+  "brightGreen": "{{ accent1 }}",
+  "brightPurple": "{{ accent1 }}",
+  "brightRed": "{{ accent3 }}",
+  "brightWhite": "{{ accent7 }}",
+  "brightYellow": "{{ accent3 }}"
+}

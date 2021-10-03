@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+  "version": "{{ version }}",
+  "name": "{{ displayName }}",
+  "short_name": "{{ shortName }}",
+  "theme": {
+    "colors": {
+      "button_background_active": "{{ accent1 }}",
+      "button_background_hover": "{{ accent13 }}",
+      "frame": "{{ accent12 }}",
+      "frame_inactive": "{{ accent30 }}",
+      "icons": "{{ accent2 }}",
+      "icons_attention": "{{ accent2 }}",
+      "ntp_background": "{{ accent12 }}",
+      "ntp_text": "{{ accent7 }}",
+      "popup": "{{ accent12 }}",
+      "popup_border": "{{ accent1 }}",
+      "popup_highlight": "{{ accent1 }}",
+      "popup_highlight_text": "{{ accent7 }}",
+      "popup_text": "{{ accent7 }}",
+      "tab_background_text": "{{ accent7 }}",
+      "tab_selected": "{{ accent12 }}",
+      "tab_line": "{{ accent2 }}",
+      "tab_text": "{{ accent2 }}",
+      "toolbar": "{{ accent12 }}",
+      "toolbar_field": "{{ accent21 }}",
+      "toolbar_field_border": "{{ accent21 }}",
+      "toolbar_field_border_focus": "{{ accent1 }}",
+      "toolbar_field_highlight": "{{ accent1 }}",
+      "toolbar_field_highlight_text": "{{ accent7 }}",
+      "toolbar_field_text": "{{ accent1 }}",
+      "toolbar_field_separator": "{{ accent13 }}",
+      "toolbar_text": "{{ accent7 }}",
+      "toolbar_top_separator": "{{ accent13 }}"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "{{ npmPackage }}",
+  "description": "A beautiful dark theme for {{ portName }}",
+  "version": "{{ version }}",
+  "insomnia": {
+    "name": "{{ slug }}",
+    "displayName": "{{ displayName }}",
+    "description": "A beautiful dark theme for {{ portName }}",
+    "images": {
+      "icon": "logo.png"
+    }
+  },
+  "main": "index.js",
+  "keywords": [
+    "theme",
+    "dark",
+    "insomnia",
+    "insomnia-theme",
+    "insomnia-plugin",
+    "color-theme",
+    "{{ slug }}"
+  ],
+  "author": {
+    "name": "{{ author.name }}",
+    "email": "{{ author.email }}",
+    "url": "{{{ author.website }}}"
+  },
+  "scripts": {
+    "publish": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "{{{ repository }}}.git"
+  },
+  "bugs": {
+    "url": "{{{ repository }}}/issues"
+  }
+}
