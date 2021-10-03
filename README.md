@@ -91,7 +91,7 @@
   <tr>
     <td valign="top">
       <p align="center">
-        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/hyper-terminal">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/hyper">
           <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/hyper.png?raw=true" align="center" />
         </a>
        <br/><br/>
