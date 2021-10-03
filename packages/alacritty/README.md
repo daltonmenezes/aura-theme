@@ -23,7 +23,7 @@
 
 
 # Installation
-1. Open [aura-theme.yml](https://raw.githubusercontent.com/daltonmenezes/aura-theme/blob/main/packages/alacritty/aura-theme.yml) and save it in `~/.config/alacritty`
+1. Open [aura-theme.yml](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/alacritty/aura-theme.yml) and save it in `~/.config/alacritty`
 2. Edit the Alacritty config file by adding:
     ```yml
     import:
