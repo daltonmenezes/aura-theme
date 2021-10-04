@@ -251,6 +251,15 @@
         <span>Aura API</span>
       </p>
     </td>
+    <td valign="bottom">
+      <p align="center">
+        <a href="./docs/PUBLISHING_PORTS.md">
+          <img src="./docs/assets/undraw_order_delivered.svg" width="96" align="center" />
+        </a>
+        <br/><br/>
+        <span>Publishing Ports</span>
+      </p>
+    </td>
   </tr>
 </table>
  
