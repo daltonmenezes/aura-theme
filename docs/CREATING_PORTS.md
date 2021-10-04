@@ -2,7 +2,7 @@
   <img src="https://github.com/daltonmenezes/assets/blob/master/images/aura-theme/new-heading.png?raw=true" alt="Aura Theme" width="15%" />
 </p>
 
-<h1 align="center">Creating ports</h1>
+<h1 align="center">Creating Ports</h1>
 
 <p  align="center">
   <img src="./assets/undraw_science.svg" width="70%" />
