@@ -2,6 +2,7 @@
   "name": "{{ npmPackage }}",
   "description": "A beautiful dark theme for {{ portName }}",
   "version": "{{ version }}",
+  "license": "MIT",
   "insomnia": {
     "name": "{{ slug }}",
     "displayName": "{{ displayName }}",

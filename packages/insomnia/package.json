@@ -1,7 +1,8 @@
 {
   "name": "insomnia-plugin-aura-theme",
   "description": "A beautiful dark theme for Insomnia",
-  "version": "2.0.0",
+  "version": "2.0.1",
+  "license": "MIT",
   "insomnia": {
     "name": "aura-theme",
     "displayName": "Aura Theme",

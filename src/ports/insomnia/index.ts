@@ -18,7 +18,7 @@ export async function InsomniaPort(Aura: AuraAPI) {
   const portSlug = isDev ? `${info.slug}-dev` : info.slug
   const displayName = isDev ? `${info.displayName} Dev` : info.displayName
   const packageName = isDev ? `${npmPackage}-dev` : npmPackage
-  const version = '2.0.0'
+  const version = '2.0.1'
   const previewURL = `https://github.com/${info.author.username}/assets/blob/master/images/${info.slug}/aura-insomnia-preview.png?raw=true`
   const templateFolder = resolve(__dirname, 'templates')
 
