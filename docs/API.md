@@ -470,3 +470,6 @@ Used to capitalize only the first letter in a given text.
   - [emojis](https://github.com/daltonmenezes/aura-theme/blob/main/src/shared/constants/emojis.ts)
   - [files](https://github.com/daltonmenezes/aura-theme/blob/main/src/shared/constants/files.ts)
   - [folders](https://github.com/daltonmenezes/aura-theme/blob/main/src/shared/constants/folders.ts)
+
+# License
+[MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/main/LICENSE)
