@@ -5,7 +5,7 @@ export async function WallpapersPort(Aura: AuraAPI) {
   const { copyExtraFiles, createReadme, constants, zip } = Aura
 
   const portName = 'Wallpapers'
-  const version = '1.0.0'
+  const version = '1.1.0'
   const templateFolder = resolve(__dirname, 'templates')
 
   const distWallpapersFolder = resolve(
