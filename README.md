@@ -153,6 +153,15 @@
         <span>GNOME Terminal</span>
       </p>
     </td> 
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/kitty">
+          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/kitty.png?raw=true" align="center" />
+        </a>
+       <br/><br/>
+        <span>Kitty</span>
+      </p>
+    </td> 
   </tr>
  </table>
 
