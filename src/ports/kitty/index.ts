@@ -1,10 +1,11 @@
 import { AuraAPI } from 'core'
+import { resolve } from 'path'
+
 import {
   colorHandlers,
   createFromInMemoryPort,
   createInMemoryPort,
 } from 'core/modules'
-import { resolve } from 'path'
 
 export async function KittyPort(Aura: AuraAPI) {
   const { createReadme, colorSchemes, constants } = Aura
@@ -12,6 +13,7 @@ export async function KittyPort(Aura: AuraAPI) {
 
   const portName = 'Kitty'
   const version = '1.0.0'
+  const previewURL = `https://github.com/${info.author.username}/assets/blob/master/images/${info.slug}/aura-kitty-preview.png?raw=true`
 
   const itermTemplate = await createInMemoryPort({
     template: resolve(
@@ -41,6 +43,7 @@ export async function KittyPort(Aura: AuraAPI) {
     replacements: {
       portName,
       version,
+      previewURL,
     },
   })
 }
