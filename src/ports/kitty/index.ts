@@ -9,15 +9,16 @@ import {
 
 export async function KittyPort(Aura: AuraAPI) {
   const { createReadme, colorSchemes, constants } = Aura
-  const templateFolder = resolve(__dirname, 'templates')
+  const { info, folders } = constants
 
   const portName = 'Kitty'
   const version = '1.0.0'
   const previewURL = `https://github.com/${info.author.username}/assets/blob/master/images/${info.slug}/aura-kitty-preview.png?raw=true`
+  const templateFolder = resolve(__dirname, 'templates')
 
   const itermTemplate = await createInMemoryPort({
     template: resolve(
-      constants.folders.portsFolder,
+      folders.portsFolder,
       'iterm',
       'templates',
       'aura-theme.itermcolors'
@@ -31,11 +32,7 @@ export async function KittyPort(Aura: AuraAPI) {
 
   await createFromInMemoryPort({
     template,
-    output: resolve(
-      constants.folders.distFolder,
-      'kitty',
-      'aura-theme.conf'
-    ),
+    output: resolve(folders.distFolder, 'kitty', 'aura-theme.conf'),
   })
 
   await createReadme({
