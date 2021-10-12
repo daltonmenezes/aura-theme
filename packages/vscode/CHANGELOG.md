@@ -2,7 +2,7 @@
 
 ## 2.0.1 (October 3, 2021)
 - Replace Aura Dark to Aura Dark Plus but keeping the name
-- Update yellow accents, like in functions, for a orange tone
+- Update yellow accents, like in functions, for an orange tone
 - Update Shock pink accents as in object properties for a softer tone
 - Update active and inactive selected file list items to have a clearer background for easier 
 - Update scrollbar background color for the text selection accent making it clearer and with a slight transparency avoiding the loss of relevant information.
