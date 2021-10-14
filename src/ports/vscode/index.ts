@@ -34,13 +34,10 @@ export async function VscodePort(Aura: AuraAPI) {
     outputFileName: `package`,
     replacements: {
       ...info,
+      ...names,
       type,
       portName,
       version,
-      auraDark: names.auraDark,
-      auraDarkSoftText: names.auraDarkSoftText,
-      auraSoftDark: names.auraSoftDark,
-      auraSoftDarkSoftText: names.auraSoftDarkSoftText,
       accent12: colorSchemes.dark.accent12,
     },
   })
