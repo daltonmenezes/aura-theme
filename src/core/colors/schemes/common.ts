@@ -28,10 +28,10 @@ export const commonUI = {
   accent14: '#af8aff7f',
   accent15: '#4d4d4d',
   accent16: '#ffffff00',
-  accent17: '#a394f033', // selection
+  accent17: '#a394f033', // secondary-selection
   accent18: '#a394f000',
   accent19: '#3ea7847f',
-  accent20: '#3d375e7f',
+  accent20: '#3d375e7f', // primary-selection
   accent22: '#4d466e',
   accent23: '#3b334b',
   accent25: '#49c29a',
