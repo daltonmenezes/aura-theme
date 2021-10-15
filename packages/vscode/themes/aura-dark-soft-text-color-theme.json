@@ -200,7 +200,9 @@
         "support.type.builtin.graphql",
         "variable.other.quoted.double",
         "markup.inline.raw.string.markdown",
-        "entity.other.attribute-name.id.css"
+        "entity.other.attribute-name.id.css",
+        "meta.jsx.children",
+        "JSXNested"
       ],
       "settings": {
         "foreground": "#54c59f"
@@ -269,7 +271,10 @@
         "variable.parameter",
         "meta.class",
         "meta.method.declaration",
-        "parameter.variable.function.elixir"
+        "parameter.variable.function.elixir",
+        "punctuation.definition.tag",
+        "punctuation.section.embedded",
+        "meta.embedded.expression"
       ],
       "settings": {
         "foreground": "#bdbdbd"
