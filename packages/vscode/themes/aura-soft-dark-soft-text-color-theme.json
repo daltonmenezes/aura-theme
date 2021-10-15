@@ -6,7 +6,7 @@
     "foreground": "#bdbdbd",
     "errorForeground": "#c55858",
     "widget.shadow": "#0f0f0f",
-    "selection.background": "#8464c6",
+    "selection.background": "#3d375e7f",
 
     "titleBar.activeBackground": "#121016",
     "titleBar.border": "#000000",
@@ -46,16 +46,18 @@
     "editorLineNumber.foreground": "#a394f033",
     "editorIndentGuide.activeBackground": "#6d6d6d",
     "editorCursor.foreground": "#8464c6",
-    "editor.selectionBackground": "#a394f033",
-    "editor.selectionHighlightBackground": "#a394f033",
-    "editor.inactiveSelectionBackground": "#a394f033",
-    "editor.wordHighlightBackground": "#af8aff7f",
-    "editor.wordHighlightStrongBackground": "#3ea7847f",
-    "editor.findMatchBackground": "#3ea7847f",
-    "editor.findMatchHighlightBackground": "#3ea7847f",
-    "editor.findRangeHighlightBackground": "#3ea7847f",
+    "editor.selectionBackground": "#3d375e7f",
+    "editor.selectionHighlightBackground": "#3d375e7f",
+    "editor.inactiveSelectionBackground": "#3d375e7f",
+    "editor.wordHighlightBackground": "#3d375e7f",
+    "editor.wordHighlightStrongBackground": "#3d375e7f",
+    "editor.findMatchBackground": "#3d375e7f",
+    "editor.findMatchHighlightBackground": "#3d375e7f",
+    "editor.findRangeHighlightBackground": "#3d375e7f",
     "editor.lineHighlightBackground": "#a394f033",
     "editor.lineHighlightBorder": "#a394f000",
+    "editorInlayHint.background": "#2e2b38",
+    "editorInlayHint.foreground": "#b4b4b4",
     
     "editorLink.activeForeground": "#8464c6",
     "editorWhitespace.foreground": "#444444",
@@ -143,7 +145,7 @@
     "terminal.ansiRed": "#c55858",
     "terminal.ansiWhite": "#b4b4b4",
     "terminal.ansiYellow": "#c7a06f",
-    "terminal.selectionBackground": "#a394f033",
+    "terminal.selectionBackground": "#3d375e7f",
     "terminalCursor.background": "#444444",
     "terminalCursor.foreground": "#adacae",
 
@@ -198,7 +200,9 @@
         "support.type.builtin.graphql",
         "variable.other.quoted.double",
         "markup.inline.raw.string.markdown",
-        "entity.other.attribute-name.id.css"
+        "entity.other.attribute-name.id.css",
+        "meta.jsx.children",
+        "JSXNested"
       ],
       "settings": {
         "foreground": "#54c59f"
@@ -267,7 +271,10 @@
         "variable.parameter",
         "meta.class",
         "meta.method.declaration",
-        "parameter.variable.function.elixir"
+        "parameter.variable.function.elixir",
+        "punctuation.definition.tag",
+        "punctuation.section.embedded",
+        "meta.embedded.expression"
       ],
       "settings": {
         "foreground": "#bdbdbd"

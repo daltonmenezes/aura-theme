@@ -1,5 +1,10 @@
 # Aura Theme Changelog
 
+## 2.1.0 (October 14, 2021)
+- Add colors to editor inlay hint
+- Update selection color to accent20
+- Update JSX children texts to be green
+
 ## 2.0.1 (October 3, 2021)
 - Replace Aura Dark to Aura Dark Plus but keeping the name
 - Update yellow accents, like in functions, for an orange tone
