@@ -67,11 +67,11 @@
   </tr>
   <tr>
     <td>Purple</td>
-    <td>#a394f033</td>
-    <td>163,148,240</td>
-    <td>accent17</td>
+    <td>#3d375e7f</td>
+    <td>61,55,94</td>
+    <td>accent20</td>
     <td>Selections</td>
-    <td><img src="https://via.placeholder.com/15/a394f033/000000?text=+" /></td>
+    <td><img src="https://via.placeholder.com/15/3d375e7f/000000?text=+" /></td>
   </tr>
   <tr>
     <td>Green</td>
@@ -160,11 +160,11 @@
   </tr>
   <tr>
     <td>Purple</td>
-    <td>#a394f033</td>
-    <td>163,148,240</td>
-    <td>accent17</td>
+    <td>#3d375e7f</td>
+    <td>61,55,94</td>
+    <td>accent20</td>
     <td>Selections</td>
-    <td><img src="https://via.placeholder.com/15/a394f033/000000?text=+" /></td>
+    <td><img src="https://via.placeholder.com/15/3d375e7f/000000?text=+" /></td>
   </tr>
   <tr>
     <td>Green</td>

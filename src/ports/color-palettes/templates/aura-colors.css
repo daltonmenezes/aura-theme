@@ -3,7 +3,7 @@
   --white: {{ accent7 }};
   --gray: {{ accent8 }};
   --purple: {{ accent1 }};
-  --purple-fading: {{ accent17 }};
+  --purple-fading: {{ accent20 }};
   --green: {{ accent2 }};
   --orange: {{ accent3 }};
   --pink: {{ accent6 }};
@@ -29,7 +29,7 @@
   --white-soft: {{ accent7Soft }};
   --gray-soft: {{ accent8Soft }};
   --purple-soft: {{ accent1Soft }};
-  --purple-fading-soft: {{ accent17Soft }};
+  --purple-fading-soft: {{ accent20Soft }};
   --green-soft: {{ accent2Soft }};
   --orange-soft: {{ accent3Soft }};
   --pink-soft: {{ accent6Soft }};

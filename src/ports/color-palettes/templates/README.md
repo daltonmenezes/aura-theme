@@ -50,11 +50,11 @@
   </tr>
   <tr>
     <td>Purple</td>
-    <td>{{ accent17 }}</td>
-    <td>{{ accent17RGB }}</td>
-    <td>accent17</td>
+    <td>{{ accent20 }}</td>
+    <td>{{ accent20RGB }}</td>
+    <td>accent20</td>
     <td>Selections</td>
-    <td><img src="https://via.placeholder.com/15/{{ accent17WithoutHash }}/000000?text=+" /></td>
+    <td><img src="https://via.placeholder.com/15/{{ accent20WithoutHash }}/000000?text=+" /></td>
   </tr>
   <tr>
     <td>Green</td>
@@ -143,11 +143,11 @@
   </tr>
   <tr>
     <td>Purple</td>
-    <td>{{ accent17Soft }}</td>
-    <td>{{ accent17SoftRGB }}</td>
-    <td>accent17</td>
+    <td>{{ accent20Soft }}</td>
+    <td>{{ accent20SoftRGB }}</td>
+    <td>accent20</td>
     <td>Selections</td>
-    <td><img src="https://via.placeholder.com/15/{{ accent17SoftWithoutHash }}/000000?text=+" /></td>
+    <td><img src="https://via.placeholder.com/15/{{ accent20SoftWithoutHash }}/000000?text=+" /></td>
   </tr>
   <tr>
     <td>Green</td>
