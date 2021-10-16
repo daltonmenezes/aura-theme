@@ -13,7 +13,7 @@ export async function SublimeTextPort(Aura: AuraAPI) {
   const { info, folders } = constants
 
   const portName = 'Sublime Text'
-  const version = '1.0.0'
+  const version = '1.1.0'
   const previewURL = `https://github.com/${info.author.username}/assets/blob/master/images/${info.slug}/aura-sublime-preview.png?raw=true`
   const templateFolder = resolve(__dirname, 'templates')
 
