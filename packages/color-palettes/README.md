@@ -11,7 +11,7 @@
 
   <!-- version -->
   <a href="#">
-    <img alt="version" src="https://img.shields.io/badge/version%20-v2.0.0-1C1E26?style=for-the-badge&labelColor=1C1E26&color=61ffca">
+    <img alt="version" src="https://img.shields.io/badge/version%20-v2.1.0-1C1E26?style=for-the-badge&labelColor=1C1E26&color=61ffca">
   </a>
 </p>
 
@@ -67,11 +67,11 @@
   </tr>
   <tr>
     <td>Purple</td>
-    <td>#a394f033</td>
-    <td>163,148,240</td>
-    <td>accent17</td>
+    <td>#3d375e7f</td>
+    <td>61,55,94</td>
+    <td>accent20</td>
     <td>Selections</td>
-    <td><img src="https://via.placeholder.com/15/a394f033/000000?text=+" /></td>
+    <td><img src="https://via.placeholder.com/15/3d375e7f/000000?text=+" /></td>
   </tr>
   <tr>
     <td>Green</td>
@@ -160,11 +160,11 @@
   </tr>
   <tr>
     <td>Purple</td>
-    <td>#a394f033</td>
-    <td>163,148,240</td>
-    <td>accent17</td>
+    <td>#3d375e7f</td>
+    <td>61,55,94</td>
+    <td>accent20</td>
     <td>Selections</td>
-    <td><img src="https://via.placeholder.com/15/a394f033/000000?text=+" /></td>
+    <td><img src="https://via.placeholder.com/15/3d375e7f/000000?text=+" /></td>
   </tr>
   <tr>
     <td>Green</td>
