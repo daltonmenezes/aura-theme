@@ -31,6 +31,7 @@
 # Themes
 
 ### Aura
+
 <table>
   <td valign="top">
     <p align="center">
@@ -53,6 +54,7 @@
 </table>
 
 ### IDEs and Code Editors
+
 <table >
   <tr>
     <td valign="top">
@@ -85,8 +87,8 @@
   </tr>
  </table>
 
-
 ### Terminals
+
 <table >
   <tr>
     <td valign="top">
@@ -165,7 +167,8 @@
   </tr>
  </table>
 
- ### Browsers
+### Browsers
+
 <table >
   <tr>
       <td valign="top">
@@ -199,6 +202,7 @@
  </table>
 
 ### Others
+
 <table >
     <td valign="top">
       <p align="center">
@@ -227,10 +231,20 @@
         <span>Slack</span>
       </p>
     </td>   
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/icue">
+          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/icue.png?raw=true" align="center" />
+        </a>
+        <br/><br/>
+        <span>iCue</span>
+      </p>
+    </td>   
   </tr>
  </table>
 
 # Documentation
+
 <table >
   <tr>
     <td valign="bottom">
@@ -276,6 +290,7 @@
 > Contributions are always welcome, but always **ask first**, — please — before work on a PR.
 
 That said, there's a bunch of ways you can contribute to this project, like by:
+
 - :electric_plug: Making a port of this theme for another apps
 - :wave: Requesting a port
 - :beetle: Reporting a bug
@@ -288,4 +303,5 @@ That said, there's a bunch of ways you can contribute to this project, like by:
 - :thumbsup: Voting on ProductHunt
 
 # License
+
 [MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/main/LICENSE)
