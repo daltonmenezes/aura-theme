@@ -70,7 +70,11 @@
 				meta.link.inline.description.markdown,
 				punctuation.separator.path.css,
 				entity.other.attribute-name.id.css,
-				support.type.graphql
+				support.type.graphql,
+				source.tsx meta.export.js meta.function.js meta.block.js meta.group.js meta.jsx.js,
+				source.js.jsx meta.jsx source.js.jsx meta.jsx,
+				source.js.jsx meta.jsx meta.jsx meta.jsx meta.jsx meta.jsx,
+				source.js meta.export.js meta.function.js meta.block.js meta.group.js meta.jsx.js
 			</string>
 			<key>settings</key>
 			<dict>
@@ -236,6 +240,9 @@
 				source.ts punctuation.terminator.statement.empty.js,
 				source.ts meta.type-alias.js meta.block.js punctuation.separator.js,
 				punctuation.terminator.statement.js,
+				source.tsx meta.export.js meta.function.js meta.block.js meta.group.js meta.jsx.js punctuation,
+				source.js.jsx entity.name.type,
+				source.js meta.export.js meta.function.js meta.block.js meta.group.js meta.jsx.js punctuation,
 				punctuation.section.(.*).(.*).json,
 			</string>
 			<key>settings</key>
@@ -270,7 +277,9 @@
 				meta.jsx.js
 				meta.tag.name.js
 				entity.name.tag.js,
-				meta.function-call.constructor.js
+				meta.function-call.constructor.js,
+				entity.name.tag.jsx,
+				source.js meta.export.js meta.function.js meta.block.js meta.group.js meta.jsx.js meta.tag.name.js entity.name.tag.js
 			</string>
 			<key>settings</key>
 			<dict>
