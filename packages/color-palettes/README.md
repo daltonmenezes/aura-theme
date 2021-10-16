@@ -11,7 +11,7 @@
 
   <!-- version -->
   <a href="#">
-    <img alt="version" src="https://img.shields.io/badge/version%20-v2.0.0-1C1E26?style=for-the-badge&labelColor=1C1E26&color=61ffca">
+    <img alt="version" src="https://img.shields.io/badge/version%20-v2.1.0-1C1E26?style=for-the-badge&labelColor=1C1E26&color=61ffca">
   </a>
 </p>
 
