@@ -1,0 +1,52 @@
+terminal:
+  searchOptions: {}
+  colorScheme:
+    name: {{ theme_name }}
+    foreground: '{{ foreground_color }}'
+    background: '{{ background_color }}'
+    selection: null
+    cursor: '{{ cursor_color }}'
+    cursorAccent: '{{ cursor_accent_color }}'
+    colors:
+      - '{{ color_001 }}'
+      - '{{ color_002}}'
+      - '{{ color_003 }}'
+      - '{{ color_004 }}'
+      - '{{ color_005 }}'
+      - '{{ color_006 }}'
+      - '{{ color_007 }}'
+      - '{{ color_008 }}'
+      - '{{ color_009 }}'
+      - '{{ color_010 }}'
+      - '{{ color_011 }}'
+      - '{{ color_012 }}'
+      - '{{ color_013 }}'
+      - '{{ color_014 }}'
+      - '{{ color_015 }}'
+      - '{{ color_016 }}'
+  customColorSchemes:
+    - name: {{ theme_name }}
+      foreground: '{{ foreground_color }}'
+      background: '{{ background_color }}'
+      selection: null
+      cursor: '{{ cursor_color }}'
+      cursorAccent: '{{ cursor_accent_color }}'
+      colors:
+        - '{{ color_001 }}'
+        - '{{ color_002}}'
+        - '{{ color_003 }}'
+        - '{{ color_004 }}'
+        - '{{ color_005 }}'
+        - '{{ color_006 }}'
+        - '{{ color_007 }}'
+        - '{{ color_008 }}'
+        - '{{ color_009 }}'
+        - '{{ color_010 }}'
+        - '{{ color_011 }}'
+        - '{{ color_012 }}'
+        - '{{ color_013 }}'
+        - '{{ color_014 }}'
+        - '{{ color_015 }}'
+        - '{{ color_016 }}'
+  profile: local:wsl-Debian # change this to match your own local profile
+  background: colorScheme
