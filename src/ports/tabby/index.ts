@@ -10,7 +10,7 @@ export async function AnAwesomeAppPort(Aura: AuraAPI) {
 
   const theme_name = 'Aura-Theme'
   const foreground_color = '#edecee'
-  const background_color = '#3d375e1f'
+  const background_color = '#21202e'
   const cursor_color = '#a277ff'
   const cursor_accent_color = ''
   const color_001 = '#110f18'

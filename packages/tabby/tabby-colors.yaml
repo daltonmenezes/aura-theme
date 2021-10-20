@@ -3,7 +3,7 @@ terminal:
   colorScheme:
     name: Aura-Theme
     foreground: '#edecee'
-    background: '#3d375e1f'
+    background: '#21202e'
     selection: null
     cursor: '#a277ff'
     cursorAccent: ''
@@ -27,7 +27,7 @@ terminal:
   customColorSchemes:
     - name: Aura-Theme
       foreground: '#edecee'
-      background: '#3d375e1f'
+      background: '#21202e'
       selection: null
       cursor: '#a277ff'
       cursorAccent: ''
