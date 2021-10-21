@@ -1,7 +1,7 @@
 import { AuraAPI } from 'core'
 import { resolve } from 'path'
 
-export async function AnAwesomeAppPort(Aura: AuraAPI) {
+export async function TabbyPort(Aura: AuraAPI) {
   const { createPort, createReadme } = Aura
   const templateFolder = resolve(__dirname, 'templates')
 
