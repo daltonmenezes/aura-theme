@@ -10,6 +10,10 @@
   <a href="https://www.patreon.com/daltonmenezes">
     <img alt="patreon url" src="https://img.shields.io/badge/support%20on-patreon-1C1E26?style=for-the-badge&labelColor=1C1E26&color=61ffca">
   </a>
+  <!-- Preview in vscode.dev -->
+  <a href="https://vscode.dev/theme/daltonmenezes.aura-theme">
+    <img alt="preview in vscode.dev" src="https://img.shields.io/badge/preview%20in-vscode.dev-1C1E26?style=for-the-badge&labelColor=1C1E26&color=61ffca">
+  </a>  
   <!-- marketplace version -->
   <a href="https://marketplace.visualstudio.com/items?itemName=DaltonMenezes.aura-theme">
     <img alt="marketplace version" src="https://img.shields.io/vscode-marketplace/v/DaltonMenezes.aura-theme.svg?style=for-the-badge&labelColor=1C1E26&color=61ffca">
