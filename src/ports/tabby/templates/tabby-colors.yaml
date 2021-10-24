@@ -3,7 +3,7 @@ terminal:
   colorScheme:
     name: {{ theme_name }}
     foreground: '{{ accent7 }}'
-    background: '{{ background_color }}'
+    background: '{{ accent12 }}'
     selection: null
     cursor: '{{ accent1 }}'
     cursorAccent: ''
@@ -27,7 +27,7 @@ terminal:
   customColorSchemes:
     - name: {{ theme_name }}
       foreground: '{{ accent7 }}'
-      background: '{{ background_color }}'
+      background: '{{ accent12 }}'
       selection: null
       cursor: '{{ accent1 }}'
       cursorAccent: ''
