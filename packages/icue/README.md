@@ -36,14 +36,15 @@ Done! ✨ 🎉
 
 ### [João Pedro Alves](https://github.com/joaopealves)
 
-![img](https://raw.githubusercontent.com/daltonmenezes/assets/master/images/aura-theme/icue/icue-joao-pedro-alves%20.png)
+![img](https://raw.githubusercontent.com/daltonmenezes/assets/master/images/aura-theme/icue/icue-joao-pedro-alves.png)
 
 ## [Download](https://github.com/daltonmenezes/aura-theme/blob/main/packages/icue/profiles/joaopealves/aura-theme-iCue.zip?raw=true)
 
 **Supports**:
 
 - LL 120RGB Corsair
-- Corsair H100i RGB Platinum RGB White
+- H100i RGB Platinum RGB White
+- Vengeance RGB memory
 
 # Contributors
 
