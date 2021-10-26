@@ -9,7 +9,7 @@ export async function KonsolePort(Aura: AuraAPI) {
 
   const portName = 'Konsole'
   const version = '1.0.0'
-  const previewURL = `https://github.com/${info.author.username}/assets/blob/master/images/${info.slug}/konsole-preview.png?raw=true`
+  const previewURL = `https://github.com/${info.author.username}/assets/blob/master/images/${info.slug}/aura-konsole-preview.png?raw=true`
 
   await createPort({
     template: resolve(templateFolder, `${info.slug}.colorscheme`),

@@ -18,16 +18,16 @@
 </p>
 
 <p align="center">
-  <img alt="preview" src="https://github.com/daltonmenezes/assets/blob/master/images/aura-theme/konsole-preview.png?raw=true" />
+  <img alt="preview" src="https://github.com/daltonmenezes/assets/blob/master/images/aura-theme/aura-konsole-preview.png?raw=true" />
 </p>
 
 
 # Installation
 
-1. Download one of this files:
+1. Download one of following themes:
 
-   - [aura-theme.itermcolors](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/iterm/aura-theme.colorscheme)
-   - [aura-theme.itermcolors](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/iterm/aura-theme-soft.colorscheme)
+   - [aura-theme.colorscheme](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/konsole/aura-theme.colorscheme)
+   - [aura-theme-soft.colorscheme](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/konsole/aura-theme-soft.colorscheme)
 
 2. Move one of them to `~/.local/share/konsole` folder
 3. Open Konsole, go to settings, select `Aura Theme` from profiles > appearance
