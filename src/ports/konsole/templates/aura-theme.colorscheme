@@ -1,0 +1,64 @@
+[Background]
+Color={{ accent12 }}
+
+[BackgroundIntense]
+Color={{ accent12 }}
+
+[Color0]
+Color={{ accent21 }}
+
+[Color0Intense]
+Color={{ accent15 }}
+
+[Color1]
+Color={{ accent5 }}
+
+[Color1Intense]
+Color={{ accent3 }}
+
+[Color2]
+Color={{ accent2 }}
+
+[Color2Intense]
+Color={{ accent1 }}
+
+[Color3]
+Color={{ accent3 }}
+
+[Color3Intense]
+Color={{ accent3 }}
+
+[Color4]
+Color={{ accent1 }}
+
+[Color4Intense]
+Color={{ accent1 }}
+
+[Color5]
+Color={{ accent1 }}
+
+[Color5Intense]
+Color={{ accent1 }}
+
+[Color6]
+Color={{ accent2 }}
+
+[Color6Intense]
+Color={{ accent2 }}
+
+[Color7]
+Color={{ accent7 }}
+
+[Color7Intense]
+Color={{ accent7 }}
+
+[Foreground]
+Color={{ accent7 }}
+
+[ForegroundIntense]
+Color={{ accent7 }}
+Bold=true
+
+[General]
+Description={{ displayName }}
+Opacity=1

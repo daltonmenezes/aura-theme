@@ -164,6 +164,15 @@
         <span>Kitty</span>
       </p>
     </td> 
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/konsole">
+          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/konsole.png?raw=true" align="center" />
+        </a>
+       <br/><br/>
+        <span>Konsole</span>
+      </p>
+    </td> 
   </tr>
  </table>
 
