@@ -23,7 +23,7 @@
 
 1. Download one of the available profiles and extract it
 2. Click on `Presets` in the upper right corner
-3. Click on `Add` and select de extracted file
+3. Click on `Add` and select the extracted file
 
 <br/>
 Done! ✨ 🎉
@@ -34,9 +34,9 @@ Done! ✨ 🎉
 
 ### [João Pedro Alves](https://github.com/joaopealves)
 
-![img]()
+![img](https://raw.githubusercontent.com/daltonmenezes/assets/master/images/aura-theme/ngnuity/ngnuity-joao-pedro-alves.png)
 
-## [Download]()
+## [Download](https://github.com/daltonmenezes/aura-theme/blob/main/packages/ngnuity/profiles/joaopealves/Aura%20Theme.hxp.zip?raw=true)
 
 **Supports**:
 
