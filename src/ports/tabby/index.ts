@@ -6,15 +6,14 @@ export async function TabbyPort(Aura: AuraAPI) {
 
   const portName = 'Tabby'
   const version = '1.0.0'
+  const theme_name = 'Aura Theme'
   const templateFolder = resolve(__dirname, 'templates')
-
-  const background_color = '#21202e'
 
   await createPort({
     template: resolve(templateFolder, `tabby-colors.yaml`),
     replacements: {
       ...colorSchemes.dark,
-      background_color,
+      theme_name,
     },
   })
 

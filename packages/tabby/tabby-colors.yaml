@@ -1,10 +1,10 @@
 terminal:
   searchOptions: {}
   colorScheme:
-    name: 
+    name: Aura Theme
     foreground: '#edecee'
     background: '#15141b'
-    selection: null
+    selection: '#3d375e7f'
     cursor: '#a277ff'
     cursorAccent: ''
     colors:
@@ -25,10 +25,10 @@ terminal:
       - '#61ffca'
       - '#edecee'
   customColorSchemes:
-    - name: 
+    - name: Aura Theme
       foreground: '#edecee'
       background: '#15141b'
-      selection: null
+      selection: '#3d375e7f'
       cursor: '#a277ff'
       cursorAccent: ''
       colors:

@@ -4,7 +4,7 @@ terminal:
     name: {{ theme_name }}
     foreground: '{{ accent7 }}'
     background: '{{ accent12 }}'
-    selection: null
+    selection: '{{ accent20 }}'
     cursor: '{{ accent1 }}'
     cursorAccent: ''
     colors:
@@ -28,7 +28,7 @@ terminal:
     - name: {{ theme_name }}
       foreground: '{{ accent7 }}'
       background: '{{ accent12 }}'
-      selection: null
+      selection: '{{ accent20 }}'
       cursor: '{{ accent1 }}'
       cursorAccent: ''
       colors:
