@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-✨ A beautiful dark theme for iCue and another apps
+✨ A beautiful dark theme for Konsole and another apps
   <br><br>
 
   <!-- Patreon -->
@@ -17,34 +17,25 @@
   </a>
 </p>
 
+<p align="center">
+  <img alt="preview" src="https://github.com/daltonmenezes/assets/blob/master/images/aura-theme/aura-konsole-preview.png?raw=true" />
+</p>
 
 
 # Installation
 
-1. Download one of the available profiles and extract it
-2. Open iCue app, then click in the `Your Profiles` tab
-3. In the `default Theme` click on the three dots located at the right of the home icon, then select `Import Profile`
-4. Click on `+` in the `Profile for Import` section
-5. Select the extracted `.cueprofile` file
+1. Download one of following themes:
+
+   - [aura-theme.colorscheme](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/konsole/aura-theme.colorscheme)
+   - [aura-theme-soft.colorscheme](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/konsole/aura-theme-soft.colorscheme)
+
+2. Move one of them to `~/.local/share/konsole` folder
+3. Open Konsole, go to settings, select `Aura Theme` from profiles > appearance
 
 <br/>
 Done! ✨ 🎉
 <br/>
 <br/>
-
-# Profiles
-
-### [João Pedro Alves](https://github.com/joaopealves)
-
-![img](https://raw.githubusercontent.com/daltonmenezes/assets/master/images/aura-theme/icue/icue-joao-pedro-alves.png)
-
-## [Download](https://github.com/daltonmenezes/aura-theme/blob/main/packages/icue/profiles/joaopealves/aura-theme-iCue.zip?raw=true)
-
-**Supports**:
-
-- LL 120RGB Corsair
-- H100i RGB Platinum RGB White
-- Vengeance RGB memory
 
 # Contributors
 
@@ -52,8 +43,8 @@ Done! ✨ 🎉
   <thead>
     <tr>
       <td valign="bottom"><p align="center">
-        <a href="https://github.com/joaopealves">
-          <img src="https://github.com/joaopealves.png?size=100" align="center" />
+        <a href="https://github.com/tuhanayim">
+          <img src="https://github.com/tuhanayim.png?size=100" align="center" />
         </a>
       </p></td>
       <td valign="bottom"><p align="center">
@@ -66,7 +57,7 @@ Done! ✨ 🎉
 
   <tbody>
     <tr>
-      <td><a href="https://github.com/joaopealves">João Pedro Alves</a></td>
+      <td><a href="https://github.com/tuhanayim">Tuhana GAYRETLİ</a></td>
       <td><a href="https://github.com/daltonmenezes">Dalton Menezes</a></td>
     </tr>
   </tbody>
