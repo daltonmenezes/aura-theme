@@ -10,7 +10,7 @@ terminal:
     colors:
       - '#15141b'
       - '#f694ff'
-      - '#f694ff'
+      - '#15141b'
       - '#ffca85'
       - '#a277ff'
       - '#ffca85'

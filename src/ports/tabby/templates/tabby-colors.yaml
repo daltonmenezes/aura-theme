@@ -10,7 +10,7 @@ terminal:
     colors:
       - '{{ accent12 }}'
       - '{{ accent6 }}'
-      - '{{ accent6 }}'
+      - '{{ accent12 }}'
       - '{{ accent3 }}'
       - '{{ accent1 }}'
       - '{{ accent3 }}'
