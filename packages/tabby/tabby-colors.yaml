@@ -25,7 +25,7 @@ terminal:
       - '#61ffca'
       - '#edecee'
   customColorSchemes:
-    - name: Aura Theme
+    - name: 
       foreground: '#edecee'
       background: '#15141b'
       selection: '#3d375e7f'

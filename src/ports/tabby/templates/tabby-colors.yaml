@@ -1,7 +1,7 @@
 terminal:
   searchOptions: {}
   colorScheme:
-    name: {{ theme_name }}
+    name: {{ displayName }}
     foreground: '{{ accent7 }}'
     background: '{{ accent12 }}'
     selection: '{{ accent20 }}'
