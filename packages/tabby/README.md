@@ -17,16 +17,24 @@
   </a>
 </p>
 
+<p align="center">
+  <img alt="preview" src="https://github.com/daltonmenezes/assets/blob/master/images/aura-theme/aura-tabby-preview.png?raw=true" />
+</p>
 
 
 # Installation
-1. Copy the contents of the `tabby-colors.yaml` file.
+1. Copy the contents of the [tabby-colors.yaml](https://github.com/daltonmenezes/aura-theme/blob/main/packages/tabby/tabby-colors.yaml?raw=true) file.
 2. Start Tabby.
 3. Click on the settings icon and click on `Config File`.
 4. Scroll to the `terminal` section of the manifest and select everything from `terminal` to `background` (included).
 5. Paste your copied content from the `tabby-colors.yaml` file.
 6. Change the profile line to match your current profile (e.g. `profile: local:wsl-Debian`).
 7. Save your file.
+
+<br/>
+Done! ✨ 🎉
+<br/>
+<br/>
 
 # Contributors
 <table>
