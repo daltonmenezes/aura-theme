@@ -173,6 +173,15 @@
         <span>Konsole</span>
       </p>
     </td> 
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/tabby">
+          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/tabby.png?raw=true" align="center" />
+        </a>
+       <br/><br/>
+        <span>Tabby.sh</span>
+      </p>
+    </td> 
   </tr>
  </table>
 
