@@ -13,7 +13,7 @@
 
   <!-- version -->
   <a href="#">
-    <img alt="version" src="https://img.shields.io/badge/version%20-v1.0.0-1C1E26?style=for-the-badge&labelColor=1C1E26&color=61ffca">
+    <img alt="version" src="https://img.shields.io/badge/version%20-v1-1C1E26?style=for-the-badge&labelColor=1C1E26&color=61ffca">
   </a>
 </p>
 
@@ -22,7 +22,18 @@
 </p>
 
 
-# How to use
+# Installation
+> Recommended for: Vivaldi v5.0.0 or higher
+
+<a href="https://themes.vivaldi.net/themes/QBEJe8kvyP9">
+  <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/vivaldi.png?raw=true" align="center" />
+</a>
+
+<br/><br/>
+
+## Manual installation
+> Recommended for: Vivaldi prior to v5.0.0
+
 1. Open Vivaldi's Settings panel
     - On Windows: `Vivaldi` menu > `Tools` > `Settings`
     - On Linux: `Tools` menu > `Settings`
