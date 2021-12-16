@@ -9,6 +9,7 @@ export async function PlasmaPort(Aura: AuraAPI) {
 
   const portName = 'KDE Plasma'
   const version = '1.0.0'
+  const previewURL = `https://github.com/${info.author.username}/assets/blob/master/images/${info.slug}/aura-plasma-preview.png?raw=true`
 
   await createPort({
     template: resolve(templateFolder, `${info.slug}.colors`),
@@ -32,6 +33,7 @@ export async function PlasmaPort(Aura: AuraAPI) {
     replacements: {
       portName,
       version,
+      previewURL,
     },
   })
 }
