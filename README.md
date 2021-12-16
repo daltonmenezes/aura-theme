@@ -258,6 +258,15 @@
         <span>iCue</span>
       </p>
     </td>   
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/plasma">
+          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/plasma.png?raw=true" align="center" />
+        </a>
+        <br/><br/>
+        <span>KDE Plasma</span>
+      </p>
+    </td>   
   </tr>
  </table>
 
