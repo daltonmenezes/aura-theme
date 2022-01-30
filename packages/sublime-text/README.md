@@ -13,7 +13,7 @@
 
   <!-- version -->
   <a href="#">
-    <img alt="version" src="https://img.shields.io/badge/version%20-v1.1.0-1C1E26?style=for-the-badge&labelColor=1C1E26&color=61ffca">
+    <img alt="version" src="https://img.shields.io/badge/version%20-v1.1.1-1C1E26?style=for-the-badge&labelColor=1C1E26&color=61ffca">
   </a>
 </p>
 
@@ -43,6 +43,11 @@ Done! ✨ 🎉
   <thead>
     <tr>
       <td valign="bottom"><p align="center">
+        <a href="https://github.com/Hendrikto">
+          <img src="https://github.com/Hendrikto.png?size=100" align="center" />
+        </a>
+      </p></td>
+      <td valign="bottom"><p align="center">
   <a href="https://github.com/daltonmenezes">
     <img src="https://github.com/daltonmenezes.png?size=100" align="center" />
   </a>
@@ -52,6 +57,7 @@ Done! ✨ 🎉
 
   <tbody>
     <tr>
+      <td><a href="https://github.com/Hendrikto">Hendrikto</a></td>
       <td><a href="https://github.com/daltonmenezes">Dalton Menezes</a></td>
     </tr>
   </tbody>
