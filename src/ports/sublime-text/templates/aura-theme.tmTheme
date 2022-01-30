@@ -29,13 +29,13 @@
 				<key>bracketsForeground</key>
 				<string>{{ accent17 }}</string>
 				<key>bracketsOptions</key>
-				<string>normal</string>
+				<string>underline</string>
 				<key>bracketContentsForeground</key>
 				<string>{{ accent17 }}</string>
 				<key>bracketContentsOptions</key>
-				<string>normal</string>
+				<string>underline</string>
 				<key>tagsOptions</key>
-				<string>stippled_normal</string>
+				<string>stippled_underline</string>
 			</dict>
 		</dict>
 
