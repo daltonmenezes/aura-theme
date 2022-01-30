@@ -27,11 +27,11 @@
 				<key>selectionBorder</key>
 				<string>{{ accent14 }}</string>
 				<key>bracketsForeground</key>
-				<string>{{ accent17 }}</string>
+				<string>{{ accent2 }}</string>
 				<key>bracketsOptions</key>
 				<string>underline</string>
 				<key>bracketContentsForeground</key>
-				<string>{{ accent17 }}</string>
+				<string>{{ accent2 }}</string>
 				<key>bracketContentsOptions</key>
 				<string>underline</string>
 				<key>tagsOptions</key>

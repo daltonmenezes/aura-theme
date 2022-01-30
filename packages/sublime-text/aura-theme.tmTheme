@@ -27,11 +27,11 @@
 				<key>selectionBorder</key>
 				<string>#af8aff7f</string>
 				<key>bracketsForeground</key>
-				<string>#a394f033</string>
+				<string>#61ffca</string>
 				<key>bracketsOptions</key>
 				<string>underline</string>
 				<key>bracketContentsForeground</key>
-				<string>#a394f033</string>
+				<string>#61ffca</string>
 				<key>bracketContentsOptions</key>
 				<string>underline</string>
 				<key>tagsOptions</key>
