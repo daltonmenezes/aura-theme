@@ -1,0 +1,52 @@
+terminal:
+  searchOptions: {}
+  colorScheme:
+    name: Aura Theme
+    foreground: '#edecee'
+    background: '#15141b'
+    selection: '#3d375e7f'
+    cursor: '#a277ff'
+    cursorAccent: ''
+    colors:
+      - '#15141b'
+      - '#f694ff'
+      - '#15141b'
+      - '#ffca85'
+      - '#a277ff'
+      - '#ffca85'
+      - '#ffca85'
+      - '#edecee'
+      - '#4d4d4d'
+      - '#ffca85'
+      - '#61ffca'
+      - '#ffca85'
+      - '#a277ff'
+      - '#ffca85'
+      - '#61ffca'
+      - '#edecee'
+  customColorSchemes:
+    - name: 
+      foreground: '#edecee'
+      background: '#15141b'
+      selection: '#3d375e7f'
+      cursor: '#a277ff'
+      cursorAccent: ''
+      colors:
+        - '#15141b'
+        - '#f694ff'
+        - '#f694ff'
+        - '#ffca85'
+        - '#a277ff'
+        - '#ffca85'
+        - '#ffca85'
+        - '#edecee'
+        - '#4d4d4d'
+        - '#ffca85'
+        - '#61ffca'
+        - '#ffca85'
+        - '#a277ff'
+        - '#ffca85'
+        - '#61ffca'
+        - '#edecee'
+  profile: local:wsl-Debian # change this to match your own local profile
+  background: colorScheme

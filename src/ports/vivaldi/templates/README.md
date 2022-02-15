@@ -1,6 +1,17 @@
 {{{ basic-heading }}}
 
-# How to use
+# Installation
+> Recommended for: Vivaldi v5.0.0 or higher
+
+<a href="https://themes.vivaldi.net/themes/{{ storeID }}">
+  <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/vivaldi.png?raw=true" align="center" />
+</a>
+
+<br/><br/>
+
+## Manual installation
+> Recommended for: Vivaldi prior to v5.0.0
+
 1. Open Vivaldi's Settings panel
     - On Windows: `Vivaldi` menu > `Tools` > `Settings`
     - On Linux: `Tools` menu > `Settings`

@@ -1,0 +1,133 @@
+[ColorEffects:Disabled]
+Color=56,56,56
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65
+ContrastEffect=1
+IntensityAmount=0.1
+IntensityEffect=2
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=112,111,110
+ColorAmount=0.025
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=2
+Enable=false
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate={{ accent12 }}
+BackgroundNormal={{ accent12 }}
+DecorationFocus={{ accent1 }}
+DecorationHover={{ accent1 }}
+ForegroundActive={{ accent7 }}
+ForegroundInactive={{ accent7 }}
+ForegroundLink={{ accent1 }}
+ForegroundNegative={{ accent5 }}
+ForegroundNeutral={{ accent3 }}
+ForegroundNormal={{ accent7 }}
+ForegroundPositive={{ accent2 }}
+ForegroundVisited={{ accent1 }}
+
+[Colors:Complementary]
+BackgroundAlternate={{ accent12 }}
+BackgroundNormal={{ accent12 }}
+DecorationFocus={{ accent1 }}
+DecorationHover={{ accent1 }}
+ForegroundActive={{ accent7 }}
+ForegroundInactive={{ accent7 }}
+ForegroundLink={{ accent1 }}
+ForegroundNegative={{ accent5 }}
+ForegroundNeutral={{ accent3 }}
+ForegroundNormal={{ accent7 }}
+ForegroundPositive={{ accent2 }}
+ForegroundVisited={{ accent1 }}
+
+[Colors:Header]
+BackgroundAlternate={{ accent12 }}
+BackgroundNormal={{ accent12 }}
+DecorationFocus={{ accent1 }}
+DecorationHover={{ accent1 }}
+ForegroundActive={{ accent7 }}
+ForegroundInactive={{ accent7 }}
+ForegroundLink={{ accent1 }}
+ForegroundNegative={{ accent5 }}
+ForegroundNeutral={{ accent3 }}
+ForegroundNormal={{ accent7 }}
+ForegroundPositive={{ accent2 }}
+ForegroundVisited={{ accent1 }}
+
+[Colors:Selection]
+BackgroundAlternate={{ accent20 }}
+BackgroundNormal={{ accent20 }}
+DecorationFocus={{ accent1 }}
+DecorationHover={{ accent1 }}
+ForegroundActive={{ accent7 }}
+ForegroundInactive={{ accent7 }}
+ForegroundLink={{ accent1 }}
+ForegroundNegative={{ accent5 }}
+ForegroundNeutral={{ accent3 }}
+ForegroundNormal={{ accent7 }}
+ForegroundPositive={{ accent2 }}
+ForegroundVisited={{ accent1 }}
+
+[Colors:Tooltip]
+BackgroundAlternate={{ accent12 }}
+BackgroundNormal={{ accent12 }}
+DecorationFocus={{ accent1 }}
+DecorationHover={{ accent1 }}
+ForegroundActive={{ accent7 }}
+ForegroundInactive={{ accent7 }}
+ForegroundLink={{ accent1 }}
+ForegroundNegative={{ accent5 }}
+ForegroundNeutral={{ accent3 }}
+ForegroundNormal={{ accent7 }}
+ForegroundPositive={{ accent2 }}
+ForegroundVisited={{ accent1 }}
+
+[Colors:View]
+BackgroundAlternate={{ accent12 }}
+BackgroundNormal={{ accent12 }}
+DecorationFocus={{ accent1 }}
+DecorationHover={{ accent1 }}
+ForegroundActive={{ accent7 }}
+ForegroundInactive={{ accent7 }}
+ForegroundLink={{ accent1 }}
+ForegroundNegative={{ accent5 }}
+ForegroundNeutral={{ accent3 }}
+ForegroundNormal={{ accent7 }}
+ForegroundPositive={{ accent2 }}
+ForegroundVisited={{ accent1 }}
+
+[Colors:Window]
+BackgroundAlternate={{ accent12 }}
+BackgroundNormal={{ accent12 }}
+DecorationFocus={{ accent1 }}
+DecorationHover={{ accent1 }}
+ForegroundActive={{ accent7 }}
+ForegroundInactive={{ accent7 }}
+ForegroundLink={{ accent1 }}
+ForegroundNegative={{ accent5 }}
+ForegroundNeutral={{ accent3 }}
+ForegroundNormal={{ accent7 }}
+ForegroundPositive={{ accent2 }}
+ForegroundVisited={{ accent1 }}
+
+[General]
+ColorScheme={{ displayName }}
+Name={{ displayName }}
+shadeSortColumn=true
+
+[KDE]
+contrast=4
+
+[WM]
+activeBackground={{ accent12 }}
+activeBlend={{ accent12 }}
+activeForeground={{ accent7 }}
+inactiveBackground={{ accent12 }}
+inactiveBlend={{ accent12 }}
+inactiveForeground=109,109,109

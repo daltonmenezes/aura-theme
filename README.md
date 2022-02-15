@@ -173,6 +173,15 @@
         <span>Konsole</span>
       </p>
     </td> 
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/tabby">
+          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/tabby.png?raw=true" align="center" />
+        </a>
+       <br/><br/>
+        <span>Tabby.sh</span>
+      </p>
+    </td> 
   </tr>
  </table>
 
@@ -247,6 +256,15 @@
         </a>
         <br/><br/>
         <span>iCue</span>
+      </p>
+    </td>   
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/plasma">
+          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/plasma.png?raw=true" align="center" />
+        </a>
+        <br/><br/>
+        <span>KDE Plasma</span>
       </p>
     </td>   
   </tr>

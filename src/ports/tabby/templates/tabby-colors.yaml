@@ -1,0 +1,52 @@
+terminal:
+  searchOptions: {}
+  colorScheme:
+    name: {{ displayName }}
+    foreground: '{{ accent7 }}'
+    background: '{{ accent12 }}'
+    selection: '{{ accent20 }}'
+    cursor: '{{ accent1 }}'
+    cursorAccent: ''
+    colors:
+      - '{{ accent12 }}'
+      - '{{ accent6 }}'
+      - '{{ accent12 }}'
+      - '{{ accent3 }}'
+      - '{{ accent1 }}'
+      - '{{ accent3 }}'
+      - '{{ accent3 }}'
+      - '{{ accent7 }}'
+      - '{{ accent15 }}'
+      - '{{ accent3 }}'
+      - '{{ accent2 }}'
+      - '{{ accent3 }}'
+      - '{{ accent1 }}'
+      - '{{ accent3 }}'
+      - '{{ accent2 }}'
+      - '{{ accent7 }}'
+  customColorSchemes:
+    - name: {{ theme_name }}
+      foreground: '{{ accent7 }}'
+      background: '{{ accent12 }}'
+      selection: '{{ accent20 }}'
+      cursor: '{{ accent1 }}'
+      cursorAccent: ''
+      colors:
+        - '{{ accent12 }}'
+        - '{{ accent6 }}'
+        - '{{ accent6 }}'
+        - '{{ accent3 }}'
+        - '{{ accent1 }}'
+        - '{{ accent3 }}'
+        - '{{ accent3 }}'
+        - '{{ accent7 }}'
+        - '{{ accent15 }}'
+        - '{{ accent3 }}'
+        - '{{ accent2 }}'
+        - '{{ accent3 }}'
+        - '{{ accent1 }}'
+        - '{{ accent3 }}'
+        - '{{ accent2 }}'
+        - '{{ accent7 }}'
+  profile: local:wsl-Debian # change this to match your own local profile
+  background: colorScheme
