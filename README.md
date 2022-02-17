@@ -267,6 +267,15 @@
         <span>KDE Plasma</span>
       </p>
     </td>   
+        <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/ngenuity">
+          <img src="https://raw.githubusercontent.com/daltonmenezes/assets/master/images/icons/ngenuity.png" align="center" />
+        </a>
+        <br/><br/>
+        <span>NGenuity</span>
+      </p>
+    </td>  
   </tr>
  </table>
 
