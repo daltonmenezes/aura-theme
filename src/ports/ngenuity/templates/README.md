@@ -14,7 +14,7 @@
 
 ![img](https://raw.githubusercontent.com/daltonmenezes/assets/master/images/aura-theme/ngnuity/ngnuity-joao-pedro-alves.png)
 
-## [Download](https://github.com/daltonmenezes/aura-theme/blob/main/packages/ngnuity/profiles/joaopealves/Aura%20Theme.hxp.zip?raw=true)
+## [Download](https://github.com/daltonmenezes/aura-theme/raw/main/packages/ngenuity/profiles/joaopealves/Aura%20Theme.hxp.zip)
 
 **Supports**:
 
