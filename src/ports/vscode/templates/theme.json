@@ -7,30 +7,24 @@
     "errorForeground": "{{ accent5 }}",
     "widget.shadow": "{{ accent0 }}",
     "selection.background": "{{ accent20 }}",
-
     "titleBar.activeBackground": "{{ accent28 }}",
     "titleBar.border": "{{ accent29 }}",
     "titleBar.inactiveBackground": "{{ accent30 }}",
-
     "statusBar.background": "{{ accent24 }}",
     "statusBar.foreground": "{{ accent10 }}",
     "statusBar.border": "{{ accent11 }}",
     "statusBarItem.activeBackground": "{{ accent1 }}",
-
     "dropdown.background": "{{ accent12 }}",
     "dropdown.border": "{{ accent23 }}",
     "dropdown.foreground": "{{ accent9 }}",
-
     "input.background": "{{ accent12 }}",
     "input.border": "{{ accent23 }}",
     "input.foreground": "{{ accent9 }}",
     "input.placeholderForeground": "{{ accent14 }}",
     "inputOption.activeBorder": "{{ accent1 }}",
-
     "button.background": "{{ accent2 }}",
     "button.foreground": "{{ accent12 }}",
     "button.hoverBackground": "{{ accent25 }}",
-
     "list.activeSelectionBackground": "{{ accent33 }}",
     "list.activeSelectionForeground": "{{ accent1 }}",
     "list.focusBackground": "{{ accent23 }}",
@@ -40,7 +34,6 @@
     "list.hoverForeground": "{{ accent7 }}",
     "list.inactiveSelectionBackground": "{{ accent33 }}",
     "list.inactiveSelectionForeground": "{{ accent1 }}",
-
     "editor.background": "{{ accent12 }}",
     "editor.foreground": "{{ accent7 }}",
     "editorLineNumber.foreground": "{{ accent17 }}",
@@ -58,50 +51,39 @@
     "editor.lineHighlightBorder": "{{ accent18 }}",
     "editorInlayHint.background": "{{ accent33 }}",
     "editorInlayHint.foreground": "{{ accent9 }}",
-    
     "editorLink.activeForeground": "{{ accent1 }}",
     "editorWhitespace.foreground": "{{ accent13 }}",
     "editorIndentGuide.background": "{{ accent13 }}",
     "editorBracketMatch.border": "{{ accent1 }}",
-    
     "editorError.foreground": "{{ accent5 }}",
     "editorError.border": "{{ accent16 }}",
-    
     "editorWarning.foreground": "{{ accent3 }}",
     "editorWarning.border": "{{ accent16 }}",
-    
     "editorGutter.modifiedBackground": "{{ accent3 }}",
     "editorGutter.addedBackground": "{{ accent2 }}",
     "editorGutter.deletedBackground": "{{ accent5 }}",
-
     "editorWidget.background": "{{ accent24 }}",
     "editorWidget.border": "{{ accent13 }}",
-
     "editorSuggestWidget.background": "{{ accent24 }}",
     "editorSuggestWidget.border": "{{ accent13 }}",
     "editorSuggestWidget.foreground": "{{ accent9 }}",
     "editorSuggestWidget.highlightForeground": "{{ accent2 }}",
     "editorSuggestWidget.selectedBackground": "{{ accent15 }}",
-    
     "editorHoverWidget.background": "{{ accent24 }}",
     "editorHoverWidget.border": "{{ accent13 }}",
-
     "editorGroup.border": "{{ accent11 }}",
     "editorGroup.dropBackground": "{{ accent20 }}",
     "editorGroupHeader.tabsBackground": "{{ accent12 }}",
     "editorGroupHeader.tabsBorder": "{{ accent11 }}",
-
     "tab.activeBackground": "{{ accent34 }}",
     "tab.activeForeground": "{{ accent2 }}",
     "tab.border": "{{ accent11 }}",
     "tab.inactiveBackground": "{{ accent12 }}",
     "tab.inactiveForeground": "{{ accent8 }}",
     "tab.activeBorderTop": "{{ accent2 }}",
-
     "panel.border": "{{ accent11 }}",
     "panelTitle.activeBorder": "{{ accent2 }}",
     "panelTitle.activeForeground": "{{ accent9 }}",
-
     "activityBar.background": "{{ accent12 }}",
     "activityBar.foreground": "{{ accent2 }}",
     "activityBar.inactiveForeground": "{{ accent35 }}",
@@ -109,24 +91,19 @@
     "activityBarBadge.background": "{{ accent1 }}",
     "activityBarBadge.foreground": "{{ accent12 }}",
     "activityBar.activeBorder": "{{ accent1 }}",
-
     "badge.foreground": "{{ accent12 }}",
     "badge.background": "{{ accent1 }}",
-    
     "sideBar.background": "{{ accent21 }}",
     "sideBar.foreground": "{{ accent9 }}",
     "sideBar.border": "{{ accent11 }}",
     "sideBarTitle.foreground": "{{ accent10 }}",
     "sideBarSectionHeader.background": "{{ accent12 }}",
     "sideBarSectionHeader.foreground": "{{ accent10 }}",
-
     "progressBar.background": "{{ accent2 }}",
-    
     "scrollbar.shadow": "{{ accent12 }}",
     "scrollbarSlider.activeBackground": "{{ accent20 }}",
     "scrollbarSlider.background": "{{ accent17 }}",
     "scrollbarSlider.hoverBackground": "{{ accent17 }}",
-    
     "terminal.background": "{{ accent12 }}",
     "terminal.foreground": "{{ accent9 }}",
     "terminal.ansiBlack": "{{ accent12 }}",
@@ -148,7 +125,6 @@
     "terminal.selectionBackground": "{{ accent20 }}",
     "terminalCursor.background": "{{ accent13 }}",
     "terminalCursor.foreground": "{{ accent10 }}",
-
     "gitDecoration.modifiedResourceForeground": "{{ accent3 }}",
     "gitDecoration.deletedResourceForeground": "{{ accent5 }}",
     "gitDecoration.untrackedResourceForeground": "{{ accent2 }}",
@@ -156,7 +132,6 @@
     "gitDecoration.conflictingResourceForeground": "{{ accent1 }}",
     "diffEditor.insertedTextBackground": "{{ accent26 }}",
     "diffEditor.removedTextBackground": "{{ accent27 }}",
-
     "tree.indentGuidesStroke": "{{ accent15 }}"
   },
   "tokenColors": [
@@ -183,7 +158,7 @@
         "punctuation.definition.quote.begin.markdown",
         "punctuation.definition.raw.markdown",
         "constant.length.units.css",
-        "constant.percentage.units.css"    
+        "constant.percentage.units.css"
       ],
       "settings": {
         "foreground": "{{ accent1 }}"
@@ -220,7 +195,8 @@
         "support.class.component.open.jsx",
         "support.class.component.close.jsx",
         "meta.function-call.generic.python",
-        "entity.name.section.markdown"
+        "entity.name.section.markdown",
+        "storage.type.annotation.dart"
       ],
       "settings": {
         "foreground": "{{ accent3 }}"
@@ -252,7 +228,8 @@
         "support.type.vendored",
         "constant.language.symbol.elixir",
         "variable.graphql",
-        "meta.attribute.python"
+        "meta.attribute.python",
+        "source.dart"
       ],
       "settings": {
         "foreground": "{{ accent6 }}"
@@ -274,7 +251,9 @@
         "parameter.variable.function.elixir",
         "punctuation.definition.tag",
         "punctuation.section.embedded",
-        "meta.embedded.expression"
+        "meta.embedded.expression",
+        "punctuation.terminator.dart",
+        "punctuation.dot.dart"
       ],
       "settings": {
         "foreground": "{{ accent7 }}"
@@ -312,7 +291,8 @@
         "punctuation.quasi.element.end",
         "entity.other.inherited-class",
         "variable.other.constant.elixir",
-        "entity.other.attribute-name.class.css"
+        "entity.other.attribute-name.class.css",
+        "support.class.dart"
       ],
       "settings": {
         "foreground": "{{ accent32 }}"
@@ -329,7 +309,7 @@
         "meta.function.parameters",
         "markup.italic.markdown"
       ],
-      "settings": {          
+      "settings": {
         "fontStyle": "italic"
       }
     },
@@ -342,7 +322,10 @@
     },
     {
       "name": "Bold",
-      "scope": "markup.bold.markdown",
+      "scope": [
+        "markup.bold.markdown",
+        "storage.type.annotation.dart"
+      ],
       "settings": {
         "fontStyle": "bold"
       }
