@@ -1,5 +1,8 @@
 # Aura Theme Changelog
 
+## 2.1.1 (February 17, 2022)
+- Improve the Dart/Flutter support
+
 ## 2.1.0 (October 14, 2021)
 - Add colors to editor inlay hint
 - Update selection color to accent20
