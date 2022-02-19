@@ -52,6 +52,10 @@
 
 # Changelog
 
+## 2.1.2 (February 19, 2022)
+- Improve status bar colors when debbuging
+- Improve breakpoint frame highlight
+
 ## 2.1.1 (February 17, 2022)
 - Improve the Dart/Flutter support
 

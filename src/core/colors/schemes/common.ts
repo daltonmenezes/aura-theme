@@ -41,6 +41,8 @@ export const commonUI = {
   accent29: '#000000',
   accent30: '#2d2b38',
   accent33: '#2e2b38',
+  accent36: '#a19c77', // debugging background
+  accent37: '#353424', // breakpoint frame highlight
 }
 
 export const commonSoftUI = {
