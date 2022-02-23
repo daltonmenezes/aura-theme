@@ -8,7 +8,7 @@ export default {
   moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, {
     prefix: '<rootDir>/src/',
   }),
-  preset: 'js-jest',
+  preset: 'ts-jest',
   roots: ['./tests'],
   testEnvironment: 'node',
   testMatch: ['**/*.spec.ts'],
