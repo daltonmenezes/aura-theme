@@ -3,8 +3,7 @@
 </p>
 
 <p align="center">
-✨ A beautiful dark theme for Windows Terminal and another apps
-  <br><br>
+✨A beautiful dark theme for Windows Terminal and another apps✨  <br><br>
 
   <!-- Patreon -->
   <a href="https://www.patreon.com/daltonmenezes">
