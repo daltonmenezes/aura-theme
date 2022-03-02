@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-:sparkles: A beautiful dark theme for your favorite apps :sparkles:
+:sparkles:A beautiful dark theme for your favorite apps:sparkles:
   <br><br>
   
   <!-- Patreon -->
