@@ -1,0 +1,33 @@
+{
+    "name": "Aura Theme",
+    "comment": "Tilix Port of Aura Theme",
+    "foreground-color": "rgb(237,236,238)",
+    "background-color": "rgb(21,20,27)",
+    "use-theme-colors": false,
+    "use-highlight-color": false,
+    "highlight-foreground-color": "rgb(237,236,238)",
+    "highlight-background-color": "rgb(162,119,255",
+    "use-cursor-color": true,
+    "cursor-foreground-color": "rgb(162,119,255)",
+    "cursor-background-color": "rgb(162,119,255)",
+    "use-badge-color": true,
+    "badge-color": "#ac7ea8",
+    "palette": [
+        "rgb(17,15,24)", 
+        "rgb(255,103,103)", 
+        "rgb(97,255,202)", 
+        "rgb(255,202,133)", 
+        "rgb(162,119,255)", 
+        "rgb(162,119,255)", 
+        "rgb(97,255,202)", 
+        "rgb(237,236,238)", 
+        "rgb(109,109,109)", 
+        "rgb(255,202,133)", 
+        "rgb(162,119,255)", 
+        "rgb(255,202,133)", 
+        "rgb(162,119,255)", 
+        "rgb(162,119,255)", 
+        "rgb(97,255,202)", 
+        "rgb(237,236,238)"
+    ]
+}
