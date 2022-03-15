@@ -183,6 +183,15 @@
       </p>
     </td> 
   </tr>
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/tilix">
+          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/tilix.png?raw=true" align="center" />
+        </a>
+       <br/><br/>
+        <span>Tilix</span>
+      </p>
+    </td> 
  </table>
 
 ### Browsers

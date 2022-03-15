@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img alt="preview" src="https://github.com/daltonmenezes/assets/blob/master/images/aura-theme/aura-gnome-terminal-preview.png?raw=true" />
+  <img alt="preview" src="https://github.com/daltonmenezes/assets/blob/master/images/aura-theme/aura-tilix-preview.png?raw=true" />
 </p>
 
 
