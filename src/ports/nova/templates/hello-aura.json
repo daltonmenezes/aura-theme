@@ -1,0 +1,6 @@
+{
+	"portName": "{{ portName }}",
+	"version": "{{ version }}",
+	"hello": "{{ hello }}",
+	"color": "{{ accent1 }}"
+}
