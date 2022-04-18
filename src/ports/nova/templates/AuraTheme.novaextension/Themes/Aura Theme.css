@@ -1,0 +1,413 @@
+meta {
+    -theme-interface-style: dark;
+    -theme-vibrancy: none;
+    -theme-accent-color: false;
+}
+
+
+/*
+ * Window styles
+ */
+meta.window {
+    background-color: #110F18;
+}
+meta.titlebar {
+    color: #61ffca;
+    background: linear-gradient(#23193b, #15141b);
+    border-color: #15141b;
+}
+meta.titlebar.inactive {
+    background: #2D2B38;
+}
+
+meta.button {
+    background: #15141b;
+    border: #a277ff;
+    color: #a277ff;
+}
+meta.button.highlighted {
+    background: #15141b;
+    color: #15141b;
+}
+meta.button.selected {
+    color: #61ffca;
+    border: #61ffca;
+}
+meta.button.highlighted.selected {
+    color: #61ffca;
+}
+meta.button.disabled {
+
+}
+
+meta.textfield {
+    background-color: #15141B;
+    border-color: #3d375e7f;
+}
+meta.textfield.highlighted {
+    background-color: #3d375e7f;
+    border-color: #a277ff;
+}
+
+/*
+ * Document styles
+ */
+meta.document {
+    background-color: #15141b;
+    border-color: #15141b;
+}
+
+meta.document.button {
+    background: #15141b;
+}
+meta.document.button.disabled {
+    background: linear-gradient(hsla(220, 5%, 25%, 0.3), hsla(220, 5%, 21%, 0.3));
+}
+meta.document.button.highlighted {
+    background: linear-gradient(hsl(210, 5%, 34%), hsl(210, 5%, 30%));
+}
+
+meta.document.textfield {
+    background-color: hsl(210, 5%, 10%);
+    border-color: #3d375e7f;
+}
+meta.document.textfield.highlighted {
+    background-color: hsl(210, 5%, 10%);
+    border-color: hsl(210, 5%, 19%);
+}
+
+/* Text */
+meta.text {
+    color: #edecee;
+}
+meta.text.invisible {
+    color: hsla(210, 100%, 90%, 0.15);
+}
+meta.text.selected {
+    color: #61ffca;
+}
+
+/* Cursor */
+meta.cursor {
+    background-color: #322E46;
+}
+
+/* Indentation Guides */
+meta.indentguide {
+    border-color: #322E46;
+}
+
+/* Gutter */
+meta.gutter {
+    color: #322E46;
+}
+meta.gutter.selected {
+    color: hsl(210, 17%, 76%);
+    background-color: #15141b;
+}
+
+
+/*
+ * Syntax styles
+ */
+comment {
+    color: #6d6d6d;
+}
+processing {
+    color: hsl(210, 20%, 50%);
+}
+declaration {
+    color: hsl(210, 20%, 50%);
+}
+bracket {
+    color: #edecee;
+}
+operator {
+    color: #a277ff;
+}
+invalid {
+    background-color: hsl(0, 90%, 60%);
+    color: hsl(60, 33%, 96%);
+}
+link {
+    color: hsl(210, 100%, 70%);
+}
+
+/* Keywords */
+keyword {
+    color: #a277ff;
+}
+keyword.modifier {
+    font-style: italic;
+    color: #a277ff;
+}
+keyword.condition {
+    color: #a277ff;
+}
+keyword.construct {
+    color: #a277ff;
+}
+keyword.statement {
+    color: #a277ff;
+}
+keyword.self {
+    color: #a277ff;
+}
+keyword.self.prefix {
+    color: #a277ff;
+}
+
+/* Values */
+value.boolean {
+    color: hsl(210, 100%, 70%);
+}
+value.null {
+    color: #61FFCA;
+}
+value.number {
+    color: #61FFCA;
+}
+value.entity {
+    color: hsl(210, 100%, 70%);
+}
+value.symbol {
+    color: hsl(210, 100%, 70%);
+}
+
+/* Identifiers */
+identifier.type {
+    color: #82E2FF;
+}
+identifier.constant,
+identifier.global,
+identifier.variable {
+    color: #82E2FF;
+}
+identifier.constant.prefix,
+identifier.global.prefix,
+identifier.variable.prefix {
+    color: hsl(240, 100%, 92%);
+}
+identifier.property {
+    color: #F694FF;
+}
+identifier.property.prefix {
+    color: hsl(240, 100%, 92%);
+}
+identifier.decorator,
+identifier.function,
+identifier.method {
+    color:     #FFCA85;
+}
+identifier.key {
+    color: #F694FF;
+}
+identifier.argument {
+    color: #edecee;
+    font-style: italic;
+}
+identifier.argument.prefix {
+    color: hsl(240, 100%, 92%);
+}
+
+/* Strings */
+string {
+    color: #61ffca;
+}
+string.delimiter {
+    color: #61ffca;
+}
+string.escape {
+    color: hsl(5, 80%, 80%);
+}
+string.key {
+    color: hsl(270, 80%, 80%);
+}
+string-keyword {
+    color: hsl(30, 100%, 90%);
+}
+string-template {
+    color: hsl(30, 100%, 70%);
+}
+regex {
+    color: hsl(30, 100%, 70%);
+}
+regex.escape {
+    color: hsl(30, 100%, 80%);
+}
+cdata {
+    color: hsl(210, 100%, 70%);
+}
+
+/* Markup */
+markup.heading {
+    color: hsl(27, 100%, 70%);
+}
+markup.line {
+    color: hsl(60, 43%, 56%);
+}
+markup.bold {
+    color: hsl(196, 49%, 53%);
+    font-weight: bold;
+}
+markup.italic {
+    color: hsl(94, 44%, 64%);
+    font-style: italic;
+}
+markup.strikethrough {
+    color: hsl(210, 20%, 50%);
+}
+markup.list.item {
+    color: hsl(27, 100%, 70%);
+}
+markup.code {
+    background-color: rgba(128, 128, 128, 0.2);
+}
+markup.link {
+    color: hsl(210, 100%, 70%);
+}
+
+/* Types */
+definition.class.name,
+definition.type.name,
+definition.package.name,
+definition.enum.name,
+definition.union.name,
+definition.struct.name {
+    color: #a277ff;
+
+}
+
+/* Members */
+definition.property.name {
+    color: #a277ff;
+}
+definition.function.name,
+definition.method.name {
+
+}
+
+/* Tags */
+tag {
+    color: hsl(160, 30%, 40%);
+}
+tag.name {
+    color: #A277FF;
+}
+tag.framework {
+    color: #EDECEE;
+}
+tag.framework.name {
+    color:  #A277FF;
+}
+tag.attribute.name {
+    color: #F694FF;
+}
+tag.framework.attribute.name {
+    color: hsl(320, 60%, 70%);
+}
+tag.attribute.value {
+    color: #61FFCA;
+}
+tag.attribute.value.delimiter {
+    color: hsl(0, 80%, 60%);
+}
+tag.attribute.operator {
+    color: hsl(210, 50%, 70%);
+}
+tag.attribute.value.link {
+    color: hsl(210, 100%, 70%);
+}
+
+/* Styles */
+style.at {
+    color: hsl(32, 90%, 70%);
+    font-weight: bold;
+}
+style.selector.element {
+    color: #a277ff;
+    font-weight: bold;
+}
+style.selector.identifier.id {
+    color: hsl(32, 90%, 70%);
+}
+style.selector.identifier.class {
+    color: #82E2FF;
+}
+style.selector.pseudoclass {
+    color: hsl(270, 80%, 80%);
+}
+style.selector.pseudoelement {
+    color: hsl(32, 90%, 70%);
+}
+style.attribute.name {
+    color: #F694FF;
+}
+style.value.number {
+    color: #61FFCA;
+}
+style.value.color.hex {
+    color: #61FFCA;
+}
+style.value.keyword {
+    color: hsl(210, 100%, 70%);
+}
+style.value.color.named {
+    color: hsl(210, 100%, 70%);
+}
+style.value.identifier.function {
+    color: #FFCA85;
+}
+
+/* Terminal */
+terminal.bright-black {
+    color: #4d4d4d;
+}
+terminal.bright-red {
+    color: #ff6767;
+}
+terminal.bright-green {
+    color: #61ffca;
+}
+terminal.bright-yellow {
+    color: #ffca85;
+}
+terminal.bright-blue {
+    color: #a277ff;
+}
+terminal.bright-magenta {
+    color: #a277ff;
+}
+terminal.bright-cyan {
+    color: #61ffca;
+}
+terminal.bright-white {
+    color: #edecee;
+}
+
+terminal.black {
+    color: #110f18;
+}
+terminal.red {
+    color: #ff6767;
+}
+terminal.green {
+    color: #61ffca;
+}
+terminal.yellow {
+    color: #ffca85;
+}
+terminal.blue {
+    color: #a277ff;
+}
+terminal.magenta {
+    color: #a277ff;
+}
+terminal.cyan {
+    color: #61ffca;
+}
+terminal.white {
+    color: #edecee;
+}
+
+
