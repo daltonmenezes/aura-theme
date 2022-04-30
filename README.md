@@ -233,6 +233,15 @@
     </td>    
     <td valign="top">
       <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/fig">
+          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/fig.png?raw=true" align="center" />
+        </a>
+        <br/><br/>
+        <span>Fig</span>
+      </p>
+    </td>   
+    <td valign="top">
+      <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/telegram">
           <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/telegram.png?raw=true" align="center" />
         </a>
