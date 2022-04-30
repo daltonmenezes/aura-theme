@@ -1,0 +1,22 @@
+{
+  "$schema": "./schema.json",
+  "author": {
+    "name": "Dalton Menezes",
+    "twitter": "@daltonmenezes",
+    "github": "daltonmenezes"
+  },
+  "version": "",
+  "theme": {
+    "textColor": "#61ffca",
+    "backgroundColor": "#15141b",
+    "matchBackgroundColor": "#3d375e7f",
+    "selection": {
+      "textColor": "#a277ff",
+      "backgroundColor": "#3d375e7f"
+    },
+    "description": {
+      "textColor": "#a277ff",
+      "borderColor": "#6d6d6d"
+    }
+  }
+}
