@@ -6,7 +6,7 @@ In Mattermost App
 2. Select **Display** from Sidebar
 3. Select **Theme** > **Edit**
 4. Select **Custom Themes**
-5. Copy the content from [aura-dark.json](https://raw.githubusercontent.com/mahendradambe/aura-theme/feat/mattermost/packages/mattermost/aura-dark.json)
+5. Copy the content from [aura-dark.json](https://raw.githubusercontent.com/{{ author.username }}/{{ slug }}/main/packages/mattermost/aura-dark.json)
 
 # Contributors
 <table>
