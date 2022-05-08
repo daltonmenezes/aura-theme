@@ -1,3 +1,27 @@
+<p align="center">
+  <img src="https://github.com/daltonmenezes/assets/blob/master/images/aura-theme/new-heading.png?raw=true" alt="Aura Theme" width="70%" />
+</p>
+
+<p align="center">
+✨ A beautiful dark theme for  and another apps
+  <br><br>
+
+  <!-- Patreon -->
+  <a href="https://www.patreon.com/daltonmenezes">
+    <img alt="patreon url" src="https://img.shields.io/badge/support%20on-patreon-1C1E26?style=for-the-badge&labelColor=1C1E26&color=61ffca">
+  </a>
+
+  <!-- version -->
+  <a href="#">
+    <img alt="version" src="https://img.shields.io/badge/version%20-v1.0.0-1C1E26?style=for-the-badge&labelColor=1C1E26&color=61ffca">
+  </a>
+</p>
+
+<p align="center">
+  <img alt="preview" src="https://github.com/daltonmenezes/assets/blob/master/images/aura-theme/aura-mattermost-preview.png?raw=true" />
+</p>
+
+
 # Installation
 In Mattermost App
 1. Open **Settings**
@@ -33,3 +57,4 @@ In Mattermost App
 
 # License
 [MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/main/LICENSE)
+

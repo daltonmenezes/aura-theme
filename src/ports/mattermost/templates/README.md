@@ -1,3 +1,5 @@
+{{{ basic-heading }}}
+
 # Installation
 In Mattermost App
 1. Open **Settings**
@@ -28,3 +30,4 @@ In Mattermost App
 </table>
 
 {{{ footer }}}
+
