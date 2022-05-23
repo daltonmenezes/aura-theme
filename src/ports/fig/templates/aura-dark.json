@@ -1,0 +1,22 @@
+{
+  "$schema": "./schema.json",
+  "author": {
+    "name": "{{ author.name }}",
+    "twitter": "{{ twitter }}",
+    "github": "{{ github }}"
+  },
+  "version": "{{ version }}",
+  "theme": {
+    "textColor": "{{ accent2 }}",
+    "backgroundColor": "{{ accent12 }}",
+    "matchBackgroundColor": "{{ accent20 }}",
+    "selection": {
+      "textColor": "{{ accent1 }}",
+      "backgroundColor": "{{ accent20 }}"
+    },
+    "description": {
+      "textColor": "{{ accent1 }}",
+      "borderColor": "{{ accent8 }}"
+    }
+  }
+}

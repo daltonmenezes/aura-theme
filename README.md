@@ -5,7 +5,7 @@
 <p align="center">
 :sparkles: A beautiful dark theme for your favorite apps
   <br><br>
-  
+
   <!-- Patreon -->
   <a href="https://www.patreon.com/daltonmenezes">
     <img alt="patreon url" src="https://img.shields.io/badge/support%20on-patreon-1C1E26?style=for-the-badge&labelColor=1C1E26&color=61ffca">
@@ -41,7 +41,7 @@
       <br/><br/>
       <span>Color Palettes</span>
     </p>
-  </td> 
+  </td>
   <td valign="top">
     <p align="center">
       <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/wallpapers">
@@ -50,7 +50,7 @@
       <br/><br/>
       <span>Wallpapers</span>
     </p>
-  </td> 
+  </td>
 </table>
 
 ### IDEs and Code Editors
@@ -65,7 +65,7 @@
       <br/><br/>
       <span>Visual Studio Code</span>
       </p>
-    </td>   
+    </td>
     <td valign="top">
      <p align="center">
       <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/sublime-text">
@@ -74,7 +74,7 @@
       <br/><br/>
       <span>Sublime Text</span>
       </p>
-    </td>   
+    </td>
     <td valign="top">
      <p align="center">
       <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/code-sandbox">
@@ -83,7 +83,7 @@
       <br/><br/>
       <span>CodeSandbox</span>
       </p>
-    </td>   
+    </td>
   </tr>
  </table>
 
@@ -135,7 +135,7 @@
        <br/><br/>
         <span>rxvt-unicode</span>
       </p>
-    </td> 
+    </td>
   </tr>
     <td valign="top">
       <p align="center">
@@ -145,7 +145,7 @@
        <br/><br/>
         <span>Terminal.app</span>
       </p>
-    </td> 
+    </td>
     <td valign="top">
       <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/gnome-terminal">
@@ -154,7 +154,7 @@
        <br/><br/>
         <span>GNOME Terminal</span>
       </p>
-    </td> 
+    </td>
     <td valign="top">
       <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/kitty">
@@ -163,7 +163,7 @@
        <br/><br/>
         <span>Kitty</span>
       </p>
-    </td> 
+    </td>
     <td valign="top">
       <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/konsole">
@@ -172,7 +172,7 @@
        <br/><br/>
         <span>Konsole</span>
       </p>
-    </td> 
+    </td>
     <td valign="top">
       <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/tabby">
@@ -181,7 +181,7 @@
        <br/><br/>
         <span>Tabby.sh</span>
       </p>
-    </td> 
+    </td>
   </tr>
     <td valign="top">
       <p align="center">
@@ -239,7 +239,16 @@
         <br/><br/>
         <span>Insomnia</span>
       </p>
-    </td>    
+    </td>
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/fig">
+          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/fig.png?raw=true" align="center" />
+        </a>
+        <br/><br/>
+        <span>Fig</span>
+      </p>
+    </td>
     <td valign="top">
       <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/telegram">
@@ -248,7 +257,7 @@
         <br/><br/>
         <span>Telegram Desktop</span>
       </p>
-    </td>   
+    </td>
     <td valign="top">
       <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/slack">
@@ -257,7 +266,7 @@
         <br/><br/>
         <span>Slack</span>
       </p>
-    </td>   
+    </td>
     <td valign="top">
       <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/icue">
@@ -266,7 +275,7 @@
         <br/><br/>
         <span>iCue</span>
       </p>
-    </td>   
+    </td>
     <td valign="top">
       <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/plasma">
@@ -275,8 +284,8 @@
         <br/><br/>
         <span>KDE Plasma</span>
       </p>
-    </td>   
-        <td valign="top">
+    </td>
+    <td valign="top">
       <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/ngenuity">
           <img src="https://raw.githubusercontent.com/daltonmenezes/assets/master/images/icons/ngenuity.png" align="center" />
@@ -284,7 +293,16 @@
         <br/><br/>
         <span>NGenuity</span>
       </p>
-    </td>  
+    </td>
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/mattermost">
+          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/mattermost.png?raw=true" align="center" />
+        </a>
+        <br/><br/>
+        <span>Mattermost</span>
+      </p>
+    </td>
   </tr>
  </table>
 
@@ -330,7 +348,7 @@
     </td>
   </tr>
 </table>
- 
+
 # Contributing
 > Contributions are always welcome, but always **ask first**, — please — before work on a PR.
 
