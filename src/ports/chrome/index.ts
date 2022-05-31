@@ -16,7 +16,7 @@ export async function ChromePort(Aura: AuraAPI) {
   const { info } = constants
 
   const portName = 'Google Chrome'
-  const version = '1.0.0'
+  const version = '1.0.2'
   const extensionID = 'ddipnaombfnagpagnpdkdinoekfhfjoh'
   const previewURL = `https://github.com/${info.author.username}/assets/blob/master/images/${info.slug}/aura-chrome-preview.png?raw=true`
   const templateFolder = resolve(__dirname, 'templates')

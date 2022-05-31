@@ -1,0 +1,28 @@
+{
+    "awayIndicator": "{{accent3}}",
+    "buttonBg": "{{accent1}}",
+    "buttonColor": "{{accent7}}",
+    "centerChannelBg": "{{accent12}}",
+    "centerChannelColor": "{{accent7}}",
+    "dndIndicator": "{{accent5}}",
+    "errorTextColor": "{{accent5}}",
+    "linkColor": "{{accent32}}",
+    "mentionBg": "{{accent6}}",
+    "mentionBj": "{{accent32}}",
+    "mentionColor": "{{accent12}}",
+    "mentionHighlightBg": "{{accent1}}",
+    "mentionHighlightLink": "{{accent7}}",
+    "newMessageSeparator": "{{accent25}}",
+    "onlineIndicator": "{{accent4}}",
+    "sidebarBg": "{{accent24}}",
+    "sidebarHeaderBg": "{{accent12}}",
+    "sidebarHeaderTextColor": "{{accent3}}",
+    "sidebarTeamBarBg": "{{accent24}}",
+    "sidebarText": "{{accent2}}",
+    "sidebarTextActiveBorder": "{{accent19}}",
+    "sidebarTextActiveColor": "{{accent2}}",
+    "sidebarTextHoverBg": "{{accent26}}",
+    "sidebarUnreadText": "{{accent7}}",
+    "codeTheme": "aura-dark"
+}
+
