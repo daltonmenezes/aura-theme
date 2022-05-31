@@ -8,12 +8,14 @@ export async function TilixPort(Aura: AuraAPI) {
 
   const portName = 'Tilix'
   const version = '1.0.0'
+  const previewURL = `https://github.com/${info.author.username}/assets/blob/master/images/${info.slug}/aura-tilix-preview.png?raw=true`
 
   await createPort({
     template: resolve(templateFolder, `${info.slug}.json`),
     replacements: {
       ...colorSchemes.dark,
       ...info,
+      previewURL,
     },
   })
 

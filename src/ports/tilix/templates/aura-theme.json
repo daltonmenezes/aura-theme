@@ -1,6 +1,6 @@
 {
-  "name": "Aura Theme",
-  "comment": "Tilix Port of Aura Theme",
+  "name": "{{ displayName }}",
+  "comment": "Tilix Port of {{ displayName }}",
   "foreground-color": "{{ accent7 }}",
   "background-color": "{{ accent12 }}",
   "use-theme-colors": false,
