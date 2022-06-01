@@ -17,6 +17,9 @@
   </a>
 </p>
 
+<p align="center">
+  <img alt="preview" src="https://github.com/daltonmenezes/assets/blob/master/images/aura-theme/aura-tilix-preview.png?raw=true" />
+</p>
 
 
 # Installation

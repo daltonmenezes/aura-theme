@@ -15,7 +15,6 @@ export async function TilixPort(Aura: AuraAPI) {
     replacements: {
       ...colorSchemes.dark,
       ...info,
-      previewURL,
     },
   })
 
@@ -24,6 +23,7 @@ export async function TilixPort(Aura: AuraAPI) {
     replacements: {
       portName,
       version,
+      previewURL,
     },
   })
 }
