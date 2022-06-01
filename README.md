@@ -181,7 +181,16 @@
        <br/><br/>
         <span>Tabby.sh</span>
       </p>
-    </td>
+    </td> 
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/tilix">
+          <img src="https://raw.githubusercontent.com/daltonmenezes/assets/master/images/icons/tilix.png" align="center" />
+        </a>
+       <br/><br/>
+        <span>Tilix</span>
+      </p>
+    </td> 
   </tr>
  </table>
 
