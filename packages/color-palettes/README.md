@@ -63,7 +63,7 @@
     <td>162,119,255</td>
     <td>accent1</td>
     <td>Primary color</td>
-    <td><img src="https://via.placeholder.com/15/a277ff/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/a277ff" /></td>
   </tr>
   <tr>
     <td>Purple</td>
@@ -71,7 +71,7 @@
     <td>61,55,94</td>
     <td>accent20</td>
     <td>Selections</td>
-    <td><img src="https://via.placeholder.com/15/3d375e7f/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/3d375e7f" /></td>
   </tr>
   <tr>
     <td>Green</td>
@@ -79,7 +79,7 @@
     <td>97,255,202</td>
     <td>accent2</td>
     <td>Secondary color</td>
-    <td><img src="https://via.placeholder.com/15/61ffca/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/61ffca" /></td>
   </tr>
   <tr>
     <td>Orange</td>
@@ -87,7 +87,7 @@
     <td>255,202,133</td>
     <td>accent3</td>
     <td>Tertiary color</td>
-    <td><img src="https://via.placeholder.com/15/ffca85/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/ffca85" /></td>
   </tr>
   <tr>
     <td>Pink</td>
@@ -95,7 +95,7 @@
     <td>246,148,255</td>
     <td>accent6</td>
     <td>Quaternary color</td>
-    <td><img src="https://via.placeholder.com/15/f694ff/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/f694ff" /></td>
   </tr>
   <tr>
     <td>Blue</td>
@@ -103,7 +103,7 @@
     <td>130,226,255</td>
     <td>accent32</td>
     <td>Quinary color</td>
-    <td><img src="https://via.placeholder.com/15/82e2ff/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/82e2ff" /></td>
   </tr>
   <tr>
     <td>Red</td>
@@ -111,7 +111,7 @@
     <td>255,103,103</td>
     <td>accent5</td>
     <td>Senary color</td>
-    <td><img src="https://via.placeholder.com/15/ff6767/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/ff6767" /></td>
   </tr>
   <tr>
     <td>White</td>
@@ -119,7 +119,7 @@
     <td>237,236,238</td>
     <td>accent7</td>
     <td>Foregrounds</td>
-    <td><img src="https://via.placeholder.com/15/edecee/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/edecee" /></td>
   </tr>
   <tr>
     <td>Gray</td>
@@ -127,7 +127,7 @@
     <td>109,109,109</td>
     <td>accent8</td>
     <td>Comments</td>
-    <td><img src="https://via.placeholder.com/15/6d6d6d/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/6d6d6d" /></td>
   </tr>
   <tr>
     <td>Black</td>
@@ -135,7 +135,7 @@
     <td>21,20,27</td>
     <td>accent12</td>
     <td>Backgrounds</td>
-    <td><img src="https://via.placeholder.com/15/15141b/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/15141b" /></td>
   </tr>
 </table>
 
@@ -156,7 +156,7 @@
     <td>132,100,198</td>
     <td>accent1</td>
     <td>Primary color</td>
-    <td><img src="https://via.placeholder.com/15/8464c6/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/8464c6" /></td>
   </tr>
   <tr>
     <td>Purple</td>
@@ -164,7 +164,7 @@
     <td>61,55,94</td>
     <td>accent20</td>
     <td>Selections</td>
-    <td><img src="https://via.placeholder.com/15/3d375e7f/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/3d375e7f" /></td>
   </tr>
   <tr>
     <td>Green</td>
@@ -172,7 +172,7 @@
     <td>84,197,159</td>
     <td>accent2</td>
     <td>Secondary color</td>
-    <td><img src="https://via.placeholder.com/15/54c59f/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/54c59f" /></td>
   </tr>
   <tr>
     <td>Orange</td>
@@ -180,7 +180,7 @@
     <td>199,160,111</td>
     <td>accent3</td>
     <td>Tertiary color</td>
-    <td><img src="https://via.placeholder.com/15/c7a06f/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/c7a06f" /></td>
   </tr>
   <tr>
     <td>Pink</td>
@@ -188,7 +188,7 @@
     <td>193,122,200</td>
     <td>accent6</td>
     <td>Quaternary color</td>
-    <td><img src="https://via.placeholder.com/15/c17ac8/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/c17ac8" /></td>
   </tr>
   <tr>
     <td>Blue</td>
@@ -196,7 +196,7 @@
     <td>108,178,199</td>
     <td>accent32</td>
     <td>Quinary color</td>
-    <td><img src="https://via.placeholder.com/15/6cb2c7/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/6cb2c7" /></td>
   </tr>
   <tr>
     <td>Red</td>
@@ -204,7 +204,7 @@
     <td>197,88,88</td>
     <td>accent5</td>
     <td>Senary color</td>
-    <td><img src="https://via.placeholder.com/15/c55858/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/c55858" /></td>
   </tr>
   <tr>
     <td>White</td>
@@ -212,7 +212,7 @@
     <td>189,189,189</td>
     <td>accent7</td>
     <td>Foregrounds</td>
-    <td><img src="https://via.placeholder.com/15/bdbdbd/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/bdbdbd" /></td>
   </tr>
   <tr>
     <td>Gray</td>
@@ -220,7 +220,7 @@
     <td>109,109,109</td>
     <td>accent8</td>
     <td>Comments</td>
-    <td><img src="https://via.placeholder.com/15/6d6d6d/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/6d6d6d" /></td>
   </tr>
   <tr>
     <td>Black</td>
@@ -228,7 +228,7 @@
     <td>21,20,27</td>
     <td>accent12</td>
     <td>Backgrounds</td>
-    <td><img src="https://via.placeholder.com/15/15141b/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/15141b" /></td>
   </tr>
 </table>
 
