@@ -19,6 +19,40 @@ export async function WindowsTerminalPort(Aura: AuraAPI) {
       ...colorSchemes.dark,
       ...info,
       accent17: fixedSelectionBackground,
+      displayName: `${info.shortName} Dark`,
+    },
+  })
+
+  await createPort({
+    template: resolve(templateFolder, `${info.slug}.json`),
+    outputFileName: `${info.slug}-soft-text`,
+    replacements: {
+      ...colorSchemes.darkSoft,
+      ...info,
+      accent17: fixedSelectionBackground,
+      displayName: `${info.shortName} Dark (Soft Text)`,
+    },
+  })
+
+  await createPort({
+    template: resolve(templateFolder, `${info.slug}.json`),
+    outputFileName: `${info.slug}-soft-dark`,
+    replacements: {
+      ...colorSchemes.softDark,
+      ...info,
+      accent17: fixedSelectionBackground,
+      displayName: `${info.shortName} Soft Dark`,
+    },
+  })
+
+  await createPort({
+    template: resolve(templateFolder, `${info.slug}.json`),
+    outputFileName: `${info.slug}-soft-dark-soft-text`,
+    replacements: {
+      ...colorSchemes.softDarkSoft,
+      ...info,
+      accent17: fixedSelectionBackground,
+      displayName: `${info.shortName} Soft Dark (Soft Text)`,
     },
   })
 
