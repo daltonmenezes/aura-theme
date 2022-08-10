@@ -136,6 +136,15 @@
         <span>rxvt-unicode</span>
       </p>
     </td>
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/termux">
+          <img src="https://raw.githubusercontent.com/daltonmenezes/assets/master/images/icons/termux.png" align="center" />
+        </a>
+       <br/><br/>
+        <span>Termux</span>
+      </p>
+    </td>
   </tr>
     <td valign="top">
       <p align="center">
