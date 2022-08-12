@@ -11,12 +11,18 @@
 <table>
   <thead>
     <tr>
+      <td valign="bottom"><p align="center">
+        <a href="https://github.com/holiq">
+          <img src="https://github.com/holiq.png?size=100" align="center" />
+        </a>
+      </p></td>
       {{{ author-thead }}}
     </tr>
   </thead>
 
   <tbody>
     <tr>
+      <td><a href="https://github.com/holiq">Holiq Ibrahim</a></td>
       {{{ author-tbody }}}
     </tr>
   </tbody>

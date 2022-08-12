@@ -14,6 +14,7 @@ export async function TermuxPort(Aura: AuraAPI) {
     template: resolve(templateFolder, `${info.slug}.properties`),
     replacements: {
       ...colorSchemes.dark,
+      ...withDarkSoftScheme(colorSchemes),
       ...info,
     },
   })
@@ -26,4 +27,15 @@ export async function TermuxPort(Aura: AuraAPI) {
       previewURL,
     },
   })
+}
+function withDarkSoftScheme(colorSchemes: AuraAPI['colorSchemes']) {
+  return Object.entries(colorSchemes.darkSoft).reduce(
+    (acc, [key, value]) => {
+      return {
+        ...acc,
+        [`${key}Soft`]: value,
+      }
+    },
+    {}
+  )
 }
