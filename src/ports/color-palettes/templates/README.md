@@ -46,7 +46,7 @@
     <td>{{ accent1RGB }}</td>
     <td>accent1</td>
     <td>Primary color</td>
-    <td><img src="https://via.placeholder.com/15/{{ accent1WithoutHash }}/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/{{ accent1WithoutHash }}" /></td>
   </tr>
   <tr>
     <td>Purple</td>
@@ -54,7 +54,15 @@
     <td>{{ accent20RGB }}</td>
     <td>accent20</td>
     <td>Selections</td>
-    <td><img src="https://via.placeholder.com/15/{{ accent20WithoutHash }}/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/{{ accent20WithoutHash }}" /></td>
+  </tr>
+  <tr>
+    <td>Purple</td>
+    <td>{{ accent38 }}</td>
+    <td>{{ accent38RGB }}</td>
+    <td>accent38</td>
+    <td>Selections (without alpha)</td>
+    <td><img src="https://placeholder.pics/svg/20x20/{{ accent38WithoutHash }}" /></td>
   </tr>
   <tr>
     <td>Green</td>
@@ -62,7 +70,7 @@
     <td>{{ accent2RGB }}</td>
     <td>accent2</td>
     <td>Secondary color</td>
-    <td><img src="https://via.placeholder.com/15/{{ accent2WithoutHash }}/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/{{ accent2WithoutHash }}" /></td>
   </tr>
   <tr>
     <td>Orange</td>
@@ -70,7 +78,7 @@
     <td>{{ accent3RGB }}</td>
     <td>accent3</td>
     <td>Tertiary color</td>
-    <td><img src="https://via.placeholder.com/15/{{ accent3WithoutHash }}/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/{{ accent3WithoutHash }}" /></td>
   </tr>
   <tr>
     <td>Pink</td>
@@ -78,7 +86,7 @@
     <td>{{ accent6RGB }}</td>
     <td>accent6</td>
     <td>Quaternary color</td>
-    <td><img src="https://via.placeholder.com/15/{{ accent6WithoutHash }}/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/{{ accent6WithoutHash }}" /></td>
   </tr>
   <tr>
     <td>Blue</td>
@@ -86,7 +94,7 @@
     <td>{{ accent32RGB }}</td>
     <td>accent32</td>
     <td>Quinary color</td>
-    <td><img src="https://via.placeholder.com/15/{{ accent32WithoutHash }}/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/{{ accent32WithoutHash }}" /></td>
   </tr>
   <tr>
     <td>Red</td>
@@ -94,7 +102,7 @@
     <td>{{ accent5RGB }}</td>
     <td>accent5</td>
     <td>Senary color</td>
-    <td><img src="https://via.placeholder.com/15/{{ accent5WithoutHash }}/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/{{ accent5WithoutHash }}" /></td>
   </tr>
   <tr>
     <td>White</td>
@@ -102,7 +110,7 @@
     <td>{{ accent7RGB }}</td>
     <td>accent7</td>
     <td>Foregrounds</td>
-    <td><img src="https://via.placeholder.com/15/{{ accent7WithoutHash }}/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/{{ accent7WithoutHash }}" /></td>
   </tr>
   <tr>
     <td>Gray</td>
@@ -110,7 +118,7 @@
     <td>{{ accent8RGB }}</td>
     <td>accent8</td>
     <td>Comments</td>
-    <td><img src="https://via.placeholder.com/15/{{ accent8WithoutHash }}/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/{{ accent8WithoutHash }}" /></td>
   </tr>
   <tr>
     <td>Black</td>
@@ -118,7 +126,7 @@
     <td>{{ accent12RGB }}</td>
     <td>accent12</td>
     <td>Backgrounds</td>
-    <td><img src="https://via.placeholder.com/15/{{ accent12WithoutHash }}/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/{{ accent12WithoutHash }}" /></td>
   </tr>
 </table>
 
@@ -139,7 +147,7 @@
     <td>{{ accent1SoftRGB }}</td>
     <td>accent1</td>
     <td>Primary color</td>
-    <td><img src="https://via.placeholder.com/15/{{ accent1SoftWithoutHash }}/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/{{ accent1SoftWithoutHash }}" /></td>
   </tr>
   <tr>
     <td>Purple</td>
@@ -147,7 +155,15 @@
     <td>{{ accent20SoftRGB }}</td>
     <td>accent20</td>
     <td>Selections</td>
-    <td><img src="https://via.placeholder.com/15/{{ accent20SoftWithoutHash }}/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/{{ accent20SoftWithoutHash }}" /></td>
+  </tr>
+  <tr>
+    <td>Purple</td>
+    <td>{{ accent38Soft }}</td>
+    <td>{{ accent38SoftRGB }}</td>
+    <td>accent38</td>
+    <td>Selections (without alpha)</td>
+    <td><img src="https://placeholder.pics/svg/20x20/{{ accent38SoftWithoutHash }}" /></td>
   </tr>
   <tr>
     <td>Green</td>
@@ -155,7 +171,7 @@
     <td>{{ accent2SoftRGB }}</td>
     <td>accent2</td>
     <td>Secondary color</td>
-    <td><img src="https://via.placeholder.com/15/{{ accent2SoftWithoutHash }}/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/{{ accent2SoftWithoutHash }}" /></td>
   </tr>
   <tr>
     <td>Orange</td>
@@ -163,7 +179,7 @@
     <td>{{ accent3SoftRGB }}</td>
     <td>accent3</td>
     <td>Tertiary color</td>
-    <td><img src="https://via.placeholder.com/15/{{ accent3SoftWithoutHash }}/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/{{ accent3SoftWithoutHash }}" /></td>
   </tr>
   <tr>
     <td>Pink</td>
@@ -171,7 +187,7 @@
     <td>{{ accent6SoftRGB }}</td>
     <td>accent6</td>
     <td>Quaternary color</td>
-    <td><img src="https://via.placeholder.com/15/{{ accent6SoftWithoutHash }}/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/{{ accent6SoftWithoutHash }}" /></td>
   </tr>
   <tr>
     <td>Blue</td>
@@ -179,7 +195,7 @@
     <td>{{ accent32SoftRGB }}</td>
     <td>accent32</td>
     <td>Quinary color</td>
-    <td><img src="https://via.placeholder.com/15/{{ accent32SoftWithoutHash }}/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/{{ accent32SoftWithoutHash }}" /></td>
   </tr>
   <tr>
     <td>Red</td>
@@ -187,7 +203,7 @@
     <td>{{ accent5SoftRGB }}</td>
     <td>accent5</td>
     <td>Senary color</td>
-    <td><img src="https://via.placeholder.com/15/{{ accent5SoftWithoutHash }}/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/{{ accent5SoftWithoutHash }}" /></td>
   </tr>
   <tr>
     <td>White</td>
@@ -195,7 +211,7 @@
     <td>{{ accent7SoftRGB }}</td>
     <td>accent7</td>
     <td>Foregrounds</td>
-    <td><img src="https://via.placeholder.com/15/{{ accent7SoftWithoutHash }}/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/{{ accent7SoftWithoutHash }}" /></td>
   </tr>
   <tr>
     <td>Gray</td>
@@ -203,7 +219,7 @@
     <td>{{ accent8SoftRGB }}</td>
     <td>accent8</td>
     <td>Comments</td>
-    <td><img src="https://via.placeholder.com/15/{{ accent8SoftWithoutHash }}/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/{{ accent8SoftWithoutHash }}" /></td>
   </tr>
   <tr>
     <td>Black</td>
@@ -211,7 +227,7 @@
     <td>{{ accent12SoftRGB }}</td>
     <td>accent12</td>
     <td>Backgrounds</td>
-    <td><img src="https://via.placeholder.com/15/{{ accent12SoftWithoutHash }}/000000?text=+" /></td>
+    <td><img src="https://placeholder.pics/svg/20x20/{{ accent12SoftWithoutHash }}" /></td>
   </tr>
 </table>
 

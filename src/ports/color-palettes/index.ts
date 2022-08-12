@@ -7,7 +7,7 @@ export async function ColorPalettesPort(Aura: AuraAPI) {
   const { info } = constants
 
   const portName = 'Color Palettes'
-  const version = '2.1.0'
+  const version = '2.2.0'
   const templateFolder = resolve(__dirname, 'templates')
 
   const {
