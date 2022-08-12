@@ -44,12 +44,20 @@ Done! ✨ 🎉
     <img src="https://github.com/daltonmenezes.png?size=100" align="center" />
   </a>
 </p></td>
+      <td valign="bottom">
+        <p align="center">
+          <a href="https://github.com/joaopealves">
+            <img src="https://github.com/joaopealves.png?size=100" align="center" />
+          </a>
+        </p>
+      </td>
     </tr>
   </thead>
 
   <tbody>
     <tr>
       <td><a href="https://github.com/daltonmenezes">Dalton Menezes</a></td>
+      <td><a href="https://github.com/joaopealves">João Pedro Alves</a></td>
     </tr>
   </tbody>
 </table>
