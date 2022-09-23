@@ -28,8 +28,6 @@
 
 <br/>
 
-# Themes
-
 ### Aura
 
 <table>
@@ -49,6 +47,15 @@
       </a>
       <br/><br/>
       <span>Wallpapers</span>
+    </p>
+  </td>
+  <td valign="top">
+    <p align="center">
+      <a href="./docs/SHOP.md">
+        <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/shop-icon.png?raw=true" align="center" />
+      </a>
+      <br/><br/>
+      <span>Shop</span>
     </p>
   </td>
 </table>
@@ -369,7 +376,7 @@ That said, there's a bunch of ways you can contribute to this project, like by:
 - :page_facing_up: Improving this documentation
 - :test_tube: Making new tests or improving existing ones
 - :rotating_light: Sharing this project and recommending it to your friends
-- :dollar: Supporting this project on Patreon
+- :dollar: Supporting this project on GitHub Sponsors or Patreon
 - :bug: Funding an issue on IssueHunt
 - :star2: Giving a star on this repository
 - :thumbsup: Voting on ProductHunt
