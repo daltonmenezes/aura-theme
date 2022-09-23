@@ -19,5 +19,6 @@
 ### 🇧🇷 birobirobiro 
 
 https://reserva.ink/birobirobiro
-
-<img src="https://user-images.githubusercontent.com/1149845/192066840-0156e672-fa87-4951-960d-4e4cca47b100.png" alt="Aura Theme t-shirts" />
+<a href="https://reserva.ink/birobirobiro">
+  <img src="https://user-images.githubusercontent.com/1149845/192066840-0156e672-fa87-4951-960d-4e4cca47b100.png" alt="Aura Theme t-shirts" />
+</a>
