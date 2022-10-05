@@ -8,6 +8,10 @@ colors:
   cursor:
     cursor: '{{ accent1 }}'
 
+  selection:  
+    text: CellForeground
+    background: '{{ accent38 }}'
+    
   # Normal colors
   normal:
     black:   '{{ accent21 }}'

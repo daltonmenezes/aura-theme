@@ -1,10 +1,10 @@
 {
-  "name": "Aura Dark",
+  "name": "Aura Soft Dark",
   "cursorColor": "#a277ff",
   "selectionBackground": "#a394f0",
-  "background": "#15141b",
+  "background": "#21202e",
   "foreground": "#edecee",
-  "black": "#110f18",
+  "black": "#1c1b22",
   "blue": "#61ffca",
   "cyan": "#edecee",
   "green": "#61ffca",

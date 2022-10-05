@@ -1,0 +1,33 @@
+{
+  "name": "{{ displayName }}",
+  "comment": "Tilix Port of {{ displayName }}",
+  "foreground-color": "{{ accent7 }}",
+  "background-color": "{{ accent12 }}",
+  "use-theme-colors": false,
+  "use-highlight-color": false,
+  "highlight-foreground-color": "{{ accent7 }}",
+  "highlight-background-color": "{{ accent1 }}",
+  "use-cursor-color": true,
+  "cursor-foreground-color": "{{ accent1 }}",
+  "cursor-background-color": "{{ accent1 }}",
+  "use-badge-color": true,
+  "badge-color": "{{ accent1 }}",
+  "palette": [
+      "{{ accent21 }}", 
+      "{{ accent5 }}",  
+      "{{ accent2 }}",  
+      "{{ accent3 }}",  
+      "{{ accent1 }}",  
+      "{{ accent32 }}", 
+      "{{ accent2 }}",  
+      "{{ accent7 }}",  
+      "{{ accent8 }}",  
+      "{{ accent5 }}", 
+      "{{ accent2 }}",
+      "{{ accent3 }}",
+      "{{ accent1 }}",   
+      "{{ accent32 }}",
+      "{{ accent2 }}",
+      "{{ accent7 }}"   
+  ]
+}

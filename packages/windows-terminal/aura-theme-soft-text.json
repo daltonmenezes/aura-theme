@@ -1,0 +1,23 @@
+{
+  "name": "Aura Dark (Soft Text)",
+  "cursorColor": "#8464c6",
+  "selectionBackground": "#a394f0",
+  "background": "#15141b",
+  "foreground": "#bdbdbd",
+  "black": "#110f18",
+  "blue": "#54c59f",
+  "cyan": "#bdbdbd",
+  "green": "#54c59f",
+  "purple": "#8464c6",
+  "red": "#c55858",
+  "white": "#bdbdbd",
+  "yellow": "#c7a06f",
+  "brightBlack": "#4d4d4d",
+  "brightBlue": "#8464c6",
+  "brightCyan": "#54c59f",
+  "brightGreen": "#8464c6",
+  "brightPurple": "#8464c6",
+  "brightRed": "#c7a06f",
+  "brightWhite": "#bdbdbd",
+  "brightYellow": "#c7a06f"
+}

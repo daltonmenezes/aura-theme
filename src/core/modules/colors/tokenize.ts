@@ -15,7 +15,7 @@ import { colorSchemes } from 'core/colors'
 export function tokenize(content: string): string {
   const tokenizedContent = Object.entries(colorSchemes.dark).reduce(
     (acc, [key, value]) => {
-      const captureHexColors = new RegExp(`${value}`, 'g')
+      const captureHexColors = new RegExp(`${value}`, 'gi')
 
       acc = acc.replace(captureHexColors, `{{ ${key} }}`)
 

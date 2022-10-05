@@ -8,6 +8,10 @@ colors:
   cursor:
     cursor: '#a277ff'
 
+  selection:  
+    text: CellForeground
+    background: '#29263c'
+    
   # Normal colors
   normal:
     black:   '#110f18'
