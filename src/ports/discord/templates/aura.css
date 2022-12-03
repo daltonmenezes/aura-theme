@@ -1,0 +1,219 @@
+/**
+ * @name Aura Theme
+ * @author João Pedro Alves @joaopealves
+ * @version 1.0.0
+ * @description: A beautiful dark theme for your discord
+ * @source #
+**/
+
+:root {
+  /* Aura Base Colors */
+  --aura-background: #15141b !important;
+  --aura-current-line: #24222f !important;
+  --aura-selection: #29263c !important;
+  --aura-foreground: #edecee !important;
+  --aura-comment: #29263c !important;
+  --aura-cyan: #8be9fd !important;
+  --aura-green: #61ffca !important;
+  --aura-orange: #ffca85 !important;
+  --aura-pink: #f694ff !important;
+  --aura-purple: #29263c !important;
+  --aura-red: #ff6767 !important;
+  --aura-yellow: #f1fa8c !important;
+  --aura-background-alt: #0e0c10 !important;
+
+  /* Discord Root Colors */
+  --header-primary: var(--aura-foreground) !important;
+  --background-primary: var(--aura-background) !important;
+  --background-secondary: var(--aura-background) !important;
+  --background-mobile-primary: var(--aura-background) !important;
+  --background-mobile-secondary: var(--aura-background) !important;
+  --background-secondary-alt: var(--aura-background) !important;
+  --background-tertiary: var(--aura-background-alt) !important;
+  --background-accent: var(--aura-current-line) !important;
+  --background-floating: var(--aura-background) !important;
+  --background-modifier-selected: var(--aura-current-line) !important;
+  --activity-card-background: var(--aura-background) !important;
+  --interactive-normal: var(--aura-foreground) !important;
+  --channeltextarea-background: var(--aura-selection) !important;
+  --rs-online-color: var(--aura-green) !important;
+  --rs-idle-color: var(--aura-orange) !important;
+  --rs-dnd-color: var(--aura-red) !important;
+  --rs-offline-color: var(--aura-selection) !important;
+  --rs-streaming-color: var(--aura-purple) !important;
+  --rs-invisible-color: var(--aura-green) !important;
+  --interactive-muted: var(--aura-green) !important;
+  --scrollbar-auto-thumb: var(--aura-comment) !important;
+  --scrollbar-auto-track: var(--aura-background-alt) !important;
+  --scrollbar-thin-thumb: var(--aura-comment) !important;
+  --scrollbar-auto-scrollbar-color-thumb: var(--aura-comment) !important;
+  --scrollbar-auto-scrollbar-color-track: var(
+    --aura-background-alt
+  ) !important;
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+  background-color: var(--aura-comment) !important;
+}
+
+/* Home */
+.container-2cd8Mz {
+  background-color: var(--aura-background) !important;
+}
+
+/* Autocomplete popup */
+.autocomplete-3NRXG8 {
+  background-color: var(--aura-background) !important;
+}
+
+.autocomplete-3jLKbj {
+  background-color: var(--aura-background) !important;
+}
+
+/* Autocomplete popup selection */
+.selected-3H3-RC {
+  background-color: var(--aura-selection) !important;
+}
+
+/* Friends Menu Header */
+.container-ZMc96U.themed-Hp1KC_{
+  background-color: var(--aura-background) !important;
+}
+
+/* Emoji/Gif Selector Box*/
+.contentWrapper-3vHNP2,
+.container-3u7RcY,
+.wrapper-1NNaWG,
+.wrapper-1NNaWG,
+.inspector-DFKXwB,
+.wrapper-22rqw6,
+.listWrapper-2nHLP8,
+.categoryItem-1sHzUv,
+.guildIcon-2SUGiq,
+.header-11eigE{
+  background-color: var(--aura-background) !important;
+}
+.container-1SX9VC,
+.container-2oNtJn{
+  background-color: var(--aura-selection) !important;
+}
+
+/* Scroll Bar */
+.theme-dark
+  .scrollerThemed-2oenus.themedWithTrack-q8E3vB
+  .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+  background-color: var(--aura-selection) !important;
+  border: 4px solid var(--aura-background) !important;
+  border-radius: 8px !important;
+}
+/* Outlines */
+.scroller-kQBbkU,
+.form-3gdLxP,
+.members-3WRCEx,
+.scroller-1ox3I2,
+.panels-3wFtMD,
+.scroller-3X7KbA,
+.container-ZMc96U.themed-Hp1KC_,
+.header-3OsQeK,
+.searchBar-zdmu7v,
+.scroller-2LSbBU,
+.searchBar-3TnChZ,
+.peopleColumn-1wMU14,
+.container-3u6dG-,
+.scroller-9moviB,
+.nowPlayingColumn-1eCBCN,
+.header-2V-4Sw,
+.contentRegion-3HkfJJ {
+  border-color: var(--aura-current-line) !important;
+  border-style: solid !important;
+}
+
+/* Settings Content Pane */
+.contentRegion-3HkfJJ {
+  border-width: 0 0 0 1px !important;
+}
+/* Chat */
+.scroller-kQBbkU {
+  border-width: 1px 1px 0 1px !important;
+}
+/* Message Box */
+.form-3gdLxP {
+  border-width: 0 1px 1px !important;
+}
+/* Member List */
+.members-3WRCEx {
+  border-width: 1px 1px 1px 0 !important;
+}
+/* Channel List */
+.scroller-1ox3I2 {
+  border-width: 1px 0 0 0 !important;
+}
+/* User Area */
+.panels-3wFtMD {
+  border-width: 1px 0 1px 0 !important;
+}
+/* Guild List */
+.scroller-3X7KbA {
+  border-width: 1px !important;
+}
+/* Channel Header */
+.container-ZMc96U.themed-Hp1KC_ {
+  border-width: 1px 1px 0 0 !important;
+}
+/* Guild Header */
+.header-3OsQeK {
+  border-width: 1px 0 0 0 !important;
+}
+/* Search Bar */
+.searchBar-zdmu7v {
+  border-width: 1px !important;
+}
+.searchBar-3TnChZ {
+  border-width: 1px 0 0 0 !important;
+}
+/* People, Game Library, Nitro */
+.peopleColumn-1wMU14,
+.container-3u6dG-,
+.scroller-9moviB {
+  border-width: 1px !important;
+}
+/* Now Playing Column */
+.nowPlayingColumn-1eCBCN {
+  border-width: 1px 1px 1px 0 !important;
+}
+
+/* Syntax Highlighing in Code Blocks*/
+code {
+  color: var(--aura-foreground) !important;
+}
+span.hljs-built_in {
+  color: var(--aura-purple) !important;
+}
+span.hljs-keyword {
+  color: var(--aura-pink) !important;
+}
+span.hljs-title {
+  color: var(--aura-cyan) !important;
+}
+span.hljs-attr {
+  color: var(--aura-foreground) !important;
+}
+span.hljs-string {
+  color: var(--aura-yellow) !important;
+}
+span.hljs-number {
+  color: var(--aura-purple) !important;
+}
+span.hljs-symbol {
+  color: var(--aura-orange) !important;
+}
+span.hljs-meta {
+  color: var(--aura-foreground) !important;
+}
+span.hljs-meta-keyword {
+  color: var(--aura-pink) !important;
+}
+span.hljs-meta-string {
+  color: var(--aura-orange) !important;
+}
