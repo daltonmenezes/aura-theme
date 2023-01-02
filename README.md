@@ -319,6 +319,15 @@
         <span>Mattermost</span>
       </p>
     </td>
+     <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/discord">
+          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/discord.png?raw=true" align="center" />
+        </a>
+        <br/><br/>
+        <span>Discord</span>
+      </p>
+    </td>
   </tr>
  </table>
 
@@ -366,6 +375,7 @@
 </table>
 
 # Contributing
+
 > Contributions are always welcome, but always **ask first**, — please — before work on a PR.
 
 That said, there's a bunch of ways you can contribute to this project, like by:
