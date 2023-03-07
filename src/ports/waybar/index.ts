@@ -9,13 +9,13 @@ export async function WaybarPort(Aura: AuraAPI) {
   const portName = 'Waybar'
   const version = '1.0.0'
 
-  // await createPort({
-  //   template: resolve(templateFolder, `${info.slug}.yml`),
-  //   replacements: {
-  //     ...colorSchemes.dark,
-  //     ...info,
-  //   },
-  // })
+  await createPort({
+    template: resolve(templateFolder, `style.css`),
+    replacements: {
+      ...colorSchemes.dark,
+      ...info,
+    },
+  })
 
   await createReadme({
     template: resolve(templateFolder, 'README.md'),
