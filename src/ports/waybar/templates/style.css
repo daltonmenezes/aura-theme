@@ -1,0 +1,81 @@
+* {
+	font-size: 1em;
+	font-family: monospace;
+	border-radius: 0;
+}
+
+window#waybar {
+	color: {{ accent7 }};
+	background: #000;
+}
+
+#custom-arrow-left-fg,
+#custom-arrow-right-fg {
+	color: {{ accent12 }};
+}
+#custom-arrow-left-bg,
+#custom-arrow-right-bg {
+	color: #000;
+	background: {{ accent12 }};
+}
+
+#backlight,
+#battery,
+#clock,
+#memory,
+#mode,
+#network,
+#pulseaudio,
+#tray,
+#workspaces {
+	background: {{ accent12 }};
+	padding: 0 0.5em;
+}
+
+#mode {
+	color: {{ accent12 }};
+	background: {{ accent2 }};
+}
+
+#workspaces  {
+	padding: 0;
+}
+#workspaces button {
+	color: {{ accent7 }};
+	padding: 0 0.3em;
+}
+#workspaces button.visible {
+	color: {{ accent12 }};
+	background: {{ accent8 }};
+}
+#workspaces button.focused {
+	color: {{ accent12 }};
+	background: {{ accent1 }};
+}
+#workspaces button.urgent {
+	color: {{ accent12 }};
+	background: {{ accent2 }};
+}
+#workspaces button:hover {
+	color: {{ accent2 }};
+	background: {{ accent12 }};
+	border: 1px solid {{ accent2 }};
+	box-shadow: inherit;
+	text-shadow: inherit;
+}
+
+#backlight {
+	color: {{ accent6 }};
+}
+#battery {
+	color: {{ accent32 }};
+}
+#memory {
+	color: {{ accent5 }};
+}
+#network {
+	color: {{ accent2 }};
+}
+#pulseaudio {
+	color: {{ accent3 }};
+}
