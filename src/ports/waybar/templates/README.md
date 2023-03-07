@@ -9,13 +9,17 @@
 <table>
   <thead>
     <tr>
-      {{{ author-thead }}}
+      <td valign="bottom"><p align="center">
+        <a href="https://github.com/Hendrikto">
+          <img src="https://github.com/Hendrikto.png?size=100" align="center" />
+        </a>
+      </p></td>
     </tr>
   </thead>
 
   <tbody>
     <tr>
-      {{{ author-tbody }}}
+      <td><a href="https://github.com/Hendrikto">Hendrikto</a></td>
     </tr>
   </tbody>
 </table>
