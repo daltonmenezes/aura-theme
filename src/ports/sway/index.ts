@@ -7,6 +7,8 @@ export async function SwayPort(Aura: AuraAPI) {
   const { info } = constants
 
   const portName = 'Sway'
+  const previewURL =
+    'https://user-images.githubusercontent.com/1149845/224836544-4c9d8054-f1da-4e4d-b142-d19bac9186fa.png'
   const version = '1.0.0'
 
   await createPort({
@@ -22,6 +24,7 @@ export async function SwayPort(Aura: AuraAPI) {
     replacements: {
       portName,
       version,
+      previewURL,
     },
   })
 }
