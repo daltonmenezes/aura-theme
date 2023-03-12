@@ -9,13 +9,13 @@ export async function SwayPort(Aura: AuraAPI) {
   const portName = 'Sway'
   const version = '1.0.0'
 
-  // await createPort({
-  //   template: resolve(templateFolder, `${info.slug}.yml`),
-  //   replacements: {
-  //     ...colorSchemes.dark,
-  //     ...info,
-  //   },
-  // })
+  await createPort({
+    template: resolve(templateFolder, 'aura-theme.conf'),
+    replacements: {
+      ...colorSchemes.dark,
+      ...info,
+    },
+  })
 
   await createReadme({
     template: resolve(templateFolder, 'README.md'),
