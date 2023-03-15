@@ -1,7 +1,7 @@
 {
   "name": "insomnia-plugin-aura-theme",
   "description": "A beautiful dark theme for Insomnia",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "MIT",
   "insomnia": {
     "name": "aura-theme",
@@ -27,7 +27,7 @@
     "url": "https://daltonmenezes.github.io"
   },
   "scripts": {
-    "publish": "npm publish"
+    "publish:npm": "npm publish"
   },
   "repository": {
     "type": "git",

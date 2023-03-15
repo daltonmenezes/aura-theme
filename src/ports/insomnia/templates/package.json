@@ -27,7 +27,7 @@
     "url": "{{{ author.website }}}"
   },
   "scripts": {
-    "publish": "npm publish"
+    "publish:npm": "npm publish"
   },
   "repository": {
     "type": "git",
