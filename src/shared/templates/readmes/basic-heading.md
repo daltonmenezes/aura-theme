@@ -5,7 +5,7 @@
 <p align="center">
 {{ #noTagLine }}{{ /noTagLine }}
 {{ ^noTagLine }}
-✨ A beautiful dark theme for {{ portName }} and another apps
+✨ A beautiful dark theme for {{ portName }} and other apps
   <br><br>
 {{ /noTagLine }}
 
