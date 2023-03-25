@@ -247,6 +247,7 @@
 ### Others
 
 <table >
+  <tr>
     <td valign="top">
       <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/insomnia">
