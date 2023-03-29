@@ -330,6 +330,15 @@
         <span>Waybar</span>
       </p>
     </td>
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/sway">
+          <img src="https://user-images.githubusercontent.com/1149845/224836549-d6831bfc-0217-4711-8038-f822d4887bd3.png" align="center" />
+        </a>
+        <br/><br/>
+        <span>Sway</span>
+      </p>
+    </td>
   </tr>
  </table>
 
