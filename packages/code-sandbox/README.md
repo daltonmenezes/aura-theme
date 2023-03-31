@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-✨ A beautiful dark theme for CodeSandbox and another apps
+✨ A beautiful dark theme for CodeSandbox and other apps
   <br><br>
 
   <!-- Patreon -->

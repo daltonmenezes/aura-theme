@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-✨ A beautiful dark theme for {{ portName }} and another apps
+✨ A beautiful dark theme for {{ portName }} and other apps
   <br><br>
 
   <!-- Patreon -->

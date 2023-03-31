@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-✨ A beautiful dark theme for Termux and another apps
+✨ A beautiful dark theme for Termux and other apps
   <br><br>
 
   <!-- Patreon -->

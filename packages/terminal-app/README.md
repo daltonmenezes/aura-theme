@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-✨ A beautiful dark theme for Terminal.app and another apps
+✨ A beautiful dark theme for Terminal.app and other apps
   <br><br>
 
   <!-- Patreon -->
