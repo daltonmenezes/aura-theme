@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-✨ A beautiful dark theme for Tilix and another apps
+✨ A beautiful dark theme for Tilix and other apps
   <br><br>
 
   <!-- Patreon -->

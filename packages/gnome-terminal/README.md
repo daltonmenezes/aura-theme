@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-✨ A beautiful dark theme for Gnome Terminal and another apps
+✨ A beautiful dark theme for Gnome Terminal and other apps
   <br><br>
 
   <!-- Patreon -->

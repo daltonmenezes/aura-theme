@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-✨ A beautiful dark theme for Alacritty terminal and another apps
+✨ A beautiful dark theme for Alacritty terminal and other apps
   <br><br>
 
   <!-- Patreon -->
