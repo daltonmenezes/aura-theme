@@ -1,7 +1,7 @@
 {{{ basic-heading }}}
 
 # Installation
-1. Save [aura-theme.conf](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/kitty/aura-theme.conf) to some directory in your computer
+1. Save [aura-theme.conf](aura-theme.conf) to some directory in your computer
 2. Move `aura-theme.conf` to `~/.config/kitty/`, e.g.:
     ```
     mv aura-theme.conf ~/.config/kitty

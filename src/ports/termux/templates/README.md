@@ -2,7 +2,7 @@
 
 # Installation
 1. Open Termux and go to the `.termux` directory by `cd .termux`, if it doesn't exist, please create the directory by `mkdir .termux`.
-2. Open [{{ slug }}.properties](https://raw.githubusercontent.com/{{ author.username }}/{{ slug }}/main/packages/termux/{{ slug }}.properties) and save it as `colors.properties` in your `.termux` directory .
+2. Open [{{ slug }}.properties]({{ slug }}.properties) and save it as `colors.properties` in your `.termux` directory .
 3. Restart Termux with `exec zsh` or exit the sessions and open again.
 
 {{{ done }}}

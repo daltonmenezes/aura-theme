@@ -333,13 +333,13 @@ Used to copy all files and folders inside a folder named as **"extra"** inside y
       }*/
       ``` 
     </details>  
-  - [terminalConvertion](https://github.com/daltonmenezes/aura-theme/blob/main/%40types/termcolors/termcolors.ts)
+  - [terminalConvertion](../%40types/termcolors/termcolors.ts)
 
 ## colorSchemes
-  - [dark](https://github.com/daltonmenezes/aura-theme/blob/main/src/core/colors/schemes/dark.ts)
-  - [darkSoft](https://github.com/daltonmenezes/aura-theme/blob/main/src/core/colors/schemes/dark.ts)
-  - [softDark](https://github.com/daltonmenezes/aura-theme/blob/main/src/core/colors/schemes/soft-dark.ts)
-  - [softDarkSoft](https://github.com/daltonmenezes/aura-theme/blob/main/src/core/colors/schemes/soft-dark.ts)
+  - [dark](../src/core/colors/schemes/dark.ts)
+  - [darkSoft](../src/core/colors/schemes/dark.ts)
+  - [softDark](../src/core/colors/schemes/soft-dark.ts)
+  - [softDarkSoft](../src/core/colors/schemes/soft-dark.ts)
 
 ## getAllFiles
 Used get all files from a root folder recursively.
@@ -466,10 +466,10 @@ Used to capitalize only the first letter in a given text.
 ## constants
   - isDev : *boolean*
   - isProd : *boolean*    
-  - [info](https://github.com/daltonmenezes/aura-theme/blob/main/package.json#L4-L18)
-  - [emojis](https://github.com/daltonmenezes/aura-theme/blob/main/src/shared/constants/emojis.ts)
-  - [files](https://github.com/daltonmenezes/aura-theme/blob/main/src/shared/constants/files.ts)
-  - [folders](https://github.com/daltonmenezes/aura-theme/blob/main/src/shared/constants/folders.ts)
+  - [info](../package.json#L4-L18)
+  - [emojis](../src/shared/constants/emojis.ts)
+  - [files](../src/shared/constants/files.ts)
+  - [folders](../src/shared/constants/folders.ts)
 
 # License
-[MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/main/LICENSE)
+[MIT © Dalton Menezes](../LICENSE)

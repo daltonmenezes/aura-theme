@@ -4,8 +4,8 @@
 
 1. Download one of following themes:
 
-   - [{{ slug }}.colorscheme](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/konsole/{{ slug }}.colorscheme)
-   - [{{ slug }}-soft.colorscheme](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/konsole/{{ slug }}-soft.colorscheme)
+   - [{{ slug }}.colorscheme]({{ slug }}.colorscheme)
+   - [{{ slug }}-soft.colorscheme]({{ slug }}-soft.colorscheme)
 
 2. Move one of them to `~/.local/share/konsole` folder
 3. Open Konsole, go to settings, select `Aura Theme` from profiles > appearance

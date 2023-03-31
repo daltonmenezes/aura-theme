@@ -55,5 +55,4 @@ Yay! That's it!
 Thank you so much for your contribution! 🥳
 
 # License
-[MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/main/LICENSE)
-
+[MIT © Dalton Menezes](../LICENSE)

@@ -33,7 +33,7 @@
 <table>
   <td valign="top">
     <p align="center">
-      <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/color-palettes">
+      <a href="packages/color-palettes">
         <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/color-palettes-icon.png?raw=true" align="center" />
       </a>
       <br/><br/>
@@ -42,7 +42,7 @@
   </td>
   <td valign="top">
     <p align="center">
-      <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/wallpapers">
+      <a href="packages/wallpapers">
         <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/wallpapers.png?raw=true" align="center" />
       </a>
       <br/><br/>
@@ -66,7 +66,7 @@
   <tr>
     <td valign="top">
      <p align="center">
-      <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/vscode">
+      <a href="packages/vscode">
         <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/vscode.png?raw=true" align="center" />
       </a>
       <br/><br/>
@@ -75,7 +75,7 @@
     </td>
     <td valign="top">
      <p align="center">
-      <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/sublime-text">
+      <a href="packages/sublime-text">
         <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/sublime-text.png?raw=true" align="center" />
       </a>
       <br/><br/>
@@ -84,7 +84,7 @@
     </td>
     <td valign="top">
      <p align="center">
-      <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/code-sandbox">
+      <a href="packages/code-sandbox">
         <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/code-sandbox.png?raw=true" align="center" />
       </a>
       <br/><br/>
@@ -100,7 +100,7 @@
   <tr>
     <td valign="top">
       <p align="center">
-        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/hyper">
+        <a href="packages/hyper">
           <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/hyper.png?raw=true" align="center" />
         </a>
        <br/><br/>
@@ -109,7 +109,7 @@
     </td>
     <td valign="top">
       <p align="center">
-        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/windows-terminal">
+        <a href="packages/windows-terminal">
           <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/windows-terminal.png?raw=true" align="center" />
         </a>
        <br/><br/>
@@ -118,7 +118,7 @@
     </td>
     <td valign="top">
       <p align="center">
-        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/alacritty">
+        <a href="packages/alacritty">
           <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/alacritty.png?raw=true" align="center" />
         </a>
         <br/><br/>
@@ -127,7 +127,7 @@
     </td>
     <td valign="top">
       <p align="center">
-        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/iterm">
+        <a href="packages/iterm">
           <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/iterm.png?raw=true" align="center" />
         </a>
        <br/><br/>
@@ -136,7 +136,7 @@
     </td>
     <td valign="top">
       <p align="center">
-        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/rxvt-unicode">
+        <a href="packages/rxvt-unicode">
           <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/rxvt-unicode.png?raw=true" align="center" />
         </a>
        <br/><br/>
@@ -145,7 +145,7 @@
     </td>
     <td valign="top">
       <p align="center">
-        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/termux">
+        <a href="packages/termux">
           <img src="https://raw.githubusercontent.com/daltonmenezes/assets/master/images/icons/termux.png" align="center" />
         </a>
        <br/><br/>
@@ -155,7 +155,7 @@
   </tr>
     <td valign="top">
       <p align="center">
-        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/terminal-app">
+        <a href="packages/terminal-app">
           <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/terminal-app.png?raw=true" align="center" />
         </a>
        <br/><br/>
@@ -164,7 +164,7 @@
     </td>
     <td valign="top">
       <p align="center">
-        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/gnome-terminal">
+        <a href="packages/gnome-terminal">
           <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/gnome-terminal.png?raw=true" align="center" />
         </a>
        <br/><br/>
@@ -173,7 +173,7 @@
     </td>
     <td valign="top">
       <p align="center">
-        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/kitty">
+        <a href="packages/kitty">
           <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/kitty.png?raw=true" align="center" />
         </a>
        <br/><br/>
@@ -182,7 +182,7 @@
     </td>
     <td valign="top">
       <p align="center">
-        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/konsole">
+        <a href="packages/konsole">
           <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/konsole.png?raw=true" align="center" />
         </a>
        <br/><br/>
@@ -191,7 +191,7 @@
     </td>
     <td valign="top">
       <p align="center">
-        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/tabby">
+        <a href="packages/tabby">
           <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/tabby.png?raw=true" align="center" />
         </a>
        <br/><br/>
@@ -200,7 +200,7 @@
     </td> 
     <td valign="top">
       <p align="center">
-        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/tilix">
+        <a href="packages/tilix">
           <img src="https://raw.githubusercontent.com/daltonmenezes/assets/master/images/icons/tilix.png" align="center" />
         </a>
        <br/><br/>
@@ -216,7 +216,7 @@
   <tr>
       <td valign="top">
       <p align="center">
-        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/chrome">
+        <a href="packages/chrome">
           <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/chrome.png?raw=true" align="center" />
         </a>
         <br/><br/>
@@ -225,7 +225,7 @@
     </td>
     <td valign="top">
       <p align="center">
-        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/firefox">
+        <a href="packages/firefox">
           <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/firefox.png?raw=true" align="center" />
         </a>
         <br/><br/>
@@ -234,7 +234,7 @@
     </td>
     <td valign="top">
       <p align="center">
-        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/vivaldi">
+        <a href="packages/vivaldi">
           <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/vivaldi.png?raw=true" align="center" />
         </a>
         <br/><br/>
@@ -250,7 +250,7 @@
   <tr>
     <td valign="top">
       <p align="center">
-        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/insomnia">
+        <a href="packages/insomnia">
           <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/insomnia.png?raw=true" align="center" />
         </a>
         <br/><br/>
@@ -259,7 +259,7 @@
     </td>
     <td valign="top">
       <p align="center">
-        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/fig">
+        <a href="packages/fig">
           <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/fig.png?raw=true" align="center" />
         </a>
         <br/><br/>
@@ -268,7 +268,7 @@
     </td>
     <td valign="top">
       <p align="center">
-        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/telegram">
+        <a href="packages/telegram">
           <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/telegram.png?raw=true" align="center" />
         </a>
         <br/><br/>
@@ -277,7 +277,7 @@
     </td>
     <td valign="top">
       <p align="center">
-        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/slack">
+        <a href="packages/slack">
           <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/slack.png?raw=true" align="center" />
         </a>
         <br/><br/>
@@ -286,7 +286,7 @@
     </td>
     <td valign="top">
       <p align="center">
-        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/icue">
+        <a href="packages/icue">
           <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/icue.png?raw=true" align="center" />
         </a>
         <br/><br/>
@@ -295,7 +295,7 @@
     </td>
     <td valign="top">
       <p align="center">
-        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/plasma">
+        <a href="packages/plasma">
           <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/plasma.png?raw=true" align="center" />
         </a>
         <br/><br/>
@@ -304,7 +304,7 @@
     </td>
     <td valign="top">
       <p align="center">
-        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/ngenuity">
+        <a href="packages/ngenuity">
           <img src="https://raw.githubusercontent.com/daltonmenezes/assets/master/images/icons/ngenuity.png" align="center" />
         </a>
         <br/><br/>
@@ -313,7 +313,7 @@
     </td>
     <td valign="top">
       <p align="center">
-        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/mattermost">
+        <a href="packages/mattermost">
           <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/mattermost.png?raw=true" align="center" />
         </a>
         <br/><br/>
@@ -324,7 +324,7 @@
   <tr>
     <td valign="top">
       <p align="center">
-        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/waybar">
+        <a href="packages/waybar">
           <img src="https://user-images.githubusercontent.com/1149845/223878470-0c545ad8-faf6-4df5-8d63-5c8547d92b50.png" align="center" />
         </a>
         <br/><br/>
@@ -333,7 +333,7 @@
     </td>
     <td valign="top">
       <p align="center">
-        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/sway">
+        <a href="packages/sway">
           <img src="https://user-images.githubusercontent.com/1149845/224836549-d6831bfc-0217-4711-8038-f822d4887bd3.png" align="center" />
         </a>
         <br/><br/>
@@ -404,4 +404,4 @@ That said, there's a bunch of ways you can contribute to this project, like by:
 
 # License
 
-[MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/main/LICENSE)
+[MIT © Dalton Menezes](LICENSE)

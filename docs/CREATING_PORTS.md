@@ -170,4 +170,4 @@ As you are now in development mode, any change in your `index.ts` file will trig
 
 Yay! That's it! 🥳
 # License
-[MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/main/LICENSE)
+[MIT © Dalton Menezes](../LICENSE)

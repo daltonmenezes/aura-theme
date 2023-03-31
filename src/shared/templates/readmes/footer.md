@@ -1,2 +1,2 @@
 # License
-[MIT © {{ author.name }}]({{{ repository }}}/blob/main/LICENSE)
+[MIT © {{ author.name }}](../../LICENSE)
