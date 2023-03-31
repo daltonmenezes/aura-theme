@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-✨ A beautiful dark theme for  and other apps
+✨ A beautiful dark theme for Mattermost and other apps
   <br><br>
 
   <!-- Patreon -->
