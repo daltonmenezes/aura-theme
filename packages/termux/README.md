@@ -24,7 +24,7 @@
 
 # Installation
 1. Open Termux and go to the `.termux` directory by `cd .termux`, if it doesn't exist, please create the directory by `mkdir .termux`.
-2. Open [aura-theme.properties](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/termux/aura-theme.properties) and save it as `colors.properties` in your `.termux` directory .
+2. Open [aura-theme.properties](aura-theme.properties) and save it as `colors.properties` in your `.termux` directory .
 3. Restart Termux with `exec zsh` or exit the sessions and open again.
 
 <br/>
@@ -58,4 +58,5 @@ Done! ✨ 🎉
 </table>
 
 # License
-[MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/main/LICENSE)
+[MIT © Dalton Menezes](../../LICENSE)
+

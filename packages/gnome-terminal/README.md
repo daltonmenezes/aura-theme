@@ -23,7 +23,7 @@
 
 
 # Installation
-1. Open [aura-theme.dconf](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/gnome-terminal/aura-theme.dconf) and save it as `aura-theme.dconf` in your `home folder` without txt extension that the browser will infer 
+1. Open [aura-theme.dconf](aura-theme.dconf) and save it as `aura-theme.dconf` in your `home folder` without txt extension that the browser will infer
 2. Open Gnome Terminal and run:
     ```js
     dconf load /org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/ < ~/aura-theme.dconf
@@ -55,4 +55,5 @@ Done! ✨ 🎉
 </table>
 
 # License
-[MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/main/LICENSE)
+[MIT © Dalton Menezes](../../LICENSE)
+

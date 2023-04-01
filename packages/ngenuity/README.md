@@ -36,7 +36,7 @@ Done! ✨ 🎉
 
 ![img](https://raw.githubusercontent.com/daltonmenezes/assets/master/images/aura-theme/ngnuity/ngnuity-joao-pedro-alves.png)
 
-## [Download](https://github.com/daltonmenezes/aura-theme/raw/main/packages/ngenuity/profiles/joaopealves/Aura%20Theme.hxp.zip)
+## [Download](profiles/joaopealves/Aura%20Theme.hxp.zip)
 
 **Supports**:
 
@@ -72,4 +72,5 @@ Done! ✨ 🎉
 </table>
 
 # License
-[MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/main/LICENSE)
+[MIT © Dalton Menezes](../../LICENSE)
+

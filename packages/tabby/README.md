@@ -23,7 +23,7 @@
 
 
 # Installation
-1. Copy the contents of the [tabby-colors.yaml](https://github.com/daltonmenezes/aura-theme/blob/main/packages/tabby/tabby-colors.yaml?raw=true) file.
+1. Copy the contents of the [tabby-colors.yaml](tabby-colors.yaml) file.
 2. Start Tabby.
 3. Click on the settings icon and click on `Config File`.
 4. Scroll to the `terminal` section of the manifest and select everything from `terminal` to `background` (included).
@@ -62,4 +62,4 @@ Done! ✨ 🎉
 </table>
 
 # License
-[MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/main/LICENSE)
+[MIT © Dalton Menezes](../../LICENSE)

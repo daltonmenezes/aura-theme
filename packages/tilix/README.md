@@ -24,7 +24,7 @@
 
 # Installation
 
-1. Open [aura-theme.json](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/tilix/aura-theme.json) and save it as `aura-theme.json` in `~/.config/tilix/schemes` folder without txt extension that the browser will infer 
+1. Save [`aura-theme.json`](aura-theme.json) to `~/.config/tilix/schemes` folder without txt extension that the browser will infer
 2. Open a new Tilix window and select the Aura Theme on `Preferences -> Profile -> Color`.
 
 <br/>
@@ -58,4 +58,5 @@ Done! ✨ 🎉
 </table>
 
 # License
-[MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/main/LICENSE)
+[MIT © Dalton Menezes](../../LICENSE)
+

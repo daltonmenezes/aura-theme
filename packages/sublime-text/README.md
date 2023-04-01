@@ -24,8 +24,8 @@
 
 # Installation
 1. Open one of following themes
-- [aura-theme.tmTheme](https://github.com/daltonmenezes/aura-theme/blob/main/packages/sublime-text/aura-theme.tmTheme)
-- [aura-theme-soft.tmTheme](https://github.com/daltonmenezes/aura-theme/blob/main/packages/sublime-text/aura-theme-soft.tmTheme)
+- [aura-theme.tmTheme](aura-theme.tmTheme)
+- [aura-theme-soft.tmTheme](aura-theme-soft.tmTheme)
 
     and save it in your `home folder` without txt extension that the browser will infer inside a new folder named as `Aura Theme Color Scheme`
 
@@ -64,4 +64,4 @@ Done! ✨ 🎉
 </table>
 
 # License
-[MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/main/LICENSE)
+[MIT © Dalton Menezes](../../LICENSE)

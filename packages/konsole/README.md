@@ -26,8 +26,8 @@
 
 1. Download one of following themes:
 
-   - [aura-theme.colorscheme](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/konsole/aura-theme.colorscheme)
-   - [aura-theme-soft.colorscheme](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/konsole/aura-theme-soft.colorscheme)
+   - [aura-theme.colorscheme](aura-theme.colorscheme)
+   - [aura-theme-soft.colorscheme](aura-theme-soft.colorscheme)
 
 2. Move one of them to `~/.local/share/konsole` folder
 3. Open Konsole, go to settings, select `Aura Theme` from profiles > appearance
@@ -64,4 +64,5 @@ Done! ✨ 🎉
 </table>
 
 # License
-[MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/main/LICENSE)
+[MIT © Dalton Menezes](../../LICENSE)
+
