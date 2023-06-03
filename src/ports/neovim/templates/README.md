@@ -1,6 +1,31 @@
 {{{ basic-heading }}}
 
+<p align="center">
+  <img alt="preview" src="https://camo.githubusercontent.com/91c5c0183e09c112509460cb85b1d87efd937058bf1f5dd6264f68e0b12bd799/68747470733a2f2f692e696d6775722e636f6d2f444637793945682e706e67" />
+</p>
+
 # Installation
+
+### Lazy.nvim
+
+```lua
+return {
+  { 'nvim-treesitter/nvim-treesitter', build = ':TSUpdate' },
+  {
+    "baliestri/aura-theme",
+    lazy = false,
+    priority = 1000,
+    config = function(plugin)
+      vim.opt.rtp:append(plugin.dir .. "/packages/neovim")
+      vim.cmd([[colorscheme aura-dark]])
+    end
+  }
+}
+```
+
+```vim
+:colorscheme aura-dark " Or any Aura theme available
+```
 
 ### Packer
 
