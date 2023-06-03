@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-✨ A beautiful dark theme for Mozilla Firefox and another apps
+✨ A beautiful dark theme for Mozilla Firefox and other apps
   <br><br>
 
   <!-- Patreon -->

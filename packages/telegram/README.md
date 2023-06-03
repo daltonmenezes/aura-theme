@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-✨ A beautiful dark theme for Telegram and another apps
+✨ A beautiful dark theme for Telegram and other apps
   <br><br>
 
   <!-- Patreon -->

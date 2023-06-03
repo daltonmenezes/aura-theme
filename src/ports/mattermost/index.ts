@@ -14,12 +14,14 @@ export async function MattermostPort(Aura: AuraAPI) {
   })
 
   const { info } = constants
+  const portName = 'Mattermost'
   const version = '1.0.0'
   const previewURL = `https://github.com/${info.author.username}/assets/blob/master/images/${info.slug}/aura-mattermost-preview.png?raw=true`
 
   await createReadme({
     template: resolve(templateFolder, 'README.md'),
     replacements: {
+      portName,
       previewURL,
       version,
     },
