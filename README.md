@@ -91,6 +91,15 @@
       <span>CodeSandbox</span>
       </p>
     </td>
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/neovim">
+          <img src="https://raw.githubusercontent.com/github/explore/26674e638508ac4a4e113ee32d6755ebfa000569/topics/neovim/neovim.png" align="center" width="96" />
+        </a>
+        <br/><br/>
+        <span>Neovim</span>
+      </p>
+    </td>
   </tr>
  </table>
 
@@ -197,7 +206,7 @@
        <br/><br/>
         <span>Tabby.sh</span>
       </p>
-    </td> 
+    </td>
     <td valign="top">
       <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/tilix">
@@ -206,7 +215,7 @@
        <br/><br/>
         <span>Tilix</span>
       </p>
-    </td> 
+    </td>
   </tr>
  </table>
 
@@ -387,6 +396,7 @@
 </table>
 
 # Contributing
+
 > Contributions are always welcome, but always **ask first**, — please — before work on a PR.
 
 That said, there's a bunch of ways you can contribute to this project, like by:

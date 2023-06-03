@@ -7,7 +7,7 @@
 ```lua
 use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' } -- Recommended, not required.
 use {
-  'baliestri/aura-theme',
+  'daltonmenezes/aura-theme',
   rtp = 'packages/neovim',
   config = function()
     vim.cmd("colorscheme aura-dark") -- Or any Aura theme available
@@ -19,7 +19,7 @@ use {
 
 ```vim
 Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' } " Recommended, not required.
-Plug 'baliestri/aura-theme', { 'rtp': 'packages/neovim' }
+Plug 'daltonmenezes/aura-theme', { 'rtp': 'packages/neovim' }
 ```
 
 ```vim
