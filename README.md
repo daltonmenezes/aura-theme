@@ -94,7 +94,7 @@
     <td valign="top">
       <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/neovim">
-          <img src="https://raw.githubusercontent.com/github/explore/26674e638508ac4a4e113ee32d6755ebfa000569/topics/neovim/neovim.png" align="center" width="96" />
+          <img src="https://user-images.githubusercontent.com/1149845/243113045-89c2cfcf-6ff8-42cb-b911-319b2a10bcea.png" align="center" />
         </a>
         <br/><br/>
         <span>Neovim</span>

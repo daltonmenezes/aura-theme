@@ -20,7 +20,7 @@
 
 
 <p align="center">
-  <img alt="preview" src="https://camo.githubusercontent.com/91c5c0183e09c112509460cb85b1d87efd937058bf1f5dd6264f68e0b12bd799/68747470733a2f2f692e696d6775722e636f6d2f444637793945682e706e67" />
+  <img alt="preview" src="https://user-images.githubusercontent.com/1149845/243113042-8a729dfe-406d-43a3-8943-4f87740149a0.png" />
 </p>
 
 # Installation
