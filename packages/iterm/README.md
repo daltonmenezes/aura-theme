@@ -24,8 +24,8 @@
 
 # Installation
 1. Open one of following themes
-- [aura-theme.itermcolors](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/iterm/aura-theme.itermcolors)
-- [aura-theme-soft.itermcolors](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/iterm/aura-theme-soft.itermcolors)
+- [aura-theme.itermcolors](aura-theme.itermcolors)
+- [aura-theme-soft.itermcolors](aura-theme-soft.itermcolors)
 
     and save it as `aura-theme.itermcolors` or `aura-theme-soft.itermcolors` without txt extension that the browser will infer
 
@@ -60,4 +60,4 @@ Done! ✨ 🎉
 </table>
 
 # License
-[MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/main/LICENSE)
+[MIT © Dalton Menezes](../../LICENSE)

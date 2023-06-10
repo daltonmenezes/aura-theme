@@ -28,7 +28,7 @@ In Mattermost App
 2. Select **Display** from Sidebar
 3. Select **Theme** > **Edit**
 4. Select **Custom Themes**
-5. Copy the content from [aura-dark.json](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/mattermost/aura-dark.json)
+5. Copy the content from [aura-dark.json](aura-dark.json)
 
 # Contributors
 <table>
@@ -56,5 +56,6 @@ In Mattermost App
 </table>
 
 # License
-[MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/main/LICENSE)
+[MIT © Dalton Menezes](../../LICENSE)
+
 

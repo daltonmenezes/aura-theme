@@ -19,13 +19,13 @@
 
 # Color Palettes
 
-> 💡 Check the full color schemes at [src/core/colors/schemes](https://github.com/daltonmenezes/aura-theme/tree/main/src/core/colors/schemes)
+> 💡 Check the full color schemes at [src/core/colors/schemes](../../src/core/colors/schemes)
 
 ## Styles
 <table>
   <td valign="bottom">
     <p align="center">
-      <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/color-palettes/aura-colors.css">
+      <a href="aura-colors.css">
         <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/css-icon.png?raw=true" align="center" />
       </a>
       <br/><br/>
@@ -34,7 +34,7 @@
   </td> 
   <td valign="bottom">
     <p align="center">
-      <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/color-palettes/aura-colors.sass">
+      <a href="aura-colors.sass">
         <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/sass-icon.png?raw=true" align="center" />
       </a>
       <br/><br/>
@@ -268,4 +268,5 @@
 </table>
 
 # License
-[MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/main/LICENSE)
+[MIT © Dalton Menezes](../../LICENSE)
+

@@ -2,13 +2,13 @@
 
 # Color Palettes
 
-> 💡 Check the full color schemes at [src/core/colors/schemes]({{{ repository }}}/tree/main/src/core/colors/schemes)
+> 💡 Check the full color schemes at [src/core/colors/schemes](../../src/core/colors/schemes)
 
 ## Styles
 <table>
   <td valign="bottom">
     <p align="center">
-      <a href="https://github.com/daltonmenezes/{{ slug }}/tree/main/packages/color-palettes/{{ shortName }}-colors.css">
+      <a href="{{ shortName }}-colors.css">
         <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/css-icon.png?raw=true" align="center" />
       </a>
       <br/><br/>
@@ -17,7 +17,7 @@
   </td> 
   <td valign="bottom">
     <p align="center">
-      <a href="https://github.com/daltonmenezes/{{ slug }}/tree/main/packages/color-palettes/{{ shortName }}-colors.sass">
+      <a href="{{ shortName }}-colors.sass">
         <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/sass-icon.png?raw=true" align="center" />
       </a>
       <br/><br/>

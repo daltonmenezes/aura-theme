@@ -27,7 +27,7 @@
 2. Execute `fig theme aura-dark`
 
 ## Manually
-1. Save [aura-dark.json](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/fig/aura-dark.json) to some directory in your computer
+1. Save [aura-dark.json](aura-dark.json) to some directory in your computer
 2. Move the downloaded file to `~/.fig/themes`
 3. Execute in your terminal `fig settings autocomplete.theme aura-dark && fig restart`
 
@@ -56,4 +56,5 @@ Done! ✨ 🎉
 </table>
 
 # License
-[MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/main/LICENSE)
+[MIT © Dalton Menezes](../../LICENSE)
+

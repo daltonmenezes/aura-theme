@@ -23,7 +23,7 @@
 
 
 # Installation
-1. Open [aura-theme.terminal](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/terminal-app/aura-theme.terminal) and save it as `aura-theme.terminal` without txt extension that the browser will infer
+1. Open [aura-theme.terminal](aura-theme.terminal) and save it as `aura-theme.terminal` without txt extension that the browser will infer
 2. On Terminal.app menu, go to `Preferences` > `Profiles`
 3. Click on the button with a circle that has 3 dots inside it located at the end of the theme list
 4. Select `Import...` in the list
@@ -56,4 +56,5 @@ Done! ✨ 🎉
 </table>
 
 # License
-[MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/main/LICENSE)
+[MIT © Dalton Menezes](../../LICENSE)
+

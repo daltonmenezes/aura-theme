@@ -2,8 +2,8 @@
 
 # Installation
 1. Open one of following themes
-- [{{ slug }}.itermcolors](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/iterm/{{ slug }}.itermcolors)
-- [{{ slug }}-soft.itermcolors](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/iterm/{{ slug }}-soft.itermcolors)
+- [{{ slug }}.itermcolors]({{ slug }}.itermcolors)
+- [{{ slug }}-soft.itermcolors]({{ slug }}-soft.itermcolors)
 
     and save it as `{{ slug }}.itermcolors` or `{{ slug }}-soft.itermcolors` without txt extension that the browser will infer
 

@@ -23,7 +23,7 @@
 
 
 # Installation
-1. Download either [aura-theme.colors](https://github.com/daltonmenezes/aura-theme/blob/main/packages/plasma/aura-theme.colors) or [aura-theme-soft.colors](https://github.com/daltonmenezes/aura-theme/blob/main/packages/plasma/aura-theme-soft.colors)
+1. Download either [aura-theme.colors](aura-theme.colors) or [aura-theme-soft.colors](aura-theme-soft.colors)
 2. Open KDE Settings
 3. Navigate to "Appearance"
 4. Click on "Colors"
@@ -55,4 +55,5 @@
 </table>
 
 # License
-[MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/main/LICENSE)
+[MIT © Dalton Menezes](../../LICENSE)
+

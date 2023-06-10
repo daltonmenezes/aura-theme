@@ -80,7 +80,7 @@
     - Markdown
     - CSS
 
-[See full changelog](https://github.com/daltonmenezes/aura-theme/blob/main/packages/vscode/CHANGELOG.md)
+[See full changelog](CHANGELOG.md)
 
 # Contributors
 <table>
@@ -100,4 +100,4 @@
 </table>
 
 # License
-[MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/main/LICENSE)
+[MIT © Dalton Menezes](../../LICENSE)

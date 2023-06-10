@@ -24,10 +24,10 @@
 
 # Usage
 1. Copy the content of one of these Aura variations to the clipboard:
-	- [Aura Dark](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/code-sandbox/themes/aura-dark.json)
-	- [Aura Dark (Soft Text)](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/code-sandbox/themes/aura-dark-soft-text.json)
-	- [Aura Soft Dark](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/code-sandbox/themes/aura-soft-dark.json)
-	- [Aura Soft Dark (Soft Text)](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/code-sandbox/themes/aura-soft-dark-soft-text.json)
+	- [Aura Dark](themes/aura-dark.json)
+	- [Aura Dark (Soft Text)](themes/aura-dark-soft-text.json)
+	- [Aura Soft Dark](themes/aura-soft-dark.json)
+	- [Aura Soft Dark (Soft Text)](themes/aura-soft-dark-soft-text.json)
 2. Open codesandbox menu and go to `File` -> `Preferences` -> `CodeSandbox Settings` -> `Appearance` -> `Custom VSCode Theme`
 3. Paste the content you has been copied
 4. Reload the page
@@ -58,4 +58,5 @@ Done! ✨ 🎉
 </table>
 
 # License
-[MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/main/LICENSE)
+[MIT © Dalton Menezes](../../LICENSE)
+

@@ -80,7 +80,7 @@
     - Markdown
     - CSS
 
-[See full changelog](https://github.com/{{ author.username }}/{{ slug }}/blob/main/packages/vscode/CHANGELOG.md)
+[See full changelog](CHANGELOG.md)
 
 # Contributors
 <table>

@@ -2,8 +2,8 @@
 
 # Installation
 1. Open one of following themes
-- [{{ slug }}.tmTheme](https://github.com/{{ author.username }}/{{ slug }}/blob/main/packages/sublime-text/{{{ slug }}}.tmTheme)
-- [{{ slug }}-soft.tmTheme](https://github.com/{{ author.username }}/{{ slug }}/blob/main/packages/sublime-text/{{{ slug }}}-soft.tmTheme)
+- [{{ slug }}.tmTheme]({{{ slug }}}.tmTheme)
+- [{{ slug }}-soft.tmTheme]({{{ slug }}}-soft.tmTheme)
 
     and save it in your `home folder` without txt extension that the browser will infer inside a new folder named as `{{ displayName }} Color Scheme`
 

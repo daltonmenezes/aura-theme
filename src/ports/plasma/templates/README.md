@@ -1,7 +1,7 @@
 {{{ basic-heading }}}
 
 # Installation
-1. Download either [{{ slug }}.colors](https://github.com/{{ author.username }}/{{ slug }}/blob/main/packages/plasma/{{ slug }}.colors) or [{{ slug }}-soft.colors](https://github.com/{{ author.username }}/{{ slug }}/blob/main/packages/plasma/{{ slug }}-soft.colors)
+1. Download either [{{ slug }}.colors]({{ slug }}.colors) or [{{ slug }}-soft.colors]({{ slug }}-soft.colors)
 2. Open KDE Settings
 3. Navigate to "Appearance"
 4. Click on "Colors"

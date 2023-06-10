@@ -38,7 +38,7 @@ Done! ✨ 🎉
 
 ![img](https://raw.githubusercontent.com/daltonmenezes/assets/master/images/aura-theme/icue/icue-joao-pedro-alves.png)
 
-## [Download](https://github.com/daltonmenezes/aura-theme/blob/main/packages/icue/profiles/joaopealves/aura-theme-iCue.zip?raw=true)
+## [Download](profiles/joaopealves/aura-theme-iCue.zip?raw=true)
 
 **Supports**:
 
@@ -73,4 +73,5 @@ Done! ✨ 🎉
 </table>
 
 # License
-[MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/main/LICENSE)
+[MIT © Dalton Menezes](../../LICENSE)
+
