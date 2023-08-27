@@ -322,7 +322,7 @@
      <td valign="top">
       <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/discord">
-          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/discord.png?raw=true" align="center" />
+          <img src="https://user-images.githubusercontent.com/1149845/243126484-1d57b90a-2fd4-4786-aa8a-db1e0c2c03c8.png" align="center" />
         </a>
         <br/><br/>
         <span>Discord</span>

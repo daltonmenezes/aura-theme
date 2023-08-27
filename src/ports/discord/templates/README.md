@@ -10,7 +10,7 @@
 {{{ done }}}
 
 <p align="center">
-  <img alt="preview" src="https://github.com/daltonmenezes/assets/blob/master/images/aura-theme/aura-discord-preview.png?raw=true" />
+  <img alt="preview" src="https://user-images.githubusercontent.com/1149845/243126475-e7584b9b-baaa-4e53-855d-7e573095aa93.png" />
 </p>
 
 # Contributors
@@ -19,8 +19,8 @@
   <thead>
     <tr>
       <td valign="bottom"><p align="center">
-        <a href="https://github.com/joaopealves">
-          <img src="https://github.com/joaopealves.png?size=100" align="center" />
+        <a href="https://github.com/eulixir">
+          <img src="https://github.com/eulixir.png?size=100" align="center" />
         </a>
       </p></td>
       {{{ author-thead }}}
@@ -29,7 +29,7 @@
 
   <tbody>
     <tr>
-      <td><a href="https://github.com/joaopealves">João Pedro Alves</a></td>
+      <td><a href="https://github.com/eulixir">João Pedro Alves</a></td>
       {{{ author-tbody }}}
     </tr>
   </tbody>
