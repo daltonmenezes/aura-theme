@@ -6,7 +6,7 @@
     "colors" : {
       "frame": [{{ accent12 }}],
       "frame_inactive": [{{ accent30 }}],
-      "toolbar": [{{ accent12 }}],
+      "toolbar": [{{ accent39 }}],
       "toolbar_button_icon": [{{ accent2 }}],
       "ntp_background": [{{ accent12 }}],
       "ntp_text": [{{ accent7 }}],
@@ -20,12 +20,6 @@
     },
     "tints" : {
       "buttons" : [0.33, 0.5, 0.47]
-    },
-    "properties" : {
-      "ntp_background_alignment" : "bottom"
-    },
-    "images" : {
-      "theme_toolbar": "theme_tab_background.png"
     }
   }
 }

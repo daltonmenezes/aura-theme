@@ -3,28 +3,29 @@ import { resolve } from 'path'
 
 export async function ChromePort(Aura: AuraAPI) {
   const {
-    copyExtraFiles,
+    zip,
+    unlink,
+    constants,
     createPort,
     createReadme,
     colorSchemes,
     colorHandlers,
-    constants,
-    zip,
-    unlink,
+    copyExtraFiles,
   } = Aura
 
-  const { info } = constants
+  const { info, isProd } = constants
 
   const portName = 'Google Chrome'
-  const version = '1.0.2'
+  const version = '2.0.0'
   const extensionID = 'ddipnaombfnagpagnpdkdinoekfhfjoh'
-  const previewURL = `https://github.com/${info.author.username}/assets/blob/master/images/${info.slug}/aura-chrome-preview.png?raw=true`
   const templateFolder = resolve(__dirname, 'templates')
+  const previewURL = `https://github.com/${info.author.username}/${info.slug}/assets/1149845/b6400889-80a0-4d63-97c9-f816a6bc24be`
 
   await copyExtraFiles(__dirname)
 
   await createPort({
     template: resolve(templateFolder, 'manifest.json'),
+
     replacements: {
       ...colorHandlers.schemeToRgb(colorSchemes.dark),
       ...info,
@@ -34,25 +35,24 @@ export async function ChromePort(Aura: AuraAPI) {
 
   await createReadme({
     template: resolve(templateFolder, 'README.md'),
+
     replacements: {
       portName,
-      extensionID,
       previewURL,
+      extensionID,
     },
   })
 
   const chromePackagePath = resolve('packages', 'chrome')
   const manifestFile = resolve(chromePackagePath, 'manifest.json')
 
-  const backgroundFile = resolve(
-    chromePackagePath,
-    'theme_tab_background.png'
-  )
+  if (isProd) {
+    zip.addFile(manifestFile)
 
-  zip.addFile(manifestFile)
-  zip.addFile(backgroundFile)
-  zip.writeZip(resolve(chromePackagePath, 'store', 'chrome-aura-theme.zip'))
+    zip.writeZip(
+      resolve(chromePackagePath, 'store', 'chrome-aura-theme.zip')
+    )
 
-  await unlink(manifestFile)
-  await unlink(backgroundFile)
+    await unlink(manifestFile)
+  }
 }
