@@ -10,6 +10,7 @@ const colors = {
   accent9: '{{ accent23 }}',
   accent10: '{{ accent0 }}',
   accent11: '{{ accent11 }}',
+  accent12: '{{ accent22 }}',
 }
 
 module.exports.themes = [
@@ -42,6 +43,10 @@ module.exports.themes = [
 
       ::-webkit-scrollbar-thumb {
         background: ${colors.accent3};
+      }
+
+      ::selection {
+        background: ${colors.accent12};
       }
 
       .react-tabs .react-tabs__tab .bubble {
