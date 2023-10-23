@@ -162,6 +162,7 @@
       </p>
     </td>
   </tr>
+  <tr>
     <td valign="top">
       <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/terminal-app">
@@ -214,6 +215,17 @@
         </a>
        <br/><br/>
         <span>Tilix</span>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/warp">
+          <img src="https://user-images.githubusercontent.com/1149845/277492334-5de78c3b-792c-4f14-8dc6-58dbbe32d14d.png" align="center">
+        </a>
+        <br/><br/>
+        <span>Warp</span>
       </p>
     </td>
   </tr>

@@ -1,0 +1,23 @@
+accent: "{{ accent1 }}"
+background: "{{ accent12 }}"
+foreground: "{{ accent7 }}"
+details: "darker"
+terminal_colors:
+  normal:
+    black: "{{ accent21 }}"
+    red: "{{ accent5 }}"
+    green: "{{ accent2 }}"
+    yellow: "{{ accent3 }}"
+    blue: "{{ accent2 }}"
+    magenta: "{{ accent1 }}"
+    cyan: "{{ accent7 }}"
+    white: "{{ accent7 }}"
+  bright:
+    black: "{{ accent15 }}"
+    red: "{{ accent3 }}"
+    green: "{{ accent1 }}"
+    yellow: "{{ accent3 }}"
+    blue: "{{ accent1 }}"
+    magenta: "{{ accent1 }}"
+    cyan: "{{ accent2 }}"
+    white: "{{ accent7 }}"
