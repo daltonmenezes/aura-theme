@@ -222,7 +222,7 @@
     <td valign="top">
       <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/warp">
-          <img src="https://github.com/daltonmenezes/aura-theme/assets/4444107/66fe7b51-da6c-4680-bc49-c9e33d147f29" align="center">
+          <img src="https://user-images.githubusercontent.com/1149845/277492334-5de78c3b-792c-4f14-8dc6-58dbbe32d14d.png" align="center">
         </a>
         <br/><br/>
         <span>Warp</span>

@@ -1,5 +1,9 @@
 {{{ basic-heading }}}
 
+<p align="center">
+  <img alt="preview" src="https://user-images.githubusercontent.com/1149845/277492362-80112522-2488-49fd-89eb-a3bbcd7a6c2a.png" />
+</p>
+
 # Installation
 1. Download [{{ slug }}.yaml](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/warp/{{ slug }}.yaml)
 2. If it doesn't exist, create `~/.warp/themes/` directory: `mkdir -p ~/.warp/themes/`
