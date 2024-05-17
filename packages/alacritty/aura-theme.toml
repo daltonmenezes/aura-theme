@@ -1,28 +1,35 @@
-foreground = "#edecee"
+# Colors (Aura Theme)
 
-[colors.cursor]
-cursor = "#a277ff"
+# Default colors
+[colors.primary]
+background = '#15141b'
+foreground = '#edecee'
+
+# Normal colors
+[colors.normal]
+black   = '#110f18'
+red     = '#ff6767'
+green   = '#61ffca'
+yellow  = '#ffca85'
+blue    = '#a277ff'
+magenta = '#a277ff'
+cyan    = '#61ffca'
+white   = '#edecee'
+
+# Bright colors
+[colors.bright]
+black   = '#4d4d4d'
+red     = '#ff6767'
+green   = '#61ffca'
+yellow  = '#ffca85'
+blue    = '#a277ff'
+magenta = '#a277ff'
+cyan    = '#61ffca'
+white   = '#edecee'
 
 [colors.selection]
-text = "CellForeground"
-background = "#29263c"
+text       = 'CellForeground'
+background = '#29263c'
 
-[colors.normal]
-black = "#110f18"
-red = "#ff6767"
-green = "#61ffca"
-yellow = "#ffca85"
-blue = "#a277ff"
-magenta = "#a277ff"
-cyan = "#61ffca"
-white = "#edecee"
-
-[colors.bright]
-black = "#4d4d4d"
-red = "#ff6767"
-green = "#61ffca"
-yellow = "#ffca85"
-blue = "#a277ff"
-magenta = "#a277ff"
-cyan = "#61ffca"
-white = "#edecee"
+[colors.cursor]
+cursor = '#a277ff'
