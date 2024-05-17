@@ -1,0 +1,7 @@
+id = "aura-theme"
+name = "Aura Theme"
+schema_version = 1
+version = "1.0.0"
+authors = ["Dalton Menezes <daltonmenezes@outlook.com>"]
+description = "A beautiful dark theme for Zed"
+repository = "https://github.com/daltonmenezes/aura-theme"

@@ -1,0 +1,7 @@
+id = "{{ slug }}"
+name = "{{ displayName }}"
+schema_version = 1
+version = "{{ version }}"
+authors = ["{{ author.name }} <{{ author.email }}>"]
+description = "A beautiful dark theme for {{ portName }}"
+repository = "{{{ repository }}}"

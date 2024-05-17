@@ -100,6 +100,15 @@
         <span>Neovim</span>
       </p>
     </td>
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/zed">
+          <img src="https://github.com/daltonmenezes/aura-theme/assets/25427808/3b80ad7a-18cc-49b8-8d55-0b7c4b32dd99" align="center" />
+        </a>
+        <br/><br/>
+        <span>Zed</span>
+      </p>
+    </td>
   </tr>
  </table>
 
