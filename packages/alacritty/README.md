@@ -13,7 +13,7 @@
 
   <!-- version -->
   <a href="#">
-    <img alt="version" src="https://img.shields.io/badge/version%20-v1.0.1-1C1E26?style=for-the-badge&labelColor=1C1E26&color=61ffca">
+    <img alt="version" src="https://img.shields.io/badge/version%20-v1.1.0-1C1E26?style=for-the-badge&labelColor=1C1E26&color=61ffca">
   </a>
 </p>
 
@@ -23,11 +23,10 @@
 
 
 # Installation
-1. Open [aura-theme.yml](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/alacritty/aura-theme.yml) and save it in `~/.config/alacritty`
+1. Open [aura-theme.toml](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/alacritty/aura-theme.toml) and save it in `~/.config/alacritty`
 2. Edit the Alacritty config file by adding:
-    ```yml
-    import:
-      - ~/.config/alacritty/aura-theme.yml
+    ```toml
+    import = ["~/.config/alacritty/aura-theme.toml"]
     ```
 
 <br/>
@@ -51,6 +50,13 @@ Done! ✨ 🎉
           </a>
         </p>
       </td>
+      <td valign="bottom">
+        <p align="center">
+          <a href="https://github.com/MadJlzz">
+            <img src="https://github.com/madjlzz.png?size=100" align="center" />
+          </a>
+        </p>
+      </td>
     </tr>
   </thead>
 
@@ -58,6 +64,7 @@ Done! ✨ 🎉
     <tr>
       <td><a href="https://github.com/daltonmenezes">Dalton Menezes</a></td>
       <td><a href="https://github.com/joaopealves">João Pedro Alves</a></td>
+      <td><a href="https://github.com/MadJlzz">Julien Klaer</a></td>
     </tr>
   </tbody>
 </table>

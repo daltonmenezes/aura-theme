@@ -1,0 +1,35 @@
+# Colors ({{ displayName }})
+
+# Default colors
+[colors.primary]
+background = '{{ accent12 }}'
+foreground = '{{ accent7 }}'
+
+# Normal colors
+[colors.normal]
+black   = '{{ accent21 }}'
+red     = '{{ accent5 }}'
+green   = '{{ accent2 }}'
+yellow  = '{{ accent3 }}'
+blue    = '{{ accent1 }}'
+magenta = '{{ accent1 }}'
+cyan    = '{{ accent2 }}'
+white   = '{{ accent7 }}'
+
+# Bright colors
+[colors.bright]
+black   = '{{ accent15 }}'
+red     = '{{ accent5 }}'
+green   = '{{ accent2 }}'
+yellow  = '{{ accent3 }}'
+blue    = '{{ accent1 }}'
+magenta = '{{ accent1 }}'
+cyan    = '{{ accent2 }}'
+white   = '{{ accent7 }}'
+
+[colors.selection]
+text       = 'CellForeground'
+background = '{{ accent38 }}'
+
+[colors.cursor]
+cursor = '{{ accent1 }}'
