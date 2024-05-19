@@ -1,0 +1,356 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+  "name": "{{ shortName }}",
+  "author": "{{ author.name }} <{{ author.email }}>",
+  "themes": [
+    {
+      "appearance": "{{ type }}",
+      "name": "{{ name }}",
+      "style": {
+        "background": "{{ accent12 }}",
+        "drop_target.background": "{{ accent38 }}",
+        "editor.active_line.background": "{{ accent17 }}",
+        "editor.active_line_number": "{{ accent7 }}",
+        "editor.active_wrap_guide": "{{ accent15 }}",
+        "editor.background": "{{ accent12 }}",
+        "editor.document_highlight.read_background": "{{ accent20 }}",
+        "editor.document_highlight.write_background": "{{ accent20 }}",
+        "editor.foreground": "{{ accent7 }}",
+        "editor.gutter.background": "{{ accent12 }}",
+        "editor.highlighted_line.background": "{{ accent17 }}",
+        "editor.invisible": "{{ accent22 }}",
+        "editor.line_number": "{{ accent17 }}",
+        "editor.subheader.background": "{{ accent21 }}",
+        "editor.wrap_guide": "{{ accent15 }}",
+        "elevated_surface.background": "{{ accent21 }}",
+        "pane.focused_border": "{{ accent7 }}",
+        "panel.background": "{{ accent21 }}",
+        "panel.focused_border": "{{ accent7 }}",
+        "search.match_background": "{{ accent20 }}",
+        "status_bar.background": "{{ accent24 }}",
+        "surface.background": "{{ accent12 }}",
+        "tab.active_background": "{{ accent12 }}",
+        "tab.inactive_background": "{{ accent21 }}",
+        "tab_bar.background": "{{ accent21 }}",
+        "title_bar.background": "{{ accent21 }}",
+        "toolbar.background": "{{ accent12 }}",
+        "text": "{{ accent7 }}",
+        "text.accent": "{{ accent1 }}",
+        "text.disabled": "{{ accent22 }}",
+        "text.muted": "{{ accent8 }}",
+        "text.placeholder": "{{ accent14 }}",
+        "border": "{{ accent11 }}",
+        "border.variant": "{{ accent14 }}",
+        "border.focused": "{{ accent17 }}",
+        "border.selected": "{{ accent1 }}",
+        "border.disabled": "{{ accent22}}",
+        "border.transparent": "{{ accent2}}",
+        "element.active": "{{ accent20 }}",
+        "element.background": "{{ accent21 }}",
+        "element.disabled": "{{ accent22 }}",
+        "element.hover": "{{ accent33 }}",
+        "element.selected": "{{ accent20 }}",
+        "ghost_element.active": "{{ accent17 }}",
+        "ghost_element.background": "{{ accent34 }}",
+        "ghost_element.disabled": "{{ accent22 }}",
+        "ghost_element.hover": "{{ accent23 }}",
+        "ghost_element.selected": "{{ accent33 }}",
+        "icon": "{{ accent35 }}",
+        "icon.accent": "{{ accent2 }}",
+        "icon.disabled": "{{ accent22 }}",
+        "icon.muted": "{{ accent10 }}",
+        "icon.placeholder": "{{ accent14 }}",
+        "scrollbar.thumb.border": "{{ accent17 }}",
+        "scrollbar.thumb.hover_background": "{{ accent17 }}",
+        "scrollbar_thumb.background": "{{ accent17 }}",
+        "scrollbar.track.border": "{{ accent12 }}",
+        "scrollbar.track.background": "{{ accent12 }}",
+        "terminal.ansi.black": "{{ accent12 }}",
+        "terminal.ansi.blue": "{{ accent1 }}",
+        "terminal.ansi.bright_black": "{{ accent13 }}",
+        "terminal.ansi.bright_blue": "{{ accent1 }}",
+        "terminal.ansi.bright_cyan": "{{ accent2 }}",
+        "terminal.ansi.bright_green": "{{ accent1 }}",
+        "terminal.ansi.bright_magenta": "{{ accent2 }}",
+        "terminal.ansi.bright_red": "{{ accent3 }}",
+        "terminal.ansi.bright_white": "{{ accent7 }}",
+        "terminal.ansi.bright_yellow": "{{ accent3 }}",
+        "terminal.ansi.cyan": "{{ accent1 }}",
+        "terminal.ansi.green": "{{ accent2 }}",
+        "terminal.ansi.magenta": "{{ accent2 }}",
+        "terminal.ansi.red": "{{ accent5 }}",
+        "terminal.ansi.white": "{{ accent9 }}",
+        "terminal.ansi.yellow": "{{ accent3 }}",
+        "terminal.background": "{{ accent12 }}",
+        "terminal.foreground": "{{ accent7 }}",
+        "error": "{{ accent5 }}",
+        "error.background": "{{ accent21 }}",
+        "error.border": "{{ accent5 }}",
+        "hint": "{{ accent8 }}",
+        "hint.background": "{{ accent21 }}",
+        "hint.border": "{{ accent8 }}",
+        "info": "{{ accent3 }}",
+        "info.background": "{{ accent21 }}",
+        "info.border": "{{ accent3 }}",
+        "link_text.hover": "{{ accent25 }}",
+        "predictive": "{{ accent8 }}",
+        "predictive.background": "{{ accent21 }}",
+        "predictive.border": "{{ accent33 }}",
+        "renamed": "{{ accent32 }}",
+        "renamed.background": "{{ accent21 }}",
+        "renamed.border": "{{ accent32 }}",
+        "success": "{{ accent2 }}",
+        "success.background": "{{ accent21 }}",
+        "success.border": "{{ accent2 }}",
+        "unreachable": "{{ accent5 }}",
+        "unreachable.background": "{{ accent21 }}",
+        "unreachable.border": "{{ accent5 }}",
+        "warning": "{{ accent3 }}",
+        "warning.background": "{{ accent21 }}",
+        "warning.border": "{{ accent3 }}",
+        "conflict": "{{ accent1 }}",
+        "conflict.background": "{{ accent21 }}",
+        "conflict.border": "{{ accent1 }}",
+        "created": "{{ accent2 }}",
+        "created.background": "{{ accent21 }}",
+        "created.border": "{{ accent2 }}",
+        "deleted": "{{ accent5 }}",
+        "deleted.background": "{{ accent21 }}",
+        "deleted.border": "{{ accent5 }}",
+        "hidden": "{{ accent8 }}",
+        "hidden.background": "{{ accent21 }}",
+        "hidden.border": "{{ accent8 }}",
+        "ignored": "{{ accent22 }}",
+        "ignored.background": "{{ accent21 }}",
+        "ignored.border": "{{ accent22 }}",
+        "modified": "{{ accent3 }}",
+        "modified.background": "{{ accent21 }}",
+        "modified.border": "{{ accent3 }}",
+        "players": [
+          {
+            "cursor": "{{ accent1 }}",
+            "background": "{{ accent1 }}",
+            "selection": "{{ accent20 }}"
+          },
+          {
+            "cursor": "{{ accent2 }}",
+            "background": "{{ accent2 }}",
+            "selection": "{{ accent2Transparent }}"
+          },
+          {
+            "cursor": "{{ accent3 }}",
+            "background": "{{ accent3 }}",
+            "selection": "{{ accent3Transparent }}"
+          },
+          {
+            "cursor": "{{ accent4 }}",
+            "background": "{{ accent4 }}",
+            "selection": "{{ accent4Transparent }}"
+          },
+          {
+            "cursor": "{{ accent5 }}",
+            "background": "{{ accent5 }}",
+            "selection": "{{ accent5Transparent }}"
+          },
+          {
+            "cursor": "{{ accent6 }}",
+            "background": "{{ accent6 }}",
+            "selection": "{{ accent6Transparent }}"
+          },
+          {
+            "cursor": "{{ accent32 }}",
+            "background": "{{ accent32 }}",
+            "selection": "{{ accent32Transparent }}"
+          }
+        ],
+        "syntax": {
+          "attribute": {
+            "color": "{{ accent6 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "boolean": {
+            "color": "{{ accent2 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "comment": {
+            "color": "{{ accent8 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "comment.doc": {
+            "color": "{{ accent1 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "constant": {
+            "color": "{{ accent32 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "constructor": {
+            "color": "{{ accent1 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "embedded": {
+            "color": "{{ accent7 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "emphasis": {
+            "color": "{{ accent1 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "emphasis.strong": {
+            "color": "{{ accent1 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "enum": {
+            "color": "{{ accent32 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "function": {
+            "color": "{{ accent3 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "hint": {
+            "color": "{{ accent32 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "keyword": {
+            "color": "{{ accent1 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "link_text": {
+            "color": "{{ accent25 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "link_uri": {
+            "color": "{{ accent25 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "number": {
+            "color": "{{ accent2 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "operator": {
+            "color": "{{ accent1 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "predictive": {
+            "color": "{{ accent33 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "primary": {
+            "color": "{{ accent7 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "property": {
+            "color": "{{ accent6 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation": {
+            "color": "{{ accent7 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation.bracket": {
+            "color": "{{ accent7 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation.delimiter": {
+            "color": "{{ accent6 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation.list_marker": {
+            "color": "{{ accent32 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation.special": {
+            "color": "{{ accent32 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string": {
+            "color": "{{ accent2 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string.escape": {
+            "color": "{{ accent2 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string.regex": {
+            "color": "{{ accent2 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string.special": {
+            "color": "{{ accent2 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string.special.symbol": {
+            "color": "{{ accent2 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag": {
+            "color": "{{ accent1 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "text.literal": {
+            "color": "{{ accent2 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "title": {
+            "color": "{{ accent3 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "type": {
+            "color": "{{ accent1 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variable": {
+            "color": "{{ accent7 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variable.special": {
+            "color": "{{ accent7 }}",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variant": {
+            "color": "{{ accent32 }}",
+            "font_style": null,
+            "font_weight": null
+          }
+        }
+      }
+    }
+  ]
+}
