@@ -1,0 +1,77 @@
+"ui.background" = { fg = "{{ accent7 }}", bg = "{{ accent12 }}"}
+
+"ui.linenr" = { fg = "{{ accent17 }}"}
+"ui.linenr.selected" = { bg = "{{ accent33 }}", modifiers = ["bold"]}
+
+"ui.statusline" = { fg = "{{ accent10 }}", bg = "{{ accent24 }}"}
+
+"ui.selection" = { bg = "{{ accent20 }}"}
+"ui.selection.background" = { fg = "{{ accent20 }}"}
+
+"ui.cursor" = { fg = "{{ accent12 }}", bg = "{{ accent6 }}"}
+"ui.cursor.match" = { fg = "{{ accent1 }}", modifiers = ["bold"] }
+
+"ui.text" = { fg = "{{ accent7 }}"}
+"ui.text.focus" = { fg = "{{ accent7 }}", bg = "{{ accent38 }}" }
+"ui.text.inactive" = { fg = "{{ accent8 }}" }
+
+"ui.virtual.indent-guide" = "{{ accent13 }}"
+"ui.virtual.ruler" = { bg = "{{ accent13 }}" }
+"ui.virtual.whitespace" = { fg = "{{ accent13 }}" }
+"ui.virtual.inlay-hint" = { fg = "{{ accent9 }}", bg = "{{ accent33 }}" }
+"ui.virtual.jump-label" = { fg = "{{ accent6 }}", modifiers = ["bold"] }
+
+"ui.highlight" = { bg = "{{ accent33 }}", modifiers = ["bold"] }
+
+"ui.menu" = { fg = "{{ accent9 }}", bg = "{{ accent24 }}"}
+"ui.menu.selected" = { fg = "{{ accent1 }}", bg = "{{ accent33 }}"}
+
+"ui.popup" = { fg = "{{ accent9 }}", bg = "{{ accent24 }}"}
+
+"ui.window" = { fg = "{{ accent2 }}"}
+
+"diagnostic.error" = { underline = { color = "{{ accent5 }}", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "{{ accent3 }}", style = "curl" } }
+"diagnostic.info" = { underline = { color = "{{ accent32 }}", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "{{ accent32 }}", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+
+error = "{{ accent5 }}"
+warning = "{{ accent3 }}"
+info = "{{ accent32 }}"
+hint = "{{ accent32 }}"
+
+attributes = "{{ accent1 }}"
+type = "{{ accent32 }}"
+
+constructor = "{{ accent32 }}"
+
+constant = "{{ accent2 }}"
+string = "{{ accent2 }}"
+
+comment = {fg = "{{ accent8 }}", modifiers = [ "italic" ]}
+
+variable = "{{ accent7 }}"
+"variable.builtin" = "{{ accent1 }}"
+"variable.other" = "{{ accent6 }}"
+
+"punctuation.delimeter" = "{{ accent6 }}"
+"punctuation.special" = "{{ accent7 }}"
+
+keyword = "{{  accent1 }}"
+operator = "{{ accent1 }}"
+
+function = "{{  accent31 }}"
+tag = "{{ accent1 }}"
+
+markup = "{{ accent1 }}"
+"markup.heading" = "{{ accent3 }}"
+"markup.quote" = "{{ accent8 }}"
+"markup.list" = "{{ accent1 }}"
+"markup.link.url" = { fg = "{{ accent2 }}", modifiers = ["underlined"]}
+
+"diff.plus" = "{{ accent2 }}"
+"diff.delta" = "{{ accent3 }}"
+"diff.minus" = "{{ accent5 }}"
+
