@@ -1,5 +1,9 @@
 {{{ basic-heading }}}
 
+<p align="center">
+  <img alt="preview" src="https://github.com/daltonmenezes/aura-theme/assets/25427808/3f7b97e5-122a-4c3d-9fb7-c4f99487bba3" />
+</p>
+
 # Themes available
 
 - Aura Dark

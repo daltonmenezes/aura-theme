@@ -103,7 +103,7 @@
     <td valign="top">
       <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/zed">
-          <img src="https://github.com/daltonmenezes/aura-theme/assets/25427808/3b80ad7a-18cc-49b8-8d55-0b7c4b32dd99" align="center" />
+          <img src="https://github.com/daltonmenezes/aura-theme/assets/25427808/507b3e6c-1f94-419c-b27a-2e1900277d66" align="center" />
         </a>
         <br/><br/>
         <span>Zed</span>
