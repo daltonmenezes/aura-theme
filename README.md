@@ -350,6 +350,15 @@
         <span>Mattermost</span>
       </p>
     </td>
+     <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/discord">
+          <img src="https://user-images.githubusercontent.com/1149845/243126484-1d57b90a-2fd4-4786-aa8a-db1e0c2c03c8.png" align="center" />
+        </a>
+        <br/><br/>
+        <span>Discord</span>
+      </p>
+    </td>
   </tr>
   <tr>
     <td valign="top">
