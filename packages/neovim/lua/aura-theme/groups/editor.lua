@@ -29,7 +29,7 @@ local function createEditorGroup(palette, aura)
     SpellCap = aura.OrangeUnderline,
     SpellLocal = aura.BlueUnderline,
     SpellRare = aura.PurpleUnderline,
-    TabLine = { fg = palette.black, bg = palette.black },
+    TabLine = { fg = palette.gray, bg = palette.black },
     TabLineFill = { fg = palette.black, bg = palette.black },
     TabLineSel = { fg = palette.green, bg = palette.black, gui = "inverse" },
     Title = aura.GreenBold,
