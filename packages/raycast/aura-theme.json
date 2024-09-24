@@ -1,0 +1,21 @@
+{
+  "author": "Shubh Porwal",
+  "authorUsername": "shubh_porwal",
+  "version": "1",
+  "name": "Aura",
+  "appearance": "dark",
+  "colors": {
+    "background": "#15141b",
+    "backgroundSecondary": "#15141b",
+    "text": "#edecee",
+    "selection": "#a277ff",
+    "loader": "#61ffca",
+    "red": "#ff6767",
+    "orange": "#ffca85",
+    "yellow": "#FFD700",
+    "green": "#61ffca",
+    "blue": "#82e2ff",
+    "purple": "#a277ff",
+    "magenta": "#f694ff"
+  }
+}
