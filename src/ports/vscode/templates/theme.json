@@ -179,7 +179,6 @@
         "variable.other.quoted.double",
         "markup.inline.raw.string.markdown",
         "entity.other.attribute-name.id.css",
-        "meta.jsx.children",
         "JSXNested"
       ],
       "settings": {
@@ -256,7 +255,8 @@
         "punctuation.section.embedded",
         "meta.embedded.expression",
         "punctuation.terminator.dart",
-        "punctuation.dot.dart"
+        "punctuation.dot.dart",
+        "meta.jsx.children"
       ],
       "settings": {
         "foreground": "{{ accent7 }}"
