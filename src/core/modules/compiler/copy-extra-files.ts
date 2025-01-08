@@ -2,6 +2,7 @@ import { emojis, files, folders } from 'shared/constants'
 import { resolve, basename, parse } from 'path'
 import { fileSystemService, debugService } from 'services'
 import { getAllFiles } from '../file-system/get-all-files'
+import { normalize } from 'path'
 
 /**
  * Used to copy all files and folders inside a folder named as **"extra"** inside your port folder, keeping their structure.
@@ -25,6 +26,7 @@ export async function copyExtraFiles(
   debug(`${emojis.robot} copying extra files`)
 
   const { copy } = fileSystemService()
+  const rootPath = resolve()
   const extraFilesPath = resolve(portRootFolder, folders.extraFolder)
   const extraFiles = await getAllFiles(extraFilesPath)
 
@@ -40,13 +42,13 @@ export async function copyExtraFiles(
       const portFolderName = basename(portRootFolder)
 
       const defaultDistPath = from.replace(
-        `src/ports/${portFolderName}/extra/`,
-        `${folders.distFolder}/${portFolderName}/`
+        normalize(`${rootPath}/src/ports/${portFolderName}/extra/`),
+        normalize(`${rootPath}/${folders.distFolder}/${portFolderName}/`)
       )
 
       const providedDistPath = from.replace(
-        `${resolve()}/src/ports/${portFolderName}/extra/`,
-        `${outputFolder}/`
+        normalize(`${rootPath}/src/ports/${portFolderName}/extra/`),
+        normalize(`${outputFolder}/`)
       )
 
       const distFolder = outputFolder
