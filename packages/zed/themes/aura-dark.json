@@ -62,7 +62,7 @@
         "icon.placeholder": "#af8aff7f",
         "scrollbar.thumb.border": "#a394f033",
         "scrollbar.thumb.hover_background": "#a394f033",
-        "scrollbar.thumb.background": "#a394f033",
+        "scrollbar_thumb.background": "#a394f033",
         "scrollbar.track.border": "#15141b",
         "scrollbar.track.background": "#15141b",
         "terminal.ansi.black": "#15141b",
