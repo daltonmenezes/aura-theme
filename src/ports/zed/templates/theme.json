@@ -62,7 +62,7 @@
         "icon.placeholder": "{{ accent14 }}",
         "scrollbar.thumb.border": "{{ accent17 }}",
         "scrollbar.thumb.hover_background": "{{ accent17 }}",
-        "scrollbar_thumb.background": "{{ accent17 }}",
+        "scrollbar.thumb.background": "{{ accent17 }}",
         "scrollbar.track.border": "{{ accent12 }}",
         "scrollbar.track.background": "{{ accent12 }}",
         "terminal.ansi.black": "{{ accent12 }}",
