@@ -24,7 +24,7 @@
 
 # Installation
 
-1. **Copy the '.xccolortheme` files.**
+1. **Copy the *.xccolortheme* files.**
 
 2. **Locate the Xcode Themes Folder**:
    - Open Finder and press <kbd>⌘</kbd> + <kbd>Shift</kbd> + <kbd>G</kbd> then type:
