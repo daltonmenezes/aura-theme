@@ -109,6 +109,15 @@
         <span>Zed</span>
       </p>
     </td>
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/xcode">
+          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/xcode.png?raw=true" align="center" />
+        </a>
+        <br/><br/>
+        <span>Xcode</span>
+      </p>
+    </td>
   </tr>
  </table>
 
