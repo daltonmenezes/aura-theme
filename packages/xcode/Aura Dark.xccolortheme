@@ -91,7 +91,7 @@
     <key>DVTSourceTextInsertionPointColor</key>
     <string>0.6352941176470588 0.4666666666666667 1 1</string>
     <key>DVTSourceTextInvisiblesColor</key>
-    <string>0.30196078431372547 0.27450980392156865 0.43137254901960786 1</string>
+    <string>0.42745098039215684 0.42745098039215684 0.42745098039215684 1</string>
     <key>DVTSourceTextSelectionColor</key>
     <string>0.23921568627450981 0.21568627450980393 0.3686274509803922 0.4980392156862745</string>
     <key>DVTSourceTextSyntaxColors</key>
@@ -137,7 +137,7 @@
       <key>xcode.syntax.keyword</key>
       <string>0.6352941176470588 0.4666666666666667 1 1</string>
       <key>xcode.syntax.mark</key>
-      <string>0.30196078431372547 0.27450980392156865 0.43137254901960786 1</string>
+      <string>0.42745098039215684 0.42745098039215684 0.42745098039215684 1</string>
       <key>xcode.syntax.markup.code</key>
       <string>1 0.403921568627451 0.403921568627451 1</string>
       <key>xcode.syntax.number</key>

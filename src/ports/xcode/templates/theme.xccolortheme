@@ -91,7 +91,7 @@
     <key>DVTSourceTextInsertionPointColor</key>
     <string>{{ accent1 }}</string>
     <key>DVTSourceTextInvisiblesColor</key>
-    <string>{{ accent22 }}</string>
+    <string>{{ accent8 }}</string>
     <key>DVTSourceTextSelectionColor</key>
     <string>{{ accent20 }}</string>
     <key>DVTSourceTextSyntaxColors</key>
@@ -137,7 +137,7 @@
       <key>xcode.syntax.keyword</key>
       <string>{{ accent1 }}</string>
       <key>xcode.syntax.mark</key>
-      <string>{{ accent22 }}</string>
+      <string>{{ accent8 }}</string>
       <key>xcode.syntax.markup.code</key>
       <string>{{ accent5 }}</string>
       <key>xcode.syntax.number</key>
