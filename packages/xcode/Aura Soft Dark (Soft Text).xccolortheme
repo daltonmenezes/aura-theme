@@ -33,7 +33,7 @@
     <key>DVTLineSpacing</key>
     <real>1.2000000476837158</real>
     <key>DVTMarkupTextBackgroundColor</key>
-    <string>0.12941176470588237 0.12549019607843137 0.1803921568627451 1</string>
+    <string>0.10980392156862745 0.10588235294117647 0.13333333333333333 1</string>
     <key>DVTMarkupTextBorderColor</key>
     <string>0.6862745098039216 0.5411764705882353 1 0.4980392156862745</string>
     <key>DVTMarkupTextCodeFont</key>
@@ -85,7 +85,7 @@
     <key>DVTSourceTextBackground</key>
     <string>0.12941176470588237 0.12549019607843137 0.1803921568627451 1</string>
     <key>DVTSourceTextBlockDimBackgroundColor</key>
-    <string>0.12941176470588237 0.12549019607843137 0.1803921568627451 1</string>
+    <string>0.30196078431372547 0.27450980392156865 0.43137254901960786 1</string>
     <key>DVTSourceTextCurrentLineHighlightColor</key>
     <string>0.1607843137254902 0.14901960784313725 0.23529411764705882 1</string>
     <key>DVTSourceTextInsertionPointColor</key>
