@@ -101,15 +101,15 @@
       <key>xcode.syntax.character</key>
       <string>{{ accent2 }}</string>
       <key>xcode.syntax.comment</key>
-      <string>{{ accent22 }}</string>
+      <string>{{ accent8 }}</string>
       <key>xcode.syntax.comment.doc</key>
-      <string>{{ accent22 }}</string>
+      <string>{{ accent8 }}</string>
       <key>xcode.syntax.comment.doc.keyword</key>
-      <string>{{ accent22 }}</string>
+      <string>{{ accent8 }}</string>
       <key>xcode.syntax.declaration.other</key>
       <string>{{ accent3 }}</string>
       <key>xcode.syntax.declaration.type</key>
-      <string>{{ accent1 }}</string>
+      <string>{{ accent32 }}</string>
       <key>xcode.syntax.identifier.class</key>
       <string>{{ accent32 }}</string>
       <key>xcode.syntax.identifier.class.system</key>
@@ -121,7 +121,7 @@
       <key>xcode.syntax.identifier.function</key>
       <string>{{ accent3 }}</string>
       <key>xcode.syntax.identifier.function.system</key>
-      <string>{{ accent1 }}</string>
+      <string>{{ accent3 }}</string>
       <key>xcode.syntax.identifier.macro</key>
       <string>{{ accent3 }}</string>
       <key>xcode.syntax.identifier.macro.system</key>
@@ -129,7 +129,7 @@
       <key>xcode.syntax.identifier.type</key>
       <string>{{ accent1 }}</string>
       <key>xcode.syntax.identifier.type.system</key>
-      <string>{{ accent6 }}</string>
+      <string>{{ accent1 }}</string>
       <key>xcode.syntax.identifier.variable</key>
       <string>{{ accent32 }}</string>
       <key>xcode.syntax.identifier.variable.system</key>
