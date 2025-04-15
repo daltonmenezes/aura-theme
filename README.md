@@ -109,6 +109,15 @@
         <span>Zed</span>
       </p>
     </td>
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/intellij">
+          <img src="https://github.com/daltonmenezes/aura-theme/tree/main/packages/intellij/intellij.png?raw=true" align="center" />
+        </a>
+        <br/><br/>
+        <span>Intellij</span>
+      </p>
+    </td>
   </tr>
  </table>
 
