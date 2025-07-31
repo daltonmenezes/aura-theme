@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img alt="preview" src="https://github.com/daltonmenezes/assets/blob/master/images/aura-theme/aura-npp-preview.png?raw=true" />
+  <img alt="preview" src="https://github.com/user-attachments/assets/c75b6ffe-8098-4736-a56e-e48f2134de5f" />
 </p>
 
 

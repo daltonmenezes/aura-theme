@@ -16,7 +16,7 @@ export async function NotepadPlusPlusPort(Aura: AuraAPI) {
   const version = '1.0.0'
   const templateFolder = resolve(__dirname, 'templates')
   const outputDist = resolve(folders.distFolder, 'npp')
-  const previewURL = `https://github.com/${info.author.username}/assets/blob/master/images/${info.slug}/aura-npp-preview.png?raw=true`
+  const previewURL = `https://github.com/user-attachments/assets/c75b6ffe-8098-4736-a56e-e48f2134de5f`
 
   const removeHashFromColors = (template: string) =>
     template.replace(/#([A-Fa-f0-9]{6})/g, '$1')
