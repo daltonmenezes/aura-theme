@@ -41,67 +41,73 @@ export async function Xcode(Aura: AuraAPI) {
   const previewURL = `https://github.com/user-attachments/assets/61080125-247a-44a8-8178-1f43de9e1d6e`
 
   const darkColorScheme: Record<string, string> = {}
+
   for (const [key, hexValue] of Object.entries(colorSchemes.dark)) {
     darkColorScheme[key] = hexToRGBA(hexValue)
   }
 
   const darkSoftTextColorScheme: Record<string, string> = {}
+
   for (const [key, hexValue] of Object.entries(colorSchemes.darkSoft)) {
     darkSoftTextColorScheme[key] = hexToRGBA(hexValue)
   }
 
   const softDarkColorScheme: Record<string, string> = {}
+
   for (const [key, hexValue] of Object.entries(colorSchemes.softDark)) {
     softDarkColorScheme[key] = hexToRGBA(hexValue)
   }
 
   const softDarkSoftTextColorScheme: Record<string, string> = {}
+
   for (const [key, hexValue] of Object.entries(colorSchemes.softDarkSoft)) {
     softDarkSoftTextColorScheme[key] = hexToRGBA(hexValue)
   }
 
-  await createPort({
-    template: resolve(templateFolder, 'theme.xccolortheme'),
-    outputFileName: `Aura Dark`,
-    replacements: {
-      ...darkColorScheme,
-      ...info,
-    },
-  })
+  await Promise.all([
+    createPort({
+      template: resolve(templateFolder, 'theme.xccolortheme'),
+      outputFileName: `Aura Dark`,
+      replacements: {
+        ...darkColorScheme,
+        ...info,
+      },
+    }),
 
-  await createPort({
-    template: resolve(templateFolder, 'theme.xccolortheme'),
-    outputFileName: `Aura Dark (Soft Text)`,
-    replacements: {
-      ...darkSoftTextColorScheme,
-      ...info,
-    },
-  })
+    createPort({
+      template: resolve(templateFolder, 'theme.xccolortheme'),
+      outputFileName: `Aura Dark (Soft Text)`,
+      replacements: {
+        ...darkSoftTextColorScheme,
+        ...info,
+      },
+    }),
 
-  await createPort({
-    template: resolve(templateFolder, 'theme.xccolortheme'),
-    outputFileName: `Aura Soft Dark`,
-    replacements: {
-      ...softDarkColorScheme,
-      ...info,
-    },
-  })
+    createPort({
+      template: resolve(templateFolder, 'theme.xccolortheme'),
+      outputFileName: `Aura Soft Dark`,
+      replacements: {
+        ...softDarkColorScheme,
+        ...info,
+      },
+    }),
 
-  await createPort({
-    template: resolve(templateFolder, 'theme.xccolortheme'),
-    outputFileName: `Aura Soft Dark (Soft Text)`,
-    replacements: {
-      ...softDarkSoftTextColorScheme,
-      ...info,
-    },
-  })
+    createPort({
+      template: resolve(templateFolder, 'theme.xccolortheme'),
+      outputFileName: `Aura Soft Dark (Soft Text)`,
+      replacements: {
+        ...softDarkSoftTextColorScheme,
+        ...info,
+      },
+    }),
 
-  await createReadme({
-    template: resolve(templateFolder, 'README.md'),
-    replacements: {
-      portName,
-      version,
-      previewURL,
-    },
-  })
+    createReadme({
+      template: resolve(templateFolder, 'README.md'),
+      replacements: {
+        portName,
+        version,
+        previewURL,
+      },
+    }),
+  ])
 }
