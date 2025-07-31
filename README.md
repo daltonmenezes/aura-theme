@@ -112,7 +112,7 @@
     <td valign="top">
       <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/xcode">
-          <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/xcode.png?raw=true" align="center" />
+          <img src="https://github.com/user-attachments/assets/51a81780-e96e-440b-93db-a2eac4e56aa5" align="center" />
         </a>
         <br/><br/>
         <span>Xcode</span>
