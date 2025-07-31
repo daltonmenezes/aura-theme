@@ -38,7 +38,7 @@ export async function Xcode(Aura: AuraAPI) {
 
   const portName = 'Xcode'
   const version = '1.0.0'
-  const previewURL = `https://github.com/${info.author.username}/assets/blob/master/images/${info.slug}/aura-xcode-preview.png?raw=true`
+  const previewURL = `https://github.com/user-attachments/assets/61080125-247a-44a8-8178-1f43de9e1d6e`
 
   const darkColorScheme: Record<string, string> = {}
   for (const [key, hexValue] of Object.entries(colorSchemes.dark)) {

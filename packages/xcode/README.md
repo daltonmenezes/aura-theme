@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img alt="preview" src="https://github.com/daltonmenezes/assets/blob/master/images/aura-theme/aura-xcode-preview.png?raw=true" />
+  <img alt="preview" src="https://github.com/user-attachments/assets/61080125-247a-44a8-8178-1f43de9e1d6e" />
 </p>
 
 
