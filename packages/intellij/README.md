@@ -17,6 +17,9 @@
   </a>
 </p>
 
+<p align="center">
+  <img alt="preview" src="https://github.com/user-attachments/assets/471ae8d6-7da3-4624-ad30-82ec2dd950fe" />
+</p>
 
 
 # Installation
