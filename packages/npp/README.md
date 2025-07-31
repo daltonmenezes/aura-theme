@@ -53,5 +53,23 @@ Done! ✨ 🎉
 <br/>
 <br/>
 
+
+# Contributors
+<table>
+  <thead>
+    <tr>
+      <td valign="bottom"><p align="center">
+  <a href="https://github.com/daltonmenezes">
+    <img src="https://github.com/daltonmenezes.png?size=100" align="center" />
+  </a>
+</p></td>
+    </tr>
+  </thead>
+
+  <tbody>
+    <td><a href="https://github.com/daltonmenezes">Dalton Menezes</a></td>
+  </tbody>
+</table>
+
 # License
 [MIT © Dalton Menezes](https://github.com/daltonmenezes/aura-theme/blob/main/LICENSE)

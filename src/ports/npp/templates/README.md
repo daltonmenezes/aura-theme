@@ -28,5 +28,18 @@ Before importing the theme, make sure Notepad++ is set to **Dark Mode**:
 
 {{{ done }}}
 
-# License
-[MIT © {{ author.name }}](https://github.com/{{ author.username }}/{{ slug }}/blob/main/LICENSE)
+
+# Contributors
+<table>
+  <thead>
+    <tr>
+      {{{ author-thead }}}
+    </tr>
+  </thead>
+
+  <tbody>
+    {{{ author-tbody }}}
+  </tbody>
+</table>
+
+{{{ footer }}}
