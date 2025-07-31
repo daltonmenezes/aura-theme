@@ -111,6 +111,17 @@
     </td>
     <td valign="top">
       <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/xcode">
+          <img src="https://github.com/user-attachments/assets/51a81780-e96e-440b-93db-a2eac4e56aa5" align="center" />
+        </a>
+        <br/><br/>
+        <span>Xcode</span>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/intellij">
           <img src="https://github.com/user-attachments/assets/c2707563-66fc-40cd-bc3e-95a63f788349" align="center" />
         </a>
@@ -118,8 +129,6 @@
         <span>Intellij</span>
       </p>
     </td>
-  </tr>
-  <tr>
     <td valign="top">
       <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/npp">

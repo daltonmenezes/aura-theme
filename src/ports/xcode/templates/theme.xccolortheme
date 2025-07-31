@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>DVTConsoleDebuggerInputTextColor</key>
+    <string>{{ accent7 }}</string>
+    <key>DVTConsoleDebuggerInputTextFont</key>
+    <string>SFMono-Regular - 12.0</string>
+    <key>DVTConsoleDebuggerOutputTextColor</key>
+    <string>{{ accent7 }}</string>
+    <key>DVTConsoleDebuggerOutputTextFont</key>
+    <string>SFMono-Regular - 12.0</string>
+    <key>DVTConsoleDebuggerPromptTextColor</key>
+    <string>{{ accent1 }}</string>
+    <key>DVTConsoleDebuggerPromptTextFont</key>
+    <string>SFMono-Regular - 12.0</string>
+    <key>DVTConsoleExectuableInputTextColor</key>
+    <string>{{ accent7 }}</string>
+    <key>DVTConsoleExectuableInputTextFont</key>
+    <string>SFMono-Regular - 12.0</string>
+    <key>DVTConsoleExectuableOutputTextColor</key>
+    <string>{{ accent7 }}</string>
+    <key>DVTConsoleExectuableOutputTextFont</key>
+    <string>SFMono-Regular - 12.0</string>
+    <key>DVTConsoleTextBackgroundColor</key>
+    <string>{{ accent12 }}</string>
+    <key>DVTConsoleTextInsertionPointColor</key>
+    <string>{{ accent1 }}</string>
+    <key>DVTConsoleTextSelectionColor</key>
+    <string>{{ accent20 }}</string>
+    <key>DVTFontAndColorVersion</key>
+    <integer>1</integer>
+    <key>DVTLineSpacing</key>
+    <real>1.2000000476837158</real>
+    <key>DVTMarkupTextBackgroundColor</key>
+    <string>{{ accent21 }}</string>
+    <key>DVTMarkupTextBorderColor</key>
+    <string>{{ accent14 }}</string>
+    <key>DVTMarkupTextCodeFont</key>
+    <string>SFMono-Regular - 9.0</string>
+    <key>DVTMarkupTextEmphasisColor</key>
+    <string>{{ accent7 }}</string>
+    <key>DVTMarkupTextEmphasisFont</key>
+    <string>.SFNS-RegularItalic - 12.0</string>
+    <key>DVTMarkupTextInlineCodeColor</key>
+    <string>{{ accent7 }}</string>
+    <key>DVTMarkupTextLinkColor</key>
+    <string>{{ accent1 }}</string>
+    <key>DVTMarkupTextLinkFont</key>
+    <string>.SFNS-Regular - 12.0</string>
+    <key>DVTMarkupTextNormalColor</key>
+    <string>{{ accent7 }}</string>
+    <key>DVTMarkupTextNormalFont</key>
+    <string>.SFNS-Regular - 12.0</string>
+    <key>DVTMarkupTextOtherHeadingColor</key>
+    <string>{{ accent7 }}</string>
+    <key>DVTMarkupTextOtherHeadingFont</key>
+    <string>.SFNS-Regular - 16.8</string>
+    <key>DVTMarkupTextPrimaryHeadingColor</key>
+    <string>{{ accent7 }}</string>
+    <key>DVTMarkupTextPrimaryHeadingFont</key>
+    <string>.SFNS-Regular - 28.8</string>
+    <key>DVTMarkupTextSecondaryHeadingColor</key>
+    <string>{{ accent7 }}</string>
+    <key>DVTMarkupTextSecondaryHeadingFont</key>
+    <string>.SFNS-Regular - 21.6</string>
+    <key>DVTMarkupTextStrongColor</key>
+    <string>{{ accent7 }}</string>
+    <key>DVTMarkupTextStrongFont</key>
+    <string>.SFNS-Bold - 12.0</string>
+    <key>DVTScrollbarMarkerAnalyzerColor</key>
+    <string>{{ accent1 }}</string>
+    <key>DVTScrollbarMarkerBreakpointColor</key>
+    <string>{{ accent1 }}</string>
+    <key>DVTScrollbarMarkerDiffColor</key>
+    <string>{{ accent22 }}</string>
+    <key>DVTScrollbarMarkerDiffConflictColor</key>
+    <string>{{ accent5 }}</string>
+    <key>DVTScrollbarMarkerErrorColor</key>
+    <string>{{ accent5 }}</string>
+    <key>DVTScrollbarMarkerRuntimeIssueColor</key>
+    <string>{{ accent1 }}</string>
+    <key>DVTScrollbarMarkerWarningColor</key>
+    <string>{{ accent3 }}</string>
+    <key>DVTSourceTextBackground</key>
+    <string>{{ accent12 }}</string>
+    <key>DVTSourceTextBlockDimBackgroundColor</key>
+    <string>{{ accent22 }}</string>
+    <key>DVTSourceTextCurrentLineHighlightColor</key>
+    <string>{{ accent38 }}</string>
+    <key>DVTSourceTextInsertionPointColor</key>
+    <string>{{ accent1 }}</string>
+    <key>DVTSourceTextInvisiblesColor</key>
+    <string>{{ accent8 }}</string>
+    <key>DVTSourceTextSelectionColor</key>
+    <string>{{ accent20 }}</string>
+    <key>DVTSourceTextSyntaxColors</key>
+    <dict>
+      <key>xcode.syntax.attribute</key>
+      <string>{{ accent3 }}</string>
+      <key>xcode.syntax.character</key>
+      <string>{{ accent2 }}</string>
+      <key>xcode.syntax.comment</key>
+      <string>{{ accent8 }}</string>
+      <key>xcode.syntax.comment.doc</key>
+      <string>{{ accent8 }}</string>
+      <key>xcode.syntax.comment.doc.keyword</key>
+      <string>{{ accent8 }}</string>
+      <key>xcode.syntax.declaration.other</key>
+      <string>{{ accent3 }}</string>
+      <key>xcode.syntax.declaration.type</key>
+      <string>{{ accent32 }}</string>
+      <key>xcode.syntax.identifier.class</key>
+      <string>{{ accent32 }}</string>
+      <key>xcode.syntax.identifier.class.system</key>
+      <string>{{ accent6 }}</string>
+      <key>xcode.syntax.identifier.constant</key>
+      <string>{{ accent1 }}</string>
+      <key>xcode.syntax.identifier.constant.system</key>
+      <string>{{ accent1 }}</string>
+      <key>xcode.syntax.identifier.function</key>
+      <string>{{ accent3 }}</string>
+      <key>xcode.syntax.identifier.function.system</key>
+      <string>{{ accent3 }}</string>
+      <key>xcode.syntax.identifier.macro</key>
+      <string>{{ accent3 }}</string>
+      <key>xcode.syntax.identifier.macro.system</key>
+      <string>{{ accent3 }}</string>
+      <key>xcode.syntax.identifier.type</key>
+      <string>{{ accent1 }}</string>
+      <key>xcode.syntax.identifier.type.system</key>
+      <string>{{ accent1 }}</string>
+      <key>xcode.syntax.identifier.variable</key>
+      <string>{{ accent32 }}</string>
+      <key>xcode.syntax.identifier.variable.system</key>
+      <string>{{ accent1 }}</string>
+      <key>xcode.syntax.keyword</key>
+      <string>{{ accent1 }}</string>
+      <key>xcode.syntax.mark</key>
+      <string>{{ accent8 }}</string>
+      <key>xcode.syntax.markup.code</key>
+      <string>{{ accent5 }}</string>
+      <key>xcode.syntax.number</key>
+      <string>{{ accent2 }}</string>
+      <key>xcode.syntax.plain</key>
+      <string>{{ accent7 }}</string>
+      <key>xcode.syntax.preprocessor</key>
+      <string>{{ accent3 }}</string>
+      <key>xcode.syntax.regex</key>
+      <string>{{ accent5 }}</string>
+      <key>xcode.syntax.regex.capturename</key>
+      <string>{{ accent2 }}</string>
+      <key>xcode.syntax.regex.charname</key>
+      <string>{{ accent1 }}</string>
+      <key>xcode.syntax.regex.number</key>
+      <string>{{ accent3 }}</string>
+      <key>xcode.syntax.regex.other</key>
+      <string>{{ accent7 }}</string>
+      <key>xcode.syntax.string</key>
+      <string>{{ accent2 }}</string>
+      <key>xcode.syntax.url</key>
+      <string>{{ accent2 }}</string>
+    </dict>
+    <key>DVTSourceTextSyntaxFonts</key>
+    <dict>
+      <key>xcode.syntax.attribute</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.character</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.comment</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.comment.doc</key>
+      <string>Helvetica - 12.0</string>
+      <key>xcode.syntax.comment.doc.keyword</key>
+      <string>SFMono-Bold - 12.0</string>
+      <key>xcode.syntax.declaration.other</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.declaration.type</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.identifier.class</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.identifier.class.system</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.identifier.constant</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.identifier.constant.system</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.identifier.function</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.identifier.function.system</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.identifier.macro</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.identifier.macro.system</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.identifier.type</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.identifier.type.system</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.identifier.variable</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.identifier.variable.system</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.keyword</key>
+      <string>SFMono-Bold - 12.0</string>
+      <key>xcode.syntax.mark</key>
+      <string>SFMono-Bold - 12.0</string>
+      <key>xcode.syntax.markup.code</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.number</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.plain</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.preprocessor</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.regex</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.regex.capturename</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.regex.charname</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.regex.number</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.regex.other</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.string</key>
+      <string>SFMono-Medium - 12.0</string>
+      <key>xcode.syntax.url</key>
+      <string>SFMono-Medium - 12.0</string>
+    </dict>
+  </dict>
+</plist>
