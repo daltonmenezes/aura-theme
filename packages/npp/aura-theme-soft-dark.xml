@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NotepadPlus>
+    <LexerStyles>
+        <LexerType name="cpp" desc="C++" ext="">
+            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="82e2ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" keywordClass="instre1">
+                auto break case catch class const continue default delete do else enum explicit export extern false for friend goto if inline namespace new nullptr operator private protected public return sizeof static struct switch template this throw true try typedef typename using virtual while
+            </WordsStyle>
+            <WordsStyle name="TYPE WORD" styleID="16" fgColor="82e2ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="6" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHARACTER" styleID="7" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="VERBATIM" styleID="13" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="REGEX" styleID="14" fgColor="f694ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT DOC" styleID="3" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+        </LexerType>
+
+        <LexerType name="python" desc="Python" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENTLINE" styleID="1" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="2" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="3" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHARACTER" styleID="4" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="KEYWORDS" styleID="5" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" keywordClass="instre1">
+                and as assert break class continue def del elif else except False finally for from global if import in is lambda None nonlocal not or pass raise return True try while with yield
+            </WordsStyle>
+            <WordsStyle name="TRIPLE" styleID="6" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TRIPLEDOUBLE" styleID="7" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CLASSNAME" styleID="8" fgColor="82e2ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="DEFNAME" styleID="9" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENTBLOCK" styleID="12" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="BUILTINS" styleID="14" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="F STRING" styleID="16" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="F CHARACTER" styleID="17" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="F TRIPLE" styleID="18" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="F TRIPLEDOUBLE" styleID="19" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
+
+        <LexerType name="html" desc="HTML" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TAG" styleID="1" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TAGUNKNOWN" styleID="2" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ATTRIBUTE" styleID="3" fgColor="f694ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ATTRIBUTEUNKNOWN" styleID="4" fgColor="f694ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="5" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DOUBLESTRING" styleID="6" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="SINGLESTRING" styleID="7" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="OTHER" styleID="8" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="9" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ENTITY" styleID="10" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="TAGEND" styleID="11" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="XMLSTART" styleID="12" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="XMLEND" styleID="13" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SCRIPT" styleID="14" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ASP" styleID="15" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ASP AT" styleID="16" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CDATA" styleID="17" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="QUESTION" styleID="18" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="VALUE" styleID="19" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
+
+        <LexerType name="css" desc="CSS" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TAG" styleID="1" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CLASS" styleID="2" fgColor="f694ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="PSEUDOCLASS" styleID="3" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="UNKNOWN_PSEUDOCLASS" styleID="4" fgColor="ff6767" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="5" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="6" fgColor="f694ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="UNKNOWN_IDENTIFIER" styleID="7" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="VALUE" styleID="8" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="9" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ID" styleID="10" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="IMPORTANT" styleID="11" fgColor="f694ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="DIRECTIVE" styleID="12" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
+
+        <LexerType name="javascript" desc="JavaScript" ext="js jsx mjs cjs ts tsx">
+            <WordsStyle name="DEFAULT" styleID="41" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="42" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENTLINE" styleID="43" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENTDOC" styleID="44" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="45" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="WORD" styleID="46" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="KEYWORD" styleID="47" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" keywordClass="instre1">
+                if else for while do break continue return function var let const class extends import export default switch case throw try catch finally new delete typeof in instanceof void yield await interface type namespace implements public private protected readonly abstract enum as from of static get set super this any never unknown module declare
+            </WordsStyle>
+            <WordsStyle name="USER KEYWORDS 1" styleID="200" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" keywordClass="substyle1">
+                console log
+            </WordsStyle>
+            <WordsStyle name="STRINGRAW" styleID="20" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DOUBLESTRING" styleID="48" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SINGLESTRING" styleID="49" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SYMBOLS" styleID="50" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="STRINGEOL" styleID="51" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="REGEX" styleID="52" fgColor="f694ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
+
+        <LexerType name="sql" desc="SQL" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="3" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="4" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="5" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="KEYWORDS" styleID="6" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" keywordClass="instre1">
+                add alter as asc between by check create delete desc drop foreign from group having in index insert into is key like not null on or order primary references select set table union unique update values where
+            </WordsStyle>
+            <WordsStyle name="TYPE" styleID="7" fgColor="82e2ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" keywordClass="type1">
+                bigint binary bit blob boolean char character date datetime decimal double enum float int integer long mediumint smallint text time timestamp tinyint varchar varbinary year
+            </WordsStyle>
+        </LexerType>
+
+        <LexerType name="json" desc="JSON" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="1" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="2" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING EOL" styleID="3" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="PROPERTY NAME" styleID="4" fgColor="f694ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ESCAPE SEQUENCE" styleID="5" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="LINE COMMENT" styleID="6" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="BLOCK COMMENT" styleID="7" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="8" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="URI" styleID="9" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMPACT IRI" styleID="10" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="KEYWORD" styleID="11" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" keywordClass="instre1">
+                false null true
+            </WordsStyle>
+            <WordsStyle name="LD KEYWORD" styleID="12" fgColor="ff6767" bgColor="21202e" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="ERROR" styleID="13" fgColor="61ffca" bgColor="ff6767" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
+
+        <LexerType name="php" desc="PHP" ext="">
+            <WordsStyle name="DEFAULT" styleID="118" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="QUESTION MARK" styleID="119" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="STRING" styleID="120" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SIMPLESTRING" styleID="121" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="WORD" styleID="122" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" keywordClass="instre1">
+                abstract and array as break callable case catch class clone const continue declare default die do echo else elseif empty enddeclare endfor endforeach endif endswitch endwhile eval exit extends final finally fn for foreach function global goto if implements include include_once instanceof insteadof interface isset list match namespace new or parent print private protected public require require_once return static switch throw trait try unset use var while yield
+            </WordsStyle>
+            <WordsStyle name="NUMBER" styleID="123" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="VARIABLE" styleID="124" fgColor="f694ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="125" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENTLINE" styleID="126" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="127" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+        </LexerType>
+
+        <LexerType name="ruby" desc="Ruby" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ERROR" styleID="1" fgColor="ff6767" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENTLINE" styleID="2" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="POD" styleID="3" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION" styleID="5" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" keywordClass="instre1">
+                alias and begin break case class def defined? do else elsif end ensure false for if in module next nil not or redo rescue retry return self super then true undef unless until when while yield
+            </WordsStyle>
+            <WordsStyle name="STRING" styleID="6" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHARACTER" styleID="7" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CLASSNAME" styleID="8" fgColor="82e2ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="DEFNAME" styleID="9" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="f694ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="REGEX" styleID="12" fgColor="f694ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SYMBOL" styleID="15" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
+
+        <LexerType name="xml" desc="XML" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TAG" styleID="1" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TAGUNKNOWN" styleID="2" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ATTRIBUTE" styleID="3" fgColor="f694ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ATTRIBUTEUNKNOWN" styleID="4" fgColor="f694ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="5" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DOUBLESTRING" styleID="6" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SINGLESTRING" styleID="7" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="9" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ENTITY" styleID="10" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TAGEND" styleID="11" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="XMLSTART" styleID="12" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="XMLEND" styleID="13" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CDATA" styleID="17" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
+
+        <LexerType name="markdown" desc="Markdown" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRONG1" styleID="1" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="STRONG2" styleID="2" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="EM1" styleID="3" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="EM2" styleID="4" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="HEADER1" styleID="5" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="HEADER2" styleID="6" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="HEADER3" styleID="7" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="HEADER4" styleID="8" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="HEADER5" styleID="9" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="HEADER6" styleID="10" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="PRECHAR" styleID="11" fgColor="ff6767" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ULIST ITEM" styleID="12" fgColor="ff6767" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OLIST ITEM" styleID="13" fgColor="ff6767" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="BLOCKQUOTE" styleID="14" fgColor="f694ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRIKEOUT" styleID="15" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="HRULE" styleID="16" fgColor="ff6767" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="LINK" styleID="17" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CODE" styleID="18" fgColor="82e2ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CODE2" styleID="19" fgColor="82e2ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CODEBK" styleID="20" fgColor="82e2ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
+
+        <LexerType name="java" desc="Java" ext="">
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" keywordClass="instre1">
+                abstract assert boolean break byte case catch char class const continue default do double else enum extends final finally float for goto if implements import instanceof int interface long native new package private protected public return short static strictfp super switch synchronized this throw throws transient try void volatile while
+            </WordsStyle>
+            <WordsStyle name="TYPE WORD" styleID="16" fgColor="82e2ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" keywordClass="type1">
+                String Integer Long Double Float Boolean Byte Character Short Void Object ArrayList HashMap HashSet List Set Map Exception RuntimeException Throwable System Thread
+            </WordsStyle>
+            <WordsStyle name="NUMBER" styleID="4" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="6" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHARACTER" styleID="7" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="VERBATIM" styleID="13" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="REGEX" styleID="14" fgColor="f694ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT DOC" styleID="3" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
+
+        <LexerType name="cs" desc="C#" ext="">
+            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="82e2ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" keywordClass="instre1">
+                abstract as async await base break case catch checked class const continue default delegate do else enum event explicit extern false finally fixed for foreach goto if implicit in interface internal is lock namespace new null operator out override params private protected public readonly ref return sealed sizeof stackalloc static switch this throw true try typeof unchecked unsafe using virtual volatile while yield
+            </WordsStyle>
+            <WordsStyle name="TYPE WORD" styleID="16" fgColor="82e2ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" keywordClass="type1">
+                bool byte char decimal double float int long object sbyte short string uint ulong ushort void dynamic var Task List Dictionary IEnumerable Exception
+            </WordsStyle>
+            <WordsStyle name="NUMBER" styleID="4" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="6" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHARACTER" styleID="7" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="VERBATIM" styleID="13" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="REGEX" styleID="14" fgColor="f694ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT DOC" styleID="3" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
+
+        <LexerType name="go" desc="Go" ext="">
+            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="82e2ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" keywordClass="instre1">
+                break case chan const continue default defer else fallthrough for func go goto if import interface map package range return select struct switch type var
+            </WordsStyle>
+            <WordsStyle name="TYPE WORD" styleID="16" fgColor="82e2ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" keywordClass="type1">
+                bool byte complex64 complex128 error float32 float64 int int8 int16 int32 int64 rune string uint uint8 uint16 uint32 uint64 uintptr
+            </WordsStyle>
+            <WordsStyle name="PREDECLARED IDENTIFIERS" styleID="19" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="6" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING RAW" styleID="20" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHARACTER" styleID="7" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="VERBATIM" styleID="13" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="REGEX" styleID="14" fgColor="f694ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT DOC" styleID="3" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
+
+        <LexerType name="rust" desc="Rust" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" keywordClass="instre1">
+                as async await break const continue crate dyn else enum extern false fn for if impl in let loop match mod move mut pub ref return self Self static struct super trait true type union unsafe use where while
+            </WordsStyle>
+            <WordsStyle name="TYPE WORD" styleID="16" fgColor="82e2ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" keywordClass="type1">
+                i8 i16 i32 i64 i128 isize u8 u16 u32 u64 u128 usize f32 f64 bool char str String Vec Option Result Box Arc Rc
+            </WordsStyle>
+            <WordsStyle name="NUMBER" styleID="4" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="6" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHARACTER" styleID="7" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="LIFETIME" styleID="11" fgColor="f694ff" bgColor="21202e" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="MACRO" styleID="12" fgColor="82e2ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT DOC" styleID="3" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ATTRIBUTE" styleID="13" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
+
+        <LexerType name="bash" desc="Bash" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ERROR" styleID="1" fgColor="ff6767" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="2" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="3" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="4" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" keywordClass="instre1">
+                alias bg bind break builtin caller cd command compgen complete compopt continue declare dirs disown echo enable eval exec exit export fc fg getopts hash help history jobs kill let local logout mapfile popd printf pushd pwd read readarray readonly return set shift shopt source suspend test times trap type typeset ulimit umask unalias unset wait
+            </WordsStyle>
+            <WordsStyle name="KEYWORD" styleID="5" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" keywordClass="type1">
+                if then else elif fi case esac for select while until do done in function time coproc
+            </WordsStyle>
+            <WordsStyle name="STRING" styleID="6" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHARACTER" styleID="7" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="8" fgColor="ff6767" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="9" fgColor="f694ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SCALAR" styleID="10" fgColor="f694ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="HERE DELIM" styleID="11" fgColor="ff6767" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="HERE Q" styleID="12" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
+
+        <LexerType name="ini" desc="INI file" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SECTION" styleID="2" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="ASSIGNMENT" styleID="3" fgColor="f694ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="DEFVAL" styleID="4" fgColor="f694ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
+
+        <LexerType name="yaml" desc="YAML" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="2" fgColor="f694ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="KEYWORD" styleID="3" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="1" fontSize="" keywordClass="instre1">
+                true false null
+            </WordsStyle>
+            <WordsStyle name="NUMBER" styleID="4" fgColor="ffca85" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="5" fgColor="61ffca" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="6" fgColor="edecee" bgColor="21202e" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="DOCUMENT" styleID="7" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
+    </LexerStyles>
+    <GlobalStyles>
+        <!-- Attention : Don't modify the name of styleID="0" -->
+        <WidgetStyle name="Global override" styleID="0" fgColor="edecee" bgColor="21202e" fontName="Consolas" fontStyle="0" fontSize="10" />
+        <WidgetStyle name="Default Style" styleID="32" fgColor="edecee" bgColor="21202e" fontName="Consolas" fontStyle="0" fontSize="10" />
+        <WidgetStyle name="Indent guideline style" styleID="37" fgColor="6d6d6d" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+        <WidgetStyle name="Brace highlight style" styleID="34" fgColor="edecee" bgColor="a277ff" fontName="" fontStyle="1" fontSize="10" />
+        <WidgetStyle name="Bad brace colour" styleID="35" fgColor="edecee" bgColor="ff6767" fontName="" fontStyle="0" fontSize="" />
+        <WidgetStyle name="Current line background colour" styleID="0" bgColor="2e2b38" fgColor="edecee" fontSize="" fontStyle="0" />
+        <WidgetStyle name="Selected text colour" styleID="0" bgColor="3d375e7f" fgColor="edecee" fontStyle="0" />
+        <WidgetStyle name="Caret colour" styleID="2069" fgColor="edecee" bgColor="21202e" fontStyle="0" />
+        <WidgetStyle name="Edge colour" styleID="0" fgColor="edecee" bgColor="21202e" fontSize="" fontStyle="0" />
+        <WidgetStyle name="Line number margin" styleID="33" fgColor="a277ff" bgColor="21202e" fontName="" fontStyle="0" fontSize="" />
+        <WidgetStyle name="Fold" styleID="0" fgColor="a277ff" bgColor="21202e" fontStyle="0" fontSize="" />
+        <WidgetStyle name="Fold active" styleID="0" fgColor="a277ff" fontStyle="0" fontSize="" bgColor="21202e" />
+        <WidgetStyle name="Fold margin" styleID="0" fgColor="21202e" bgColor="21202e" fontStyle="0" fontSize="" />
+        <WidgetStyle name="White space symbol" styleID="0" fgColor="6d6d6d" bgColor="21202e" fontStyle="0" fontSize="" />
+        <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="a394f033" fgColor="edecee" fontSize="" fontStyle="0" />
+        <WidgetStyle name="Find Mark Style" styleID="31" bgColor="3ea7847f" fgColor="edecee" fontStyle="0" fontSize="" />
+        <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="a277ff" fgColor="21202e" fontStyle="0" />
+        <WidgetStyle name="Tags attribute" styleID="26" bgColor="21202e" fgColor="edecee" fontStyle="0" />
+        <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="61ffca" fontStyle="0" />
+        <WidgetStyle name="Active tab unfocused indicator" styleID="0" fgColor="6d6d6d" fontStyle="0" />
+        <WidgetStyle name="Active tab text" styleID="0" fgColor="61ffca" fontStyle="0" />
+        <WidgetStyle name="Inactive tabs" styleID="0" fgColor="6d6d6d" bgColor="21202e" fontStyle="0" />
+        <WidgetStyle name="URL hovered" styleID="0" fgColor="61ffca" bgColor="21202e" fontStyle="0" />
+    </GlobalStyles>
+</NotepadPlus>
