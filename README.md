@@ -399,6 +399,15 @@
         <span>Sway</span>
       </p>
     </td>
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/raycast">
+          <img src="https://github.com/user-attachments/assets/6ab3fbc9-a407-4f88-b59a-1c185515388f" align="center" />
+        </a>
+        <br/><br/>
+        <span>Raycast</span>
+      </p>
+    </td>
   </tr>
  </table>
 
