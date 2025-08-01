@@ -402,7 +402,7 @@
     <td valign="top">
       <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/raycast">
-          <img src="https://private-user-images.githubusercontent.com/83606943/370319065-1df0c51e-a353-45d7-b7e8-7d0e4abe4b39.svg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjcxODcyMjgsIm5iZiI6MTcyNzE4NjkyOCwicGF0aCI6Ii84MzYwNjk0My8zNzAzMTkwNjUtMWRmMGM1MWUtYTM1My00NWQ3LWI3ZTgtN2QwZTRhYmU0YjM5LnN2Zz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTI0VDE0MDg0OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZmNmUxZWY3ZmM2YzE3NzI0NmFiNmM5YWFiYjJlMjI1ZGFkOWRiMTUxMzg1YjliNjkyODE3MTcxNmVjMmUyYmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.8dZt1c1hBXRO7fffaVVgtvuAvHxYxk33lebqC6-jIuY" align="center" />
+          <img src="https://github.com/user-attachments/assets/6ab3fbc9-a407-4f88-b59a-1c185515388f" align="center" />
         </a>
         <br/><br/>
         <span>Raycast</span>
