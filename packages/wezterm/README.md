@@ -22,7 +22,7 @@
 # Installation
 
 1. Create the Wezterm [Configuration File](https://wezterm.org/config/files.html#configuration-files)
-2. Copy the contents of [aura-theme.lua](./aura-theme.lua) and paste to the config
+2. Copy the contents of [aura-theme.lua](https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/wezterm/aura-theme.lua) and paste to the config
 3. To use the color scheme, add this line before return:
    ```lua
    config.color_scheme = "Aura Dark"
