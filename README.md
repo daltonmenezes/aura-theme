@@ -267,6 +267,17 @@
       </p>
     </td>
   </tr>
+  <tr>
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/wezterm">
+          <img src="https://private-user-images.githubusercontent.com/86513136/482196086-71297973-e092-4902-891a-18f65d977945.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTYyNzYwMjYsIm5iZiI6MTc1NjI3NTcyNiwicGF0aCI6Ii84NjUxMzEzNi80ODIxOTYwODYtNzEyOTc5NzMtZTA5Mi00OTAyLTg5MWEtMThmNjVkOTc3OTQ1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA4MjclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwODI3VDA2MjIwNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZhYjg1Zjk1Y2MwNTJkMTg4MzZhYTA0Y2M5N2ZiZTQ1MGRjYjYzN2QyMjU4M2Q5MjIwMmFkZWE1MDFkNWZlYzEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.QbD13DOiCH61UMepESTV4ssKjCpar4eOQ5Ys3OytJa8" align="center">
+        </a>
+        <br/><br/>
+        <span>WezTerm</span>
+      </p>
+    </td>
+  </tr>
  </table>
 
 ### Browsers
