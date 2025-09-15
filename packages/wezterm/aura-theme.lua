@@ -8,7 +8,7 @@ config.color_schemes = {
 
 		cursor_bg = "#a277ff",
 
-		selection_bg = "#3d375e7f",
+		selection_bg = "#29263c",
 
 		ansi = {
 			"#15141b",

@@ -8,7 +8,7 @@ config.color_schemes = {
 
 		cursor_bg = "{{ accent1 }}",
 
-		selection_bg = "{{ accent20 }}",
+		selection_bg = "{{ accent38 }}",
 
 		ansi = {
 			"{{ accent12 }}",
