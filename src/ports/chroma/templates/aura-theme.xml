@@ -1,0 +1,107 @@
+<!--
+# {{ displayName }} > Color scheme for Chroma syntax highlighter
+# Repository: {{{ repository }}}
+# Theme version: {{ version }}
+-->
+
+<style name="{{ slug }}">
+  <!-- Base -->
+  <entry type="Background" style="bg:{{ accent12 }} {{ accent7 }}"/>
+  <entry type="CodeLine" style="{{ accent7 }}"/>
+  <entry type="Error" style="{{ accent5 }}"/>
+  <entry type="Other" style="{{ accent7 }}"/>
+  <entry type="LineTableTD" style=""/>
+  <entry type="LineTable" style=""/>
+  <entry type="LineHighlight" style="bg:{{ accent38 }}"/>
+  <entry type="LineNumbersTable" style="{{ accent8 }}"/>
+  <entry type="LineNumbers" style="{{ accent8 }}"/>
+
+  <!-- Keywords -->
+  <entry type="Keyword" style="{{ accent1 }}"/>
+  <entry type="KeywordReserved" style="{{ accent1 }}"/>
+  <entry type="KeywordPseudo" style="{{ accent1 }}"/>
+  <entry type="KeywordConstant" style="{{ accent2 }}"/>
+  <entry type="KeywordDeclaration" style="{{ accent1 }}"/>
+  <entry type="KeywordNamespace" style="{{ accent1 }}"/>
+  <entry type="KeywordType" style="{{ accent32 }}"/>
+
+  <!-- Names -->
+  <entry type="Name" style="{{ accent7 }}"/>
+  <entry type="NameClass" style="{{ accent32 }}"/>
+  <entry type="NameConstant" style="{{ accent2 }}"/>
+  <entry type="NameDecorator" style="{{ accent6 }}"/>
+  <entry type="NameEntity" style="{{ accent3 }}"/>
+  <entry type="NameException" style="{{ accent5 }}"/>
+  <entry type="NameFunction" style="{{ accent3 }}"/>
+  <entry type="NameFunctionMagic" style="{{ accent3 }}"/>
+  <entry type="NameLabel" style="{{ accent6 }}"/>
+  <entry type="NameNamespace" style="{{ accent7 }}"/>
+  <entry type="NameProperty" style="{{ accent6 }}"/>
+  <entry type="NameTag" style="{{ accent1 }}"/>
+  <entry type="NameVariable" style="{{ accent7 }}"/>
+  <entry type="NameVariableClass" style="{{ accent7 }}"/>
+  <entry type="NameVariableGlobal" style="{{ accent7 }}"/>
+  <entry type="NameVariableInstance" style="{{ accent7 }}"/>
+  <entry type="NameVariableMagic" style="{{ accent7 }}"/>
+  <entry type="NameAttribute" style="{{ accent6 }}"/>
+  <entry type="NameBuiltin" style="{{ accent32 }}"/>
+  <entry type="NameBuiltinPseudo" style="{{ accent32 }}"/>
+  <entry type="NameOther" style="{{ accent7 }}"/>
+
+  <!-- Literals -->
+  <entry type="Literal" style="{{ accent2 }}"/>
+  <entry type="LiteralDate" style="{{ accent2 }}"/>
+  <entry type="LiteralString" style="{{ accent2 }}"/>
+  <entry type="LiteralStringChar" style="{{ accent2 }}"/>
+  <entry type="LiteralStringSingle" style="{{ accent2 }}"/>
+  <entry type="LiteralStringDouble" style="{{ accent2 }}"/>
+  <entry type="LiteralStringBacktick" style="{{ accent2 }}"/>
+  <entry type="LiteralStringOther" style="{{ accent2 }}"/>
+  <entry type="LiteralStringSymbol" style="{{ accent2 }}"/>
+  <entry type="LiteralStringInterpol" style="{{ accent2 }}"/>
+  <entry type="LiteralStringAffix" style="{{ accent1 }}"/>
+  <entry type="LiteralStringDelimiter" style="{{ accent2 }}"/>
+  <entry type="LiteralStringEscape" style="{{ accent1 }}"/>
+  <entry type="LiteralStringRegex" style="{{ accent2 }}"/>
+  <entry type="LiteralStringDoc" style="{{ accent8 }}"/>
+  <entry type="LiteralStringHeredoc" style="{{ accent8 }}"/>
+  <entry type="LiteralNumber" style="{{ accent2 }}"/>
+  <entry type="LiteralNumberBin" style="{{ accent2 }}"/>
+  <entry type="LiteralNumberHex" style="{{ accent2 }}"/>
+  <entry type="LiteralNumberInteger" style="{{ accent2 }}"/>
+  <entry type="LiteralNumberFloat" style="{{ accent2 }}"/>
+  <entry type="LiteralNumberIntegerLong" style="{{ accent2 }}"/>
+  <entry type="LiteralNumberOct" style="{{ accent2 }}"/>
+
+  <!-- Operators -->
+  <entry type="Operator" style="{{ accent1 }}"/>
+  <entry type="OperatorWord" style="{{ accent1 }}"/>
+
+  <!-- Comments (italic) -->
+  <entry type="Comment" style="italic {{ accent8 }}"/>
+  <entry type="CommentSingle" style="italic {{ accent8 }}"/>
+  <entry type="CommentMultiline" style="italic {{ accent8 }}"/>
+  <entry type="CommentSpecial" style="italic {{ accent8 }}"/>
+  <entry type="CommentHashbang" style="italic {{ accent8 }}"/>
+  <entry type="CommentPreproc" style="italic {{ accent8 }}"/>
+  <entry type="CommentPreprocFile" style="italic {{ accent8 }}"/>
+
+  <!-- Generic -->
+  <entry type="Generic" style="{{ accent7 }}"/>
+  <entry type="GenericInserted" style="bg:{{ accent12 }} {{ accent2 }}"/>
+  <entry type="GenericDeleted" style="bg:{{ accent12 }} {{ accent5 }}"/>
+  <entry type="GenericEmph" style="italic {{ accent7 }}"/>
+  <entry type="GenericStrong" style="bold {{ accent7 }}"/>
+  <entry type="GenericUnderline" style="underline {{ accent7 }}"/>
+  <entry type="GenericHeading" style="bold {{ accent1 }}"/>
+  <entry type="GenericSubheading" style="bold {{ accent1 }}"/>
+  <entry type="GenericOutput" style="{{ accent7 }}"/>
+  <entry type="GenericPrompt" style="{{ accent7 }}"/>
+  <entry type="GenericError" style="{{ accent5 }}"/>
+  <entry type="GenericTraceback" style="{{ accent5 }}"/>
+
+  <!-- Punctuation -->
+  <entry type="Punctuation" style="{{ accent6 }}"/>
+  <entry type="Text" style="{{ accent7 }}"/>
+  <entry type="TextWhitespace" style="{{ accent7 }}"/>
+</style>
