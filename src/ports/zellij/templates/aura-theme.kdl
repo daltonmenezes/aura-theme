@@ -1,0 +1,126 @@
+//
+// {{ displayName }} color scheme for Zellij
+// Repository: {{{ repository }}}
+// Theme version: {{ version }}
+//
+
+themes {
+    {{ slug }} {
+        text_unselected {
+            base {{ accent7 }}
+            background {{ accent12 }}
+            emphasis_0 {{ accent1 }}
+            emphasis_1 {{ accent2 }}
+            emphasis_2 {{ accent32 }}
+            emphasis_3 {{ accent3 }}
+        }
+        text_selected {
+            base {{ accent7 }}
+            background {{ accent38 }}
+            emphasis_0 {{ accent1 }}
+            emphasis_1 {{ accent2 }}
+            emphasis_2 {{ accent32 }}
+            emphasis_3 {{ accent3 }}
+        }
+        ribbon_selected {
+            base {{ accent12 }}
+            background {{ accent2 }}
+            emphasis_0 {{ accent1 }}
+            emphasis_1 {{ accent6 }}
+            emphasis_2 {{ accent5 }}
+            emphasis_3 {{ accent8 }}
+        }
+        ribbon_unselected {
+            base {{ accent12 }}
+            background {{ accent7 }}
+            emphasis_0 {{ accent1 }}
+            emphasis_1 {{ accent6 }}
+            emphasis_2 {{ accent5 }}
+            emphasis_3 {{ accent8 }}
+        }
+        table_title {
+            base {{ accent2 }}
+            background 0
+            emphasis_0 {{ accent1 }}
+            emphasis_1 {{ accent2 }}
+            emphasis_2 {{ accent32 }}
+            emphasis_3 {{ accent3 }}
+        }
+        table_cell_selected {
+            base {{ accent7 }}
+            background {{ accent38 }}
+            emphasis_0 {{ accent1 }}
+            emphasis_1 {{ accent2 }}
+            emphasis_2 {{ accent32 }}
+            emphasis_3 {{ accent3 }}
+        }
+        table_cell_unselected {
+            base {{ accent7 }}
+            background {{ accent12 }}
+            emphasis_0 {{ accent1 }}
+            emphasis_1 {{ accent2 }}
+            emphasis_2 {{ accent32 }}
+            emphasis_3 {{ accent3 }}
+        }
+        list_selected {
+            base {{ accent7 }}
+            background {{ accent38 }}
+            emphasis_0 {{ accent1 }}
+            emphasis_1 {{ accent2 }}
+            emphasis_2 {{ accent32 }}
+            emphasis_3 {{ accent3 }}
+        }
+        list_unselected {
+            base {{ accent7 }}
+            background {{ accent12 }}
+            emphasis_0 {{ accent1 }}
+            emphasis_1 {{ accent2 }}
+            emphasis_2 {{ accent32 }}
+            emphasis_3 {{ accent3 }}
+        }
+        frame_selected {
+            base {{ accent2 }}
+            background 0
+            emphasis_0 0
+            emphasis_1 {{ accent6 }}
+            emphasis_2 {{ accent32 }}
+            emphasis_3 {{ accent3 }}
+        }
+        frame_highlight {
+            base {{ accent3 }}
+            background 0
+            emphasis_0 {{ accent1 }}
+            emphasis_1 {{ accent5 }}
+            emphasis_2 {{ accent32 }}
+            emphasis_3 {{ accent6 }}
+        }
+        exit_code_success {
+            base {{ accent2 }}
+            background 0
+            emphasis_0 {{ accent1 }}
+            emphasis_1 {{ accent6 }}
+            emphasis_2 {{ accent12 }}
+            emphasis_3 {{ accent32 }}
+        }
+        exit_code_error {
+            base {{ accent5 }}
+            background 0
+            emphasis_0 0
+            emphasis_1 0
+            emphasis_2 0
+            emphasis_3 {{ accent3 }}
+        }
+        multiplayer_user_colors {
+            player_1 {{ accent3 }}
+            player_2 {{ accent6 }}
+            player_3 {{ accent32 }}
+            player_4 {{ accent5 }}
+            player_5 0
+            player_6 0
+            player_7 0
+            player_8 0
+            player_9 0
+            player_10 0
+        }
+    }
+}

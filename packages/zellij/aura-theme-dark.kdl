@@ -1,0 +1,126 @@
+//
+// Aura Theme color scheme for Zellij
+// Repository: https://github.com/daltonmenezes/aura-theme
+// Theme version: 1.0.0
+//
+
+themes {
+    aura-theme-dark {
+        text_unselected {
+            base 237 236 238
+            background 21 20 27
+            emphasis_0 162 119 255
+            emphasis_1 97 255 202
+            emphasis_2 130 226 255
+            emphasis_3 255 202 133
+        }
+        text_selected {
+            base 237 236 238
+            background 41 38 60
+            emphasis_0 162 119 255
+            emphasis_1 97 255 202
+            emphasis_2 130 226 255
+            emphasis_3 255 202 133
+        }
+        ribbon_selected {
+            base 21 20 27
+            background 97 255 202
+            emphasis_0 162 119 255
+            emphasis_1 246 148 255
+            emphasis_2 255 103 103
+            emphasis_3 109 109 109
+        }
+        ribbon_unselected {
+            base 21 20 27
+            background 237 236 238
+            emphasis_0 162 119 255
+            emphasis_1 246 148 255
+            emphasis_2 255 103 103
+            emphasis_3 109 109 109
+        }
+        table_title {
+            base 97 255 202
+            background 0
+            emphasis_0 162 119 255
+            emphasis_1 97 255 202
+            emphasis_2 130 226 255
+            emphasis_3 255 202 133
+        }
+        table_cell_selected {
+            base 237 236 238
+            background 41 38 60
+            emphasis_0 162 119 255
+            emphasis_1 97 255 202
+            emphasis_2 130 226 255
+            emphasis_3 255 202 133
+        }
+        table_cell_unselected {
+            base 237 236 238
+            background 21 20 27
+            emphasis_0 162 119 255
+            emphasis_1 97 255 202
+            emphasis_2 130 226 255
+            emphasis_3 255 202 133
+        }
+        list_selected {
+            base 237 236 238
+            background 41 38 60
+            emphasis_0 162 119 255
+            emphasis_1 97 255 202
+            emphasis_2 130 226 255
+            emphasis_3 255 202 133
+        }
+        list_unselected {
+            base 237 236 238
+            background 21 20 27
+            emphasis_0 162 119 255
+            emphasis_1 97 255 202
+            emphasis_2 130 226 255
+            emphasis_3 255 202 133
+        }
+        frame_selected {
+            base 97 255 202
+            background 0
+            emphasis_0 0
+            emphasis_1 246 148 255
+            emphasis_2 130 226 255
+            emphasis_3 255 202 133
+        }
+        frame_highlight {
+            base 255 202 133
+            background 0
+            emphasis_0 162 119 255
+            emphasis_1 255 103 103
+            emphasis_2 130 226 255
+            emphasis_3 246 148 255
+        }
+        exit_code_success {
+            base 97 255 202
+            background 0
+            emphasis_0 162 119 255
+            emphasis_1 246 148 255
+            emphasis_2 21 20 27
+            emphasis_3 130 226 255
+        }
+        exit_code_error {
+            base 255 103 103
+            background 0
+            emphasis_0 0
+            emphasis_1 0
+            emphasis_2 0
+            emphasis_3 255 202 133
+        }
+        multiplayer_user_colors {
+            player_1 255 202 133
+            player_2 246 148 255
+            player_3 130 226 255
+            player_4 255 103 103
+            player_5 0
+            player_6 0
+            player_7 0
+            player_8 0
+            player_9 0
+            player_10 0
+        }
+    }
+}
