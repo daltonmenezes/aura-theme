@@ -39,9 +39,9 @@
     "editor.background": "#15141b",
     "editor.foreground": "#bdbdbd",
     "editorLineNumber.foreground": "#a394f033",
-    "editorIndentGuide.activeBackground": "#6d6d6d",
+    "editorIndentGuide.activeBackground1": "#6d6d6d",
     "editorCursor.foreground": "#8464c6",
-    "editor.selectionBackground": "#3d375e7f",
+    "editor.selectionBackground": "#4d466e",
     "editor.selectionHighlightBackground": "#3d375e7f",
     "editor.inactiveSelectionBackground": "#3d375e7f",
     "editor.wordHighlightBackground": "#3d375e7f",
@@ -56,7 +56,7 @@
     "editorInlayHint.foreground": "#b4b4b4",
     "editorLink.activeForeground": "#8464c6",
     "editorWhitespace.foreground": "#2d2d2d",
-    "editorIndentGuide.background": "#2d2d2d",
+    "editorIndentGuide.background1": "#2d2d2d",
     "editorBracketMatch.border": "#8464c6",
     "editorError.foreground": "#c55858",
     "editorError.border": "#ffffff00",
@@ -206,10 +206,7 @@
     },
     {
       "name": "Accent5",
-      "scope": [
-        "invalid",
-        "markup.deleted"
-      ],
+      "scope": ["invalid", "markup.deleted"],
       "settings": {
         "foreground": "#c55858"
       }
@@ -264,20 +261,14 @@
     },
     {
       "name": "Accent8",
-      "scope": [
-        "comment",
-        "string.quoted.docstring.multi.python"
-      ],
+      "scope": ["comment", "string.quoted.docstring.multi.python"],
       "settings": {
         "foreground": "#6d6d6d"
       }
     },
     {
       "name": "Accent31",
-      "scope": [
-        "entity.name.function",
-        "support.function"
-      ],
+      "scope": ["entity.name.function", "support.function"],
       "settings": {
         "foreground": "#c7a06f"
       }
@@ -325,10 +316,7 @@
     },
     {
       "name": "Bold",
-      "scope": [
-        "markup.bold.markdown",
-        "storage.type.annotation.dart"
-      ],
+      "scope": ["markup.bold.markdown", "storage.type.annotation.dart"],
       "settings": {
         "fontStyle": "bold"
       }

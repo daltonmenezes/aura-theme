@@ -39,9 +39,9 @@
     "editor.background": "{{ accent12 }}",
     "editor.foreground": "{{ accent7 }}",
     "editorLineNumber.foreground": "{{ accent17 }}",
-    "editorIndentGuide.activeBackground": "{{ accent8 }}",
+    "editorIndentGuide.activeBackground1": "{{ accent8 }}",
     "editorCursor.foreground": "{{ accent1 }}",
-    "editor.selectionBackground": "{{ accent20 }}",
+    "editor.selectionBackground": "{{ accent22 }}",
     "editor.selectionHighlightBackground": "{{ accent20 }}",
     "editor.inactiveSelectionBackground": "{{ accent20 }}",
     "editor.wordHighlightBackground": "{{ accent20 }}",
@@ -56,7 +56,7 @@
     "editorInlayHint.foreground": "{{ accent9 }}",
     "editorLink.activeForeground": "{{ accent1 }}",
     "editorWhitespace.foreground": "{{ accent13 }}",
-    "editorIndentGuide.background": "{{ accent13 }}",
+    "editorIndentGuide.background1": "{{ accent13 }}",
     "editorBracketMatch.border": "{{ accent1 }}",
     "editorError.foreground": "{{ accent5 }}",
     "editorError.border": "{{ accent16 }}",
@@ -206,10 +206,7 @@
     },
     {
       "name": "Accent5",
-      "scope": [
-        "invalid",
-        "markup.deleted"
-      ],
+      "scope": ["invalid", "markup.deleted"],
       "settings": {
         "foreground": "{{ accent5 }}"
       }
@@ -264,20 +261,14 @@
     },
     {
       "name": "Accent8",
-      "scope": [
-        "comment",
-        "string.quoted.docstring.multi.python"
-      ],
+      "scope": ["comment", "string.quoted.docstring.multi.python"],
       "settings": {
         "foreground": "{{ accent8 }}"
       }
     },
     {
       "name": "Accent31",
-      "scope": [
-        "entity.name.function",
-        "support.function"
-      ],
+      "scope": ["entity.name.function", "support.function"],
       "settings": {
         "foreground": "{{ accent31 }}"
       }
@@ -325,10 +316,7 @@
     },
     {
       "name": "Bold",
-      "scope": [
-        "markup.bold.markdown",
-        "storage.type.annotation.dart"
-      ],
+      "scope": ["markup.bold.markdown", "storage.type.annotation.dart"],
       "settings": {
         "fontStyle": "bold"
       }
