@@ -1,0 +1,199 @@
+#
+# Aura Theme > Dark color scheme
+# Repository: https://github.com/daltonmenezes/aura-theme
+# Theme version: 1.0.0
+#
+# Color names reference the accent naming convention from aura-theme/src/core/colors/schemes/
+
+colors:
+  # Primary colors
+  accent0: '0f0f0f' # dark accent
+  accent1: 'a277ff' # purple
+  accent2: '61ffca' # green/cyan
+  accent3: 'ffca85' # orange
+  accent4: '9dff65' # lime
+  accent5: 'ff6767' # red
+  accent6: 'f694ff' # pink
+  accent7: 'edecee' # foreground
+  accent8: '6d6d6d' # comments
+  accent32: '82e2ff' # blue
+
+  # UI colors
+  accent9: 'cdccce' # lighter foreground
+  accent10: 'adacae' # medium foreground
+  accent13: '2d2d2d' # dark gray
+  accent15: '4d4d4d' # medium gray
+  accent22: '4d466e' # selection
+  accent23: '3b334b' # darker selection
+  accent25: '49c29a' # accent teal
+  accent28: '121016' # darker background
+
+  # Darker variants
+  accent11: '000000' # black
+  accent12: '15141b' # background
+  accent21: '110f18' # darker background
+  accent24: '121016' # darkest background
+
+core:
+  normal_text:
+    foreground: accent8
+
+  regular_file:
+    foreground: accent7
+
+  reset_to_normal:
+    foreground: accent8
+
+  directory:
+    foreground: accent1
+    font-style: bold
+
+  executable_file:
+    foreground: accent2
+    font-style: bold
+
+  file_with_capability:
+    foreground: accent7
+    background: accent23
+    font-style:
+      - bold
+      - underline
+
+  setuid:
+    foreground: accent7
+    background: accent5
+
+  setgid:
+    foreground: accent11
+    background: accent3
+
+  sticky:
+    foreground: accent7
+    background: accent1
+
+  sticky_other_writable:
+    foreground: accent11
+    background: accent1
+    font-style: bold
+
+  other_writable:
+    foreground: accent1
+    background: accent23
+    font-style: bold
+
+  symlink:
+    foreground: accent32
+    font-style: italic
+
+  broken_symlink:
+    foreground: accent11
+    background: accent5
+
+  missing_symlink_target:
+    foreground: accent5
+
+  multi_hard_link:
+    foreground: accent32
+    font-style: underline
+
+  socket:
+    foreground: accent6
+    background: accent28
+    font-style: bold
+
+  fifo:
+    foreground: accent3
+    background: accent28
+    font-style: bold
+
+  door:
+    foreground: accent2
+    background: accent28
+    font-style: bold
+
+  block_device:
+    foreground: accent5
+    background: accent21
+    font-style: bold
+
+  character_device:
+    foreground: accent3
+    background: accent21
+    font-style: bold
+
+executable:
+  foreground: accent2
+  font-style: bold
+
+archives:
+  foreground: accent5
+  font-style: bold
+
+  images:
+    foreground: accent3
+    font-style: bold
+
+media:
+  audio:
+    foreground: accent32
+    font-style: bold
+
+  image:
+    foreground: accent6
+    font-style: bold
+
+  video:
+    foreground: accent5
+    font-style: bold
+
+  fonts:
+    foreground: accent3
+    font-style: bold
+
+  3d:
+    foreground: accent6
+    font-style: bold
+
+office:
+  foreground: accent4
+  font-style: bold
+
+text:
+  foreground: accent7
+
+  configuration:
+    foreground: accent3
+
+    dockerfile:
+      foreground: accent32
+
+  licenses:
+    foreground: accent8
+    font-style: italic
+
+  special:
+    foreground: accent32
+    font-style: bold
+
+  todo:
+    foreground: accent3
+    font-style: bold
+
+markup:
+  foreground: accent3
+
+programming:
+  foreground: accent2
+
+  source:
+    foreground: accent2
+
+  tooling:
+    foreground: accent32
+
+    continuous-integration:
+      foreground: accent25
+
+unimportant:
+  foreground: accent8
+  font-style: italic
