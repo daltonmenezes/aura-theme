@@ -1,0 +1,45 @@
+#
+# {{ displayName }} color scheme for lsd
+# Repository: {{{ repository }}}
+# Theme version: {{ version }}
+#
+# Color names reference the accent naming convention from aura-theme/src/core/colors/schemes/
+
+user: '{{ accent1 }}' # purple
+group: '{{ accent32 }}' # blue
+permission:
+  read: '{{ accent2 }}' # green
+  write: '{{ accent3 }}' # orange
+  exec: '{{ accent5 }}' # red
+  exec-sticky: '{{ accent1 }}' # purple
+  no-access: '{{ accent8 }}' # gray
+  octal: '{{ accent2 }}' # green
+  acl: '{{ accent25 }}' # teal
+  context: '{{ accent32 }}' # blue
+date:
+  hour-old: '{{ accent2 }}' # green
+  day-old: '{{ accent25 }}' # teal
+  older: '{{ accent19 }}' # dark teal
+size:
+  none: '{{ accent8 }}' # gray
+  small: '{{ accent2 }}' # green
+  medium: '{{ accent3 }}' # orange
+  large: '{{ accent5 }}' # red
+inode:
+  valid: '{{ accent7 }}' # white
+  invalid: '{{ accent8 }}' # gray
+links:
+  valid: '{{ accent6 }}' # pink
+  invalid: '{{ accent5 }}' # red
+tree-edge: '{{ accent1 }}' # purple
+git-status:
+  default: '{{ accent7 }}' # white
+  unmodified: '{{ accent8 }}' # gray
+  ignored: '{{ accent8 }}' # gray
+  new-in-index: '{{ accent2 }}' # green
+  new-in-workdir: '{{ accent4 }}' # bright green
+  typechange: '{{ accent3 }}' # orange
+  deleted: '{{ accent5 }}' # red
+  renamed: '{{ accent32 }}' # blue
+  modified: '{{ accent3 }}' # orange
+  conflicted: '{{ accent5 }}' # red

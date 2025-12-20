@@ -1,0 +1,45 @@
+#
+# Aura Theme color scheme for lsd
+# Repository: https://github.com/daltonmenezes/aura-theme
+# Theme version: 1.0.0
+#
+# Color names reference the accent naming convention from aura-theme/src/core/colors/schemes/
+
+user: '#a277ff' # purple
+group: '#82e2ff' # blue
+permission:
+  read: '#61ffca' # green
+  write: '#ffca85' # orange
+  exec: '#ff6767' # red
+  exec-sticky: '#a277ff' # purple
+  no-access: '#6d6d6d' # gray
+  octal: '#61ffca' # green
+  acl: '#49c29a' # teal
+  context: '#82e2ff' # blue
+date:
+  hour-old: '#61ffca' # green
+  day-old: '#49c29a' # teal
+  older: '#3ea784' # dark teal
+size:
+  none: '#6d6d6d' # gray
+  small: '#61ffca' # green
+  medium: '#ffca85' # orange
+  large: '#ff6767' # red
+inode:
+  valid: '#edecee' # white
+  invalid: '#6d6d6d' # gray
+links:
+  valid: '#f694ff' # pink
+  invalid: '#ff6767' # red
+tree-edge: '#a277ff' # purple
+git-status:
+  default: '#edecee' # white
+  unmodified: '#6d6d6d' # gray
+  ignored: '#6d6d6d' # gray
+  new-in-index: '#61ffca' # green
+  new-in-workdir: '#9dff65' # bright green
+  typechange: '#ffca85' # orange
+  deleted: '#ff6767' # red
+  renamed: '#82e2ff' # blue
+  modified: '#ffca85' # orange
+  conflicted: '#ff6767' # red
