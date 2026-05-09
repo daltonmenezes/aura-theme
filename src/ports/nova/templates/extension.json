@@ -1,0 +1,12 @@
+{
+  "identifier": "io.github.{{ slug }}.nova",
+  "name": "{{ shortName }} Theme",
+  "organization": "{{ author.name }}",
+  "description": "{{ shortName }} Theme port for Panic Nova.",
+  "version": "{{ version }}",
+  "categories": ["themes"],
+  "license": "MIT",
+  "repository": "{{{ repository }}}",
+  "bugs": "{{{ repository }}}/issues",
+  "homepage": "{{{ repository }}}"
+}
