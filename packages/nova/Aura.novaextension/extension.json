@@ -1,0 +1,12 @@
+{
+  "identifier": "io.github.aura-theme.nova",
+  "name": "Aura Theme",
+  "organization": "Dalton Menezes",
+  "description": "Aura Theme port for Panic Nova.",
+  "version": "1.0.0",
+  "categories": ["themes"],
+  "license": "MIT",
+  "repository": "https://github.com/daltonmenezes/aura-theme",
+  "bugs": "https://github.com/daltonmenezes/aura-theme/issues",
+  "homepage": "https://github.com/daltonmenezes/aura-theme"
+}

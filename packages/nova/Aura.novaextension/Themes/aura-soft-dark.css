@@ -1,0 +1,296 @@
+/*
+ * Aura Soft Dark for Nova
+ */
+
+meta {
+  -theme-interface-style: dark;
+  -theme-vibrancy: none;
+  -theme-accent-color: false;
+}
+
+meta.window {
+  background-color: #1c1b22;
+  border-color: #141414;
+}
+
+meta.titlebar {
+  color: #cdccce;
+  background-color: #121016;
+  border-color: #141414;
+}
+
+meta.titlebar.inactive {
+  color: #6d6d6d;
+  background-color: #1f1a27;
+  border-color: #141414;
+}
+
+meta.button {
+  color: #cdccce;
+  background-color: #3b334b;
+  border-color: #4d4d4d;
+}
+
+meta.button.highlighted,
+meta.button.selected,
+meta.document.button.highlighted,
+meta.document.button.selected {
+  color: #21202e;
+  background-color: #a277ff;
+  border-color: #a277ff;
+}
+
+meta.button.disabled,
+meta.document.button.disabled {
+  color: #4d4d4d;
+  background-color: #1f1a27;
+  border-color: #444444;
+}
+
+meta.textfield,
+meta.document.textfield {
+  background-color: #21202e;
+  border-color: #3b334b;
+}
+
+meta.textfield.active,
+meta.document.textfield.active {
+  background-color: #21202e;
+  border-color: #a277ff;
+}
+
+meta.document {
+  background-color: #21202e;
+  border-color: #141414;
+}
+
+meta.text {
+  color: #edecee;
+  background-color: #21202e;
+}
+
+meta.text.selected {
+  color: #edecee;
+  background-color: #3d375e7f;
+}
+
+meta.cursor {
+  background-color: #a277ff;
+}
+
+meta.indentguide {
+  border-color: #444444;
+}
+
+meta.gutter {
+  color: #a394f033;
+  background-color: #21202e;
+}
+
+meta.gutter.selected {
+  color: #a277ff;
+  background-color: #3d375e7f;
+}
+
+comment {
+  color: #6d6d6d;
+  font-style: italic;
+}
+
+keyword,
+keyword.construct,
+keyword.condition,
+keyword.modifier,
+keyword.operator,
+keyword.self,
+processing,
+declaration {
+  color: #a277ff;
+}
+
+operator,
+bracket {
+  color: #cdccce;
+}
+
+string,
+string.key,
+string-template,
+markup.code {
+  color: #61ffca;
+}
+
+regex,
+regex.escaped,
+value,
+value.boolean,
+value.null,
+value.number,
+value.entity,
+value.symbol {
+  color: #ffca85;
+}
+
+identifier,
+identifier.variable,
+identifier.argument {
+  color: #edecee;
+}
+
+identifier.core,
+identifier.constant,
+identifier.decorator,
+identifier.global {
+  color: #f694ff;
+}
+
+identifier.function,
+identifier.method,
+definition.function,
+definition.method {
+  color: #ffca85;
+}
+
+identifier.property,
+identifier.key,
+definition.property {
+  color: #82e2ff;
+}
+
+identifier.type,
+identifier.type.class,
+identifier.type.enum,
+identifier.type.protocol,
+identifier.type.struct,
+identifier.type.union,
+definition,
+definition.type,
+definition.class,
+definition.enum,
+definition.package,
+definition.protocol,
+definition.struct,
+definition.union {
+  color: #f694ff;
+}
+
+tag,
+tag.framework,
+style.at,
+style.selector {
+  color: #a277ff;
+}
+
+tag.attribute.name,
+style.attribute.name,
+style.selector.identifier.class,
+style.selector.identifier.id,
+style.selector.pseudoclass,
+style.selector.pseudoelement {
+  color: #ffca85;
+}
+
+tag.attribute.value,
+style.value,
+style.value.color,
+style.value.color.hex,
+style.value.color.named,
+style.value.keyword,
+style.value.number {
+  color: #61ffca;
+}
+
+markup.heading,
+markup.bold {
+  color: #a277ff;
+  font-weight: bold;
+}
+
+markup.italic {
+  color: #f694ff;
+  font-style: italic;
+}
+
+markup.link {
+  color: #61ffca;
+  text-decoration: underline;
+}
+
+markup.list,
+markup.list.item,
+markup.line {
+  color: #ffca85;
+}
+
+markup.strikethrough {
+  color: #6d6d6d;
+  text-decoration: line-through;
+}
+
+invalid {
+  color: #ff6767;
+}
+
+terminal.black {
+  color: #21202e;
+}
+
+terminal.red {
+  color: #ff6767;
+}
+
+terminal.green {
+  color: #61ffca;
+}
+
+terminal.yellow {
+  color: #ffca85;
+}
+
+terminal.blue {
+  color: #a277ff;
+}
+
+terminal.magenta {
+  color: #f694ff;
+}
+
+terminal.cyan {
+  color: #82e2ff;
+}
+
+terminal.white {
+  color: #cdccce;
+}
+
+terminal.bright-black {
+  color: #444444;
+}
+
+terminal.bright-red {
+  color: #ff6767;
+}
+
+terminal.bright-green {
+  color: #61ffca;
+}
+
+terminal.bright-yellow {
+  color: #ffca85;
+}
+
+terminal.bright-blue {
+  color: #a277ff;
+}
+
+terminal.bright-magenta {
+  color: #f694ff;
+}
+
+terminal.bright-cyan {
+  color: #82e2ff;
+}
+
+terminal.bright-white {
+  color: #edecee;
+}
