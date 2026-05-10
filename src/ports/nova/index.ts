@@ -39,22 +39,22 @@ export async function NovaPort(Aura: AuraAPI) {
   const variants: ThemeVariant[] = [
     {
       name: names.auraDark,
-      outputFileName: 'aura-dark',
+      outputFileName: names.auraDark,
       colorScheme: colorSchemes.dark,
     },
     {
       name: names.auraDarkSoftText,
-      outputFileName: 'aura-dark-soft-text',
+      outputFileName: names.auraDarkSoftText,
       colorScheme: colorSchemes.darkSoft,
     },
     {
       name: names.auraSoftDark,
-      outputFileName: 'aura-soft-dark',
+      outputFileName: names.auraSoftDark,
       colorScheme: colorSchemes.softDark,
     },
     {
       name: names.auraSoftDarkSoftText,
-      outputFileName: 'aura-soft-dark-soft-text',
+      outputFileName: names.auraSoftDarkSoftText,
       colorScheme: colorSchemes.softDarkSoft,
     },
   ]
