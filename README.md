@@ -138,6 +138,15 @@
         <span>Notepad++</span>
       </p>
     </td>
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/nova">
+          <img src="https://nova.app/apple-touch-icon.png" align="center" width="64" />
+        </a>
+        <br/><br/>
+        <span>Nova</span>
+      </p>
+    </td>
   </tr>
  </table>
 

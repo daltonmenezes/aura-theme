@@ -1,0 +1,12 @@
+{
+  "identifier": "daltonmenezes.AuraTheme",
+  "name": "{{ shortName }} Theme",
+  "organization": "{{ author.name }}",
+  "description": "A beautiful dark theme for Nova.",
+  "version": "{{ version }}",
+  "categories": ["themes"],
+  "license": "MIT",
+  "repository": "{{{ repository }}}",
+  "bugs": "{{{ repository }}}/issues",
+  "funding": "https://issuehunt.io/r/{{ author.username }}/{{ slug }}?tab=idle"
+}
