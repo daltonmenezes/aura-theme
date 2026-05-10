@@ -1,0 +1,11 @@
+{
+  "identifier": "com.{{ author.username }}.{{ shortName }}.{{ portName }}",
+  "name": "{{ displayName }} for {{ portName }}",
+  "organization": "{{ author.name }}",
+  "description": "A beautiful dark theme for {{ portName }}.",
+  "version": "{{ version }}",
+  "categories": ["themes"],
+  "license": "MIT",
+  "repository": "{{{ repository }}}",
+  "bugs": "{{{ repository }}}/issues"
+}

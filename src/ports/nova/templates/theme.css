@@ -1,0 +1,378 @@
+meta {
+  -theme-interface-name: "{{ name }}";
+  -theme-interface-style: dark;
+  -theme-accent-color: false;
+}
+
+meta.window {
+  background-color: {{ accent21 }};
+  border-color: {{ accent11 }};
+}
+
+meta.titlebar {
+  color: {{ accent9 }};
+  background-color: {{ accent21 }};
+  border-color: {{ accent11 }};
+}
+
+meta.titlebar.inactive {
+  color: {{ accent8 }};
+  background-color: {{ accent24 }};
+  border-color: {{ accent11 }};
+}
+
+meta.button {
+  color: {{ accent7 }};
+  background-color: {{ accent23 }};
+  border-color: {{ accent15 }};
+}
+
+meta.button.highlighted {
+  color: {{ accent7 }};
+  background-color: {{ accent33 }};
+  border-color: {{ accent1 }};
+}
+
+meta.button.selected,
+meta.button.highlighted.selected {
+  color: {{ accent12 }};
+  background-color: {{ accent2 }};
+  border-color: {{ accent2 }};
+}
+
+meta.button.disabled {
+  color: {{ accent8 }};
+  background-color: {{ accent24 }};
+  border-color: {{ accent13 }};
+}
+
+meta.textfield,
+meta.document.textfield {
+  background-color: {{ accent12 }};
+  border-color: {{ accent23 }};
+}
+
+meta.textfield.active,
+meta.document.textfield.active {
+  background-color: {{ accent12 }};
+  border-color: {{ accent1 }};
+}
+
+meta.document {
+  background-color: {{ accent12 }};
+  border-color: {{ accent11 }};
+}
+
+meta.document.button {
+  color: {{ accent7 }};
+  background-color: {{ accent23 }};
+  border-color: {{ accent15 }};
+}
+
+meta.document.button.highlighted {
+  background-color: {{ accent33 }};
+  border-color: {{ accent1 }};
+}
+
+meta.document.button.disabled {
+  color: {{ accent8 }};
+  background-color: {{ accent24 }};
+  border-color: {{ accent13 }};
+}
+
+meta.text {
+  color: {{ accent7 }};
+  background-color: {{ accent12 }};
+}
+
+meta.text.invisible {
+  color: {{ accent22 }};
+}
+
+meta.text.selected {
+  color: {{ accent7 }};
+  background-color: {{ accent20 }};
+}
+
+meta.cursor {
+  background-color: {{ accent1 }};
+}
+
+meta.indentguide {
+  border-color: {{ accent13 }};
+}
+
+meta.gutter {
+  color: {{ accent8 }};
+  background-color: {{ accent12 }};
+}
+
+meta.gutter.selected {
+  color: {{ accent7 }};
+  background-color: {{ accent17 }};
+}
+
+comment {
+  color: {{ accent8 }};
+  font-style: italic;
+}
+
+processing,
+declaration {
+  color: {{ accent6 }};
+}
+
+bracket {
+  color: {{ accent7 }};
+}
+
+operator {
+  color: {{ accent1 }};
+}
+
+invalid {
+  color: {{ accent5 }};
+}
+
+link {
+  color: {{ accent32 }};
+}
+
+keyword,
+keyword.construct,
+keyword.condition,
+keyword.modifier,
+keyword.operator {
+  color: {{ accent1 }};
+}
+
+keyword.self {
+  color: {{ accent6 }};
+  font-style: italic;
+}
+
+value,
+value.boolean,
+value.null,
+value.number,
+value.symbol {
+  color: {{ accent3 }};
+}
+
+value.entity {
+  color: {{ accent32 }};
+}
+
+identifier.type,
+identifier.type.class,
+identifier.type.protocol,
+identifier.type.enum,
+identifier.type.union,
+identifier.type.struct {
+  color: {{ accent2 }};
+}
+
+identifier.global,
+identifier.variable,
+identifier.property {
+  color: {{ accent7 }};
+}
+
+identifier.constant,
+identifier.core {
+  color: {{ accent3 }};
+}
+
+identifier.function,
+identifier.method,
+definition.function,
+definition.method {
+  color: {{ accent2 }};
+}
+
+identifier.key,
+definition.property {
+  color: {{ accent32 }};
+}
+
+identifier.argument {
+  color: {{ accent31 }};
+  font-style: italic;
+}
+
+identifier.decorator {
+  color: {{ accent6 }};
+  font-style: italic;
+}
+
+string {
+  color: {{ accent2 }};
+}
+
+string.key {
+  color: {{ accent32 }};
+}
+
+string-template {
+  color: {{ accent2 }};
+}
+
+string-template.value {
+  color: {{ accent3 }};
+}
+
+regex {
+  color: {{ accent5 }};
+}
+
+regex.escaped,
+cdata {
+  color: {{ accent6 }};
+}
+
+markup.heading,
+definition.type,
+definition.class,
+definition.package,
+definition.protocol,
+definition.enum,
+definition.union,
+definition.struct {
+  color: {{ accent1 }};
+  font-weight: bold;
+}
+
+markup.line,
+markup.bold {
+  color: {{ accent3 }};
+}
+
+markup.italic {
+  color: {{ accent2 }};
+  font-style: italic;
+}
+
+markup.strikethrough {
+  color: {{ accent5 }};
+}
+
+markup.list.item,
+markup.link {
+  color: {{ accent32 }};
+}
+
+markup.code {
+  color: {{ accent2 }};
+}
+
+tag,
+tag.framework {
+  color: {{ accent1 }};
+}
+
+tag.attribute.name {
+  color: {{ accent2 }};
+  font-style: italic;
+}
+
+tag.attribute.value,
+tag.attribute.value.link {
+  color: {{ accent3 }};
+}
+
+style.at,
+style.selector.element {
+  color: {{ accent1 }};
+  font-weight: bold;
+}
+
+style.selector.identifier.id,
+style.selector.identifier.class,
+style.selector.pseudoclass,
+style.selector.pseudoelement {
+  color: {{ accent2 }};
+}
+
+style.attribute.name,
+style.value.identifier.function,
+style.media-feature.keyword {
+  color: {{ accent32 }};
+}
+
+style.attribute.separator,
+style.value.number.unit,
+style.value.keyword.important {
+  color: {{ accent1 }};
+}
+
+style.value.number,
+style.value.color.hex,
+style.value.color.named,
+style.value.keyword,
+style.media-query-list.keyword.media-type {
+  color: {{ accent3 }};
+}
+
+terminal.black {
+  color: {{ accent12 }};
+}
+
+terminal.red {
+  color: {{ accent5 }};
+}
+
+terminal.green {
+  color: {{ accent2 }};
+}
+
+terminal.yellow {
+  color: {{ accent3 }};
+}
+
+terminal.blue {
+  color: {{ accent1 }};
+}
+
+terminal.magenta {
+  color: {{ accent6 }};
+}
+
+terminal.cyan {
+  color: {{ accent32 }};
+}
+
+terminal.white {
+  color: {{ accent9 }};
+}
+
+terminal.bright-black {
+  color: {{ accent13 }};
+}
+
+terminal.bright-red {
+  color: {{ accent5 }};
+}
+
+terminal.bright-green {
+  color: {{ accent4 }};
+}
+
+terminal.bright-yellow {
+  color: {{ accent31 }};
+}
+
+terminal.bright-blue {
+  color: {{ accent1 }};
+}
+
+terminal.bright-magenta {
+  color: {{ accent6 }};
+}
+
+terminal.bright-cyan {
+  color: {{ accent2 }};
+}
+
+terminal.bright-white {
+  color: {{ accent7 }};
+}
