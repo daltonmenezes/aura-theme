@@ -1,0 +1,331 @@
+meta {
+  -theme-interface-name: "{{ name }}";
+  -theme-interface-style: dark;
+  -theme-accent-color: false;
+}
+
+meta.window {
+  background-color: {{ accent21 }};
+  border-color: {{ accent11 }};
+}
+
+meta.titlebar {
+  color: {{ accent7 }};
+  background-color: {{ accent24 }};
+  border-color: {{ accent11 }};
+}
+
+meta.titlebar.inactive {
+  color: {{ accent8 }};
+  background-color: {{ accent21 }};
+  border-color: {{ accent11 }};
+}
+
+meta.button {
+  color: {{ accent12 }};
+  background-color: {{ accent2 }};
+  border-color: {{ accent25 }};
+}
+
+meta.button.highlighted,
+meta.button.selected,
+meta.button.highlighted.selected {
+  color: {{ accent12 }};
+  background-color: {{ accent25 }};
+  border-color: {{ accent2 }};
+}
+
+meta.button.disabled {
+  color: {{ accent22 }};
+  background-color: {{ accent23 }};
+  border-color: {{ accent11 }};
+}
+
+meta.textfield,
+meta.textfield.active {
+  background-color: {{ accent12 }};
+  border-color: {{ accent23 }};
+}
+
+meta.document {
+  background-color: {{ accent12 }};
+  border-color: {{ accent11 }};
+}
+
+meta.document.button {
+  color: {{ accent7 }};
+  background-color: {{ accent23 }};
+  border-color: {{ accent11 }};
+}
+
+meta.document.button.highlighted,
+meta.document.button.selected,
+meta.document.button.highlighted.selected {
+  color: {{ accent1 }};
+  background-color: {{ accent33 }};
+  border-color: {{ accent1 }};
+}
+
+meta.document.button.disabled {
+  color: {{ accent22 }};
+  background-color: {{ accent21 }};
+  border-color: {{ accent11 }};
+}
+
+meta.document.textfield,
+meta.document.textfield.active {
+  background-color: {{ accent12 }};
+  border-color: {{ accent23 }};
+}
+
+meta.text {
+  color: {{ accent7 }};
+  background-color: {{ accent12 }};
+}
+
+meta.text.invisible {
+  color: {{ accent13 }};
+}
+
+meta.text.selected {
+  color: {{ accent7 }};
+  background-color: {{ accent20 }};
+}
+
+meta.cursor {
+  background-color: {{ accent1 }};
+}
+
+meta.indentguide {
+  border-color: {{ accent15 }};
+}
+
+meta.gutter {
+  color: {{ accent8 }};
+  background-color: {{ accent12 }};
+}
+
+meta.gutter.selected {
+  color: {{ accent7 }};
+  background-color: {{ accent17 }};
+}
+
+comment,
+declaration {
+  color: {{ accent8 }};
+}
+
+processing,
+keyword,
+keyword.operator,
+operator,
+tag,
+tag.framework,
+style.at,
+style.selector.element,
+style.value.keyword.important,
+html.tag.name,
+xml.tag.name,
+php.type.identifier.name {
+  color: {{ accent1 }};
+}
+
+keyword.self {
+  color: {{ accent32 }};
+  font-style: italic;
+}
+
+bracket,
+identifier.variable,
+html.tag,
+xml.tag,
+javascript.identifier.key.name {
+  color: {{ accent7 }};
+}
+
+invalid,
+regex,
+markup.strikethrough {
+  color: {{ accent5 }};
+}
+
+value.boolean,
+value.null,
+value.number,
+value.symbol,
+value.symbols,
+identifier.constant,
+style.value.number,
+style.value.number.unit,
+style.value.color.hex,
+style.value.color.named,
+style.value.keyword,
+javascript.definition.constant,
+ruby.identifier.variable.instance {
+  color: {{ accent2 }};
+}
+
+value.entity,
+identifier.type,
+identifier.type.class,
+identifier.type.protocol,
+identifier.key,
+string.key,
+string-template.value,
+cdata,
+style.attribute.name,
+style.value.identifier.function,
+style.media-feature.keyword,
+ruby.identifier.constant,
+jsx.tag.framework.open,
+jsx.tag.framework.close,
+tsx.tag.framework.open,
+tsx.tag.framework.close {
+  color: {{ accent32 }};
+}
+
+identifier.type,
+identifier.argument,
+identifier.decorator,
+style.selector.identifier.id,
+style.selector.identifier.class,
+style.selector.pseudoclass,
+style.selector.pseudoelement,
+ruby.identifier.constant,
+ruby.identifier.variable.instance,
+jsx.tag.framework.open,
+jsx.tag.framework.close,
+tsx.tag.framework.open,
+tsx.tag.framework.close {
+  font-style: italic;
+}
+
+identifier.function,
+identifier.method,
+definition.property property.name,
+definition.function function.name,
+definition.method method.name,
+tag.attribute.name,
+style.selector.identifier.id,
+style.selector.identifier.class,
+style.selector.pseudoclass,
+style.selector.pseudoelement,
+markup.code,
+html.tag.attribute.name,
+xml.tag.attribute.name {
+  color: {{ accent31 }};
+}
+
+identifier.argument,
+tag.attribute.value,
+tag.attribute.value.link,
+style.media-query-list.keyword.media-type,
+html.tag.attribute.value,
+xml.tag.attribute.value,
+string,
+markup.line {
+  color: {{ accent3 }};
+}
+
+string-template,
+regex.escaped,
+style.attribute.separator,
+javascript.single-quoted.escape,
+javascript.double-quoted.escape,
+javascript.colon,
+html.tag.attribute.operator,
+xml.tag.attribute.operator {
+  color: {{ accent6 }};
+}
+
+definition.class class.name,
+definition.type type.name,
+definition.package package.name,
+definition.enum enum.name,
+definition.union union.name,
+definition.struct struct.name,
+markup.heading {
+  color: {{ accent32 }};
+  font-weight: bold;
+}
+
+markup.bold {
+  color: {{ accent3 }};
+  font-weight: bold;
+}
+
+markup.italic {
+  color: {{ accent3 }};
+  font-style: italic;
+}
+
+markup.list.item,
+markup.link,
+markup.block.quote,
+link {
+  color: {{ accent1 }};
+}
+
+terminal.black {
+  color: {{ accent12 }};
+}
+
+terminal.red {
+  color: {{ accent5 }};
+}
+
+terminal.green {
+  color: {{ accent2 }};
+}
+
+terminal.yellow {
+  color: {{ accent3 }};
+}
+
+terminal.blue {
+  color: {{ accent1 }};
+}
+
+terminal.magenta {
+  color: {{ accent2 }};
+}
+
+terminal.cyan {
+  color: {{ accent1 }};
+}
+
+terminal.white {
+  color: {{ accent9 }};
+}
+
+terminal.bright-black {
+  color: {{ accent13 }};
+}
+
+terminal.bright-red {
+  color: {{ accent3 }};
+}
+
+terminal.bright-green {
+  color: {{ accent1 }};
+}
+
+terminal.bright-yellow {
+  color: {{ accent3 }};
+}
+
+terminal.bright-blue {
+  color: {{ accent1 }};
+}
+
+terminal.bright-magenta {
+  color: {{ accent2 }};
+}
+
+terminal.bright-cyan {
+  color: {{ accent2 }};
+}
+
+terminal.bright-white {
+  color: {{ accent7 }};
+}
