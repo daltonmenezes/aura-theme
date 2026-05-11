@@ -8,7 +8,7 @@ type ThemeVariant = {
 }
 
 export async function NovaPort(Aura: AuraAPI) {
-  const { createPort, createReadme, colorSchemes, constants } = Aura
+  const { createPort, createReadme, copyExtraFiles, colorSchemes, constants } = Aura
   const { info, folders } = constants
 
   const portName = 'Nova'
@@ -71,6 +71,8 @@ export async function NovaPort(Aura: AuraAPI) {
       },
     })
   }
+
+  await copyExtraFiles(__dirname)
 
   await createReadme({
     template: resolve(templateFolder, 'README.md'),

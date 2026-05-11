@@ -1,5 +1,9 @@
 {{{ basic-heading }}}
 
+<p align="center">
+  <img alt="Aura Soft Dark preview in a Nova-style editor" src="./preview.png" width="70%" />
+</p>
+
 # Themes available
 
 - {{ auraDark }}
