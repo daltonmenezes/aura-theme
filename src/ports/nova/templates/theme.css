@@ -1,0 +1,236 @@
+meta {
+  -theme-interface-style: dark;
+  -theme-vibrancy: none;
+  -theme-accent-color: false;
+}
+
+meta.window {
+  background-color: {{ accent21 }};
+  border-color: {{ accent11 }};
+}
+
+meta.titlebar {
+  color: {{ accent10 }};
+  background-color: {{ accent24 }};
+  border-color: {{ accent11 }};
+}
+
+meta.titlebar.inactive {
+  color: {{ accent8 }};
+  background-color: {{ accent21 }};
+  border-color: {{ accent11 }};
+}
+
+meta.button {
+  color: {{ accent9 }};
+  background-color: {{ accent33 }};
+  border-color: {{ accent23 }};
+}
+
+meta.button.highlighted,
+meta.button.selected {
+  color: {{ accent12 }};
+  background-color: {{ accent2 }};
+  border-color: {{ accent2 }};
+}
+
+meta.button.disabled {
+  color: {{ accent35 }};
+  background-color: {{ accent21 }};
+  border-color: {{ accent23 }};
+}
+
+meta.textfield {
+  background-color: {{ accent12 }};
+  border-color: {{ accent23 }};
+}
+
+meta.textfield.active {
+  background-color: {{ accent12 }};
+  border-color: {{ accent1 }};
+}
+
+meta.document {
+  background-color: {{ accent12 }};
+  border-color: {{ accent11 }};
+}
+
+meta.text {
+  color: {{ accent7 }};
+  background-color: {{ accent12 }};
+}
+
+meta.text.selected {
+  color: {{ accent7 }};
+  background-color: {{ accent38 }};
+}
+
+meta.cursor {
+  background-color: {{ accent17 }};
+}
+
+meta.indentguide {
+  border-color: {{ accent13 }};
+}
+
+meta.gutter {
+  color: {{ accent17 }};
+  background-color: {{ accent12 }};
+}
+
+meta.gutter.selected {
+  color: {{ accent7 }};
+  background-color: {{ accent17 }};
+}
+
+keyword,
+keyword.construct,
+keyword.condition,
+keyword.modifier,
+keyword.operator,
+keyword.self,
+operator,
+processing,
+definition.type,
+tag {
+  color: {{ accent1 }};
+}
+
+comment {
+  color: {{ accent8 }};
+}
+
+string,
+string-template,
+regex,
+value.boolean,
+value.null,
+value.number,
+value.entity,
+value.symbol {
+  color: {{ accent2 }};
+}
+
+identifier.function,
+identifier.method,
+definition.function,
+definition.method,
+markup.heading {
+  color: {{ accent3 }};
+}
+
+identifier.type,
+identifier.type.class,
+identifier.type.protocol,
+identifier.type.enum,
+identifier.type.union,
+identifier.type.struct,
+definition.class,
+definition.protocol,
+definition.enum,
+definition.union,
+definition.struct {
+  color: {{ accent32 }};
+}
+
+identifier.property,
+identifier.key,
+identifier.decorator,
+tag.attribute.name,
+style.attribute.name {
+  color: {{ accent6 }};
+}
+
+identifier.variable,
+identifier.argument,
+bracket,
+style.selector {
+  color: {{ accent7 }};
+}
+
+identifier.core,
+declaration,
+style.at,
+markup.link {
+  color: {{ accent31 }};
+}
+
+invalid {
+  color: {{ accent5 }};
+}
+
+markup.bold {
+  font-weight: bold;
+}
+
+markup.italic {
+  font-style: italic;
+}
+
+markup.strikethrough {
+  text-decoration: line-through;
+}
+
+terminal.black {
+  color: {{ accent12 }};
+}
+
+terminal.red {
+  color: {{ accent5 }};
+}
+
+terminal.green {
+  color: {{ accent2 }};
+}
+
+terminal.yellow {
+  color: {{ accent3 }};
+}
+
+terminal.blue {
+  color: {{ accent1 }};
+}
+
+terminal.magenta {
+  color: {{ accent6 }};
+}
+
+terminal.cyan {
+  color: {{ accent32 }};
+}
+
+terminal.white {
+  color: {{ accent9 }};
+}
+
+terminal.bright-black {
+  color: {{ accent13 }};
+}
+
+terminal.bright-red {
+  color: {{ accent5 }};
+}
+
+terminal.bright-green {
+  color: {{ accent4 }};
+}
+
+terminal.bright-yellow {
+  color: {{ accent3 }};
+}
+
+terminal.bright-blue {
+  color: {{ accent1 }};
+}
+
+terminal.bright-magenta {
+  color: {{ accent6 }};
+}
+
+terminal.bright-cyan {
+  color: {{ accent2 }};
+}
+
+terminal.bright-white {
+  color: {{ accent7 }};
+}
