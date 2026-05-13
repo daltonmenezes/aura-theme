@@ -1,0 +1,236 @@
+meta {
+  -theme-interface-style: dark;
+  -theme-vibrancy: none;
+  -theme-accent-color: false;
+}
+
+meta.window {
+  background-color: #110f18;
+  border-color: #000000;
+}
+
+meta.titlebar {
+  color: #adacae;
+  background-color: #121016;
+  border-color: #000000;
+}
+
+meta.titlebar.inactive {
+  color: #6d6d6d;
+  background-color: #110f18;
+  border-color: #000000;
+}
+
+meta.button {
+  color: #cdccce;
+  background-color: #2e2b38;
+  border-color: #3b334b;
+}
+
+meta.button.highlighted,
+meta.button.selected {
+  color: #15141b;
+  background-color: #61ffca;
+  border-color: #61ffca;
+}
+
+meta.button.disabled {
+  color: #525156;
+  background-color: #110f18;
+  border-color: #3b334b;
+}
+
+meta.textfield {
+  background-color: #15141b;
+  border-color: #3b334b;
+}
+
+meta.textfield.active {
+  background-color: #15141b;
+  border-color: #a277ff;
+}
+
+meta.document {
+  background-color: #15141b;
+  border-color: #000000;
+}
+
+meta.text {
+  color: #edecee;
+  background-color: #15141b;
+}
+
+meta.text.selected {
+  color: #edecee;
+  background-color: #29263c;
+}
+
+meta.cursor {
+  background-color: #a394f033;
+}
+
+meta.indentguide {
+  border-color: #2d2d2d;
+}
+
+meta.gutter {
+  color: #a394f033;
+  background-color: #15141b;
+}
+
+meta.gutter.selected {
+  color: #edecee;
+  background-color: #a394f033;
+}
+
+keyword,
+keyword.construct,
+keyword.condition,
+keyword.modifier,
+keyword.operator,
+keyword.self,
+operator,
+processing,
+definition.type,
+tag {
+  color: #a277ff;
+}
+
+comment {
+  color: #6d6d6d;
+}
+
+string,
+string-template,
+regex,
+value.boolean,
+value.null,
+value.number,
+value.entity,
+value.symbol {
+  color: #61ffca;
+}
+
+identifier.function,
+identifier.method,
+definition.function,
+definition.method,
+markup.heading {
+  color: #ffca85;
+}
+
+identifier.type,
+identifier.type.class,
+identifier.type.protocol,
+identifier.type.enum,
+identifier.type.union,
+identifier.type.struct,
+definition.class,
+definition.protocol,
+definition.enum,
+definition.union,
+definition.struct {
+  color: #82e2ff;
+}
+
+identifier.property,
+identifier.key,
+identifier.decorator,
+tag.attribute.name,
+style.attribute.name {
+  color: #f694ff;
+}
+
+identifier.variable,
+identifier.argument,
+bracket,
+style.selector {
+  color: #edecee;
+}
+
+identifier.core,
+declaration,
+style.at,
+markup.link {
+  color: #ffca85;
+}
+
+invalid {
+  color: #ff6767;
+}
+
+markup.bold {
+  font-weight: bold;
+}
+
+markup.italic {
+  font-style: italic;
+}
+
+markup.strikethrough {
+  text-decoration: line-through;
+}
+
+terminal.black {
+  color: #15141b;
+}
+
+terminal.red {
+  color: #ff6767;
+}
+
+terminal.green {
+  color: #61ffca;
+}
+
+terminal.yellow {
+  color: #ffca85;
+}
+
+terminal.blue {
+  color: #a277ff;
+}
+
+terminal.magenta {
+  color: #f694ff;
+}
+
+terminal.cyan {
+  color: #82e2ff;
+}
+
+terminal.white {
+  color: #cdccce;
+}
+
+terminal.bright-black {
+  color: #2d2d2d;
+}
+
+terminal.bright-red {
+  color: #ff6767;
+}
+
+terminal.bright-green {
+  color: #9dff65;
+}
+
+terminal.bright-yellow {
+  color: #ffca85;
+}
+
+terminal.bright-blue {
+  color: #a277ff;
+}
+
+terminal.bright-magenta {
+  color: #f694ff;
+}
+
+terminal.bright-cyan {
+  color: #61ffca;
+}
+
+terminal.bright-white {
+  color: #edecee;
+}
