@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme name="Aura Theme" default-mode="dark">
+    <meta>
+        <name>Aura Theme</name>
+        <author>Dalton Menezes</author>
+        <identifier>com.aura-theme.nova</identifier>
+        <version>1</version>
+    </meta>
+
+    <collection name="colors">
+        <color name="background"       value="#15141b"/>
+        <color name="foreground"       value="#edecee"/>
+        <color name="gray"             value="#6d6d6d"/>
+        <color name="purple"           value="#a277ff"/>
+        <color name="purple-fading"    value="#3d375e7f"/>
+        <color name="green"            value="#61ffca"/>
+        <color name="orange"           value="#ffca85"/>
+        <color name="pink"             value="#f694ff"/>
+        <color name="blue"             value="#82e2ff"/>
+        <color name="red"              value="#ff6767"/>
+        <color name="line-highlight"   value="#1e1d26"/>
+        <color name="find-highlight"   value="#a277ff"/>
+        <color name="find-highlight-fg" value="#15141b"/>
+        <color name="cursor"           value="#a277ff"/>
+        <color name="invisible"        value="#3d375e"/>
+        <color name="transparent"      value="transparent"/>
+    </collection>
+
+    <collection name="base-styles">
+        <style name="editor" role="editor">
+            <foreground color="foreground"/>
+            <background color="background"/>
+        </style>
+        <style name="editor-gutter" role="editor.gutter">
+            <background color="background"/>
+        </style>
+        <style name="editor-indent-guides" role="editor.indentGuides">
+            <color color="invisible"/>
+        </style>
+        <style name="editor-active-indent-guide" role="editor.activeIndentGuide">
+            <color color="purple"/>
+        </style>
+        <style name="editor-invisible-characters" role="editor.invisibles">
+            <color color="invisible"/>
+        </style>
+        <style name="editor-over-scroll" role="editor.overscroll">
+            <background color="background"/>
+        </style>
+        <style name="editor-current-line" role="editor.currentLine">
+            <background color="line-highlight"/>
+        </style>
+        <style name="editor-highlight" role="editor.highlight">
+            <background color="find-highlight"/>
+            <foreground color="find-highlight-fg"/>
+        </style>
+        <style name="editor-selection" role="editor.selection">
+            <background color="purple-fading"/>
+        </style>
+        <style name="editor-cursor" role="editor.cursor">
+            <color color="cursor"/>
+        </style>
+        <style name="editor-gutter-active-line" role="editor.gutter.activeLine">
+            <foreground color="foreground"/>
+        </style>
+        <style name="sidebar-label" role="sidebar.label">
+            <foreground color="foreground"/>
+        </style>
+        <style name="sidebar-label-selected" role="sidebar.label.selected">
+            <foreground color="foreground"/>
+        </style>
+        <style name="sidebar-label-muted" role="sidebar.label.muted">
+            <foreground color="gray"/>
+        </style>
+        <style name="sidebar-label-selected-muted" role="sidebar.label.selected.muted">
+            <foreground color="gray"/>
+        </style>
+    </collection>
+
+    <collection name="syntax-styles">
+        <style name="comment" role="comment">
+            <foreground color="gray"/>
+            <italic>true</italic>
+        </style>
+        <style name="comment-doc" role="comment.doc">
+            <foreground color="gray"/>
+            <italic>true</italic>
+        </style>
+        <style name="comment-doc-keyword" role="comment.doc.keyword">
+            <foreground color="purple"/>
+        </style>
+        <style name="processing" role="processing">
+            <foreground color="gray"/>
+        </style>
+        <style name="declaration" role="declaration">
+            <foreground color="purple"/>
+        </style>
+        <style name="bracket" role="bracket">
+            <foreground color="foreground"/>
+        </style>
+        <style name="operator" role="operator">
+            <foreground color="pink"/>
+        </style>
+        <style name="invalid" role="invalid">
+            <foreground color="foreground"/>
+            <background color="red"/>
+        </style>
+        <style name="link" role="markup.link">
+            <foreground color="blue"/>
+        </style>
+        <style name="keyword" role="keyword">
+            <foreground color="purple"/>
+        </style>
+        <style name="keyword-construct" role="keyword.construct">
+            <foreground color="purple"/>
+        </style>
+        <style name="keyword-condition" role="keyword.condition">
+            <foreground color="purple"/>
+        </style>
+        <style name="keyword-self" role="keyword.self">
+            <foreground color="orange"/>
+        </style>
+        <style name="keyword-operator" role="keyword.operator">
+            <foreground color="pink"/>
+        </style>
+        <style name="keyword-return" role="keyword.return">
+            <foreground color="purple"/>
+        </style>
+        <style name="keyword-statement" role="keyword.statement">
+            <foreground color="purple"/>
+        </style>
+        <style name="identifier" role="identifier">
+            <foreground color="foreground"/>
+        </style>
+        <style name="identifier-type" role="identifier.type">
+            <foreground color="green"/>
+        </style>
+        <style name="identifier-constant" role="identifier.constant">
+            <foreground color="orange"/>
+        </style>
+        <style name="identifier-global" role="identifier.global">
+            <foreground color="orange"/>
+        </style>
+        <style name="identifier-function" role="identifier.function">
+            <foreground color="blue"/>
+        </style>
+        <style name="identifier-method" role="identifier.method">
+            <foreground color="blue"/>
+        </style>
+        <style name="identifier-core-function" role="identifier.core.function">
+            <foreground color="green"/>
+        </style>
+        <style name="identifier-property" role="identifier.property">
+            <foreground color="pink"/>
+        </style>
+        <style name="identifier-decorator" role="identifier.decorator">
+            <foreground color="orange"/>
+        </style>
+        <style name="identifier-variable" role="identifier.variable">
+            <foreground color="foreground"/>
+        </style>
+        <style name="identifier-argument" role="identifier.argument">
+            <foreground color="orange"/>
+        </style>
+        <style name="definition" role="definition">
+            <foreground color="blue"/>
+        </style>
+        <style name="definition-class" role="definition.class">
+            <foreground color="green"/>
+        </style>
+        <style name="definition-function" role="definition.function">
+            <foreground color="blue"/>
+        </style>
+        <style name="definition-method" role="definition.method">
+            <foreground color="blue"/>
+        </style>
+        <style name="definition-type" role="definition.type">
+            <foreground color="green"/>
+        </style>
+        <style name="definition-property" role="definition.property">
+            <foreground color="pink"/>
+        </style>
+        <style name="value" role="value">
+            <foreground color="orange"/>
+        </style>
+        <style name="value-number" role="value.number">
+            <foreground color="orange"/>
+        </style>
+        <style name="value-boolean" role="value.boolean">
+            <foreground color="purple"/>
+        </style>
+        <style name="value-null" role="value.null">
+            <foreground color="purple"/>
+        </style>
+        <style name="string" role="string">
+            <foreground color="green"/>
+        </style>
+        <style name="string-key" role="string.key">
+            <foreground color="pink"/>
+        </style>
+        <style name="string-regex" role="string.regex">
+            <foreground color="blue"/>
+        </style>
+        <style name="string-escape" role="string.escape">
+            <foreground color="orange"/>
+        </style>
+        <style name="tag" role="tag">
+            <foreground color="purple"/>
+        </style>
+        <style name="tag-name" role="tag.name">
+            <foreground color="purple"/>
+        </style>
+        <style name="tag-attribute" role="tag.attribute">
+            <foreground color="orange"/>
+        </style>
+        <style name="tag-framework" role="tag.framework">
+            <foreground color="blue"/>
+        </style>
+        <style name="tag-framework-attribute" role="tag.framework.attribute">
+            <foreground color="blue"/>
+        </style>
+        <style name="style-at-rule" role="style.at-rule">
+            <foreground color="purple"/>
+        </style>
+        <style name="style-selector-element" role="style.selector.element">
+            <foreground color="pink"/>
+        </style>
+        <style name="style-selector-class" role="style.selector.class">
+            <foreground color="green"/>
+        </style>
+        <style name="style-selector-identifier" role="style.selector.identifier">
+            <foreground color="blue"/>
+        </style>
+        <style name="style-selector-pseudo-class" role="style.selector.pseudoClass">
+            <foreground color="purple"/>
+        </style>
+        <style name="style-selector-pseudo-element" role="style.selector.pseudoElement">
+            <foreground color="purple"/>
+        </style>
+        <style name="style-property" role="style.property">
+            <foreground color="pink"/>
+        </style>
+        <style name="style-value" role="style.value">
+            <foreground color="foreground"/>
+        </style>
+        <style name="style-value-number" role="style.value.number">
+            <foreground color="orange"/>
+        </style>
+        <style name="style-value-color" role="style.value.color">
+            <foreground color="orange"/>
+        </style>
+        <style name="style-value-keyword" role="style.value.keyword">
+            <foreground color="blue"/>
+        </style>
+        <style name="style-value-url" role="style.value.url">
+            <foreground color="green"/>
+        </style>
+        <style name="markup-heading" role="markup.heading">
+            <foreground color="purple"/>
+            <bold>true</bold>
+        </style>
+        <style name="markup-bold" role="markup.bold">
+            <foreground color="orange"/>
+            <bold>true</bold>
+        </style>
+        <style name="markup-italic" role="markup.italic">
+            <foreground color="green"/>
+            <italic>true</italic>
+        </style>
+        <style name="markup-strikethrough" role="markup.strikethrough">
+            <foreground color="gray"/>
+        </style>
+        <style name="markup-list-item" role="markup.list.item">
+            <foreground color="pink"/>
+        </style>
+        <style name="markup-code" role="markup.code">
+            <foreground color="green"/>
+        </style>
+        <style name="markup-code-block" role="markup.code.block">
+            <foreground color="green"/>
+        </style>
+        <style name="terminal-ansi-black" role="terminal.ansi.black">
+            <color color="background"/>
+        </style>
+        <style name="terminal-ansi-red" role="terminal.ansi.red">
+            <color color="red"/>
+        </style>
+        <style name="terminal-ansi-green" role="terminal.ansi.green">
+            <color color="green"/>
+        </style>
+        <style name="terminal-ansi-yellow" role="terminal.ansi.yellow">
+            <color color="orange"/>
+        </style>
+        <style name="terminal-ansi-blue" role="terminal.ansi.blue">
+            <color color="blue"/>
+        </style>
+        <style name="terminal-ansi-magenta" role="terminal.ansi.magenta">
+            <color color="purple"/>
+        </style>
+        <style name="terminal-ansi-cyan" role="terminal.ansi.cyan">
+            <color color="green"/>
+        </style>
+        <style name="terminal-ansi-white" role="terminal.ansi.white">
+            <color color="foreground"/>
+        </style>
+        <style name="terminal-ansi-bright-black" role="terminal.ansi.bright.black">
+            <color color="gray"/>
+        </style>
+        <style name="terminal-ansi-bright-red" role="terminal.ansi.bright.red">
+            <color color="red"/>
+        </style>
+        <style name="terminal-ansi-bright-green" role="terminal.ansi.bright.green">
+            <color color="green"/>
+        </style>
+        <style name="terminal-ansi-bright-yellow" role="terminal.ansi.bright.yellow">
+            <color color="orange"/>
+        </style>
+        <style name="terminal-ansi-bright-blue" role="terminal.ansi.bright.blue">
+            <color color="blue"/>
+        </style>
+        <style name="terminal-ansi-bright-magenta" role="terminal.ansi.bright.magenta">
+            <color color="purple"/>
+        </style>
+        <style name="terminal-ansi-bright-cyan" role="terminal.ansi.bright.cyan">
+            <color color="pink"/>
+        </style>
+        <style name="terminal-ansi-bright-white" role="terminal.ansi.bright.white">
+            <color color="foreground"/>
+        </style>
+    </collection>
+</theme>
