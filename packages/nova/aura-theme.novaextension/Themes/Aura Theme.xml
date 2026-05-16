@@ -4,7 +4,7 @@
         <name>Aura Theme</name>
         <author>Dalton Menezes</author>
         <identifier>com.aura-theme.nova</identifier>
-        <version>1</version>
+        <version>1.0.0</version>
     </meta>
 
     <collection name="colors">

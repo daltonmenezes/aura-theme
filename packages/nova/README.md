@@ -13,17 +13,17 @@ Part of the [Aura Theme](https://github.com/daltonmenezes/aura-theme) project.
 
 1. Download or clone this repository
 2. Double-click `aura-theme.novaextension` to install
-3. Go to **Nova → Settings → Themes** and select **Aura Theme**
+3. Go to **Nova → Settings → Themes** and select **Aura Theme** or **Aura Theme (Soft)**
 
 ## Color Palette
 
-| Color    | Hex       | Preview |
-|----------|-----------|---------|
-| Background | `#15141b` | |
-| Foreground | `#edecee` | |
-| Purple   | `#a277ff` | |
-| Green    | `#61ffca` | |
-| Orange   | `#ffca85` | |
-| Pink     | `#f694ff` | |
-| Blue     | `#82e2ff` | |
-| Red      | `#ff6767` | |
+| Color      | Hex       | Preview |
+|------------|-----------|---------|
+| Background | `#15141b` |         |
+| Foreground | `#edecee` |         |
+| Purple     | `#a277ff` |         |
+| Green      | `#61ffca` |         |
+| Orange     | `#ffca85` |         |
+| Pink       | `#f694ff` |         |
+| Blue       | `#82e2ff` |         |
+| Red        | `#ff6767` |         |

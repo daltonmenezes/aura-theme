@@ -3,7 +3,7 @@
     "name": "Aura Theme",
     "organization": "Dalton Menezes",
     "description": "Aura Theme for Nova editor by Panic",
-    "version": "1.0",
+    "version": "1.0.0",
     "categories": ["themes"],
     "license": "MIT",
     "repository": "https://github.com/daltonmenezes/aura-theme"
