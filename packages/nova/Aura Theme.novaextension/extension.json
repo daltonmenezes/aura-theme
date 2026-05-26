@@ -1,0 +1,12 @@
+{
+  "identifier": "com.daltonmenezes.aura-theme.nova",
+  "name": "Aura Theme",
+  "organization": "Dalton Menezes",
+  "description": "A beautiful dark theme for Nova.",
+  "version": "1.0.0",
+  "categories": ["themes"],
+  "bugs": "https://github.com/daltonmenezes/aura-theme/issues",
+  "repository": "https://github.com/daltonmenezes/aura-theme",
+  "homepage": "https://github.com/daltonmenezes/aura-theme",
+  "license": "MIT"
+}
