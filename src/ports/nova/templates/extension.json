@@ -1,0 +1,12 @@
+{
+  "identifier": "com.{{ author.username }}.{{ slug }}.nova",
+  "name": "{{ displayName }}",
+  "organization": "{{ author.name }}",
+  "description": "A beautiful dark theme for Nova.",
+  "version": "{{ version }}",
+  "categories": ["themes"],
+  "bugs": "{{{ repository }}}/issues",
+  "repository": "{{{ repository }}}",
+  "homepage": "{{{ repository }}}",
+  "license": "MIT"
+}
