@@ -1,0 +1,158 @@
+meta {
+  -theme-interface-style: dark;
+  -theme-vibrancy: none;
+  -theme-accent-color: false;
+}
+
+meta.window,
+meta.titlebar,
+meta.document {
+  background-color: {{ accent12 }};
+  border-color: {{ accent13 }};
+}
+
+meta.titlebar.inactive {
+  color: {{ accent14 }};
+  background-color: {{ accent21 }};
+  border-color: {{ accent13 }};
+}
+
+meta.button.selected,
+meta.button.highlighted,
+meta.textfield.active {
+  background-color: {{ accent1 }};
+  border-color: {{ accent1 }};
+}
+
+meta.text {
+  color: {{ accent7 }};
+  background-color: {{ accent12 }};
+}
+
+meta.text.selected {
+  color: {{ accent7 }};
+  background-color: {{ accent1 }};
+}
+
+meta.cursor {
+  background-color: {{ accent13 }};
+}
+
+meta.gutter {
+  color: {{ accent14 }};
+  background-color: {{ accent12 }};
+}
+
+meta.gutter.selected {
+  color: {{ accent7 }};
+  background-color: {{ accent21 }};
+}
+
+meta.indentguide {
+  border-color: {{ accent13 }};
+}
+
+comment {
+  color: {{ accent14 }};
+  font-style: italic;
+}
+
+keyword,
+storage,
+operator {
+  color: {{ accent1 }};
+}
+
+identifier.function,
+identifier.method,
+support.function {
+  color: {{ accent2 }};
+}
+
+identifier.type,
+support.type,
+support.class {
+  color: {{ accent3 }};
+}
+
+identifier.property,
+identifier.variable,
+support.variable {
+  color: {{ accent32 }};
+}
+
+string,
+constant.character {
+  color: {{ accent2 }};
+}
+
+constant.numeric,
+constant.language,
+constant.symbol {
+  color: {{ accent3 }};
+}
+
+invalid,
+keyword.exception {
+  color: {{ accent5 }};
+}
+
+regexp,
+markup.heading,
+markup.bold {
+  color: {{ accent6 }};
+}
+
+markup.link,
+markup.underline {
+  color: {{ accent32 }};
+}
+
+terminal.black {
+  color: {{ accent21 }};
+}
+
+terminal.red {
+  color: {{ accent5 }};
+}
+
+terminal.green {
+  color: {{ accent2 }};
+}
+
+terminal.yellow {
+  color: {{ accent3 }};
+}
+
+terminal.blue,
+terminal.magenta {
+  color: {{ accent1 }};
+}
+
+terminal.cyan,
+terminal.white {
+  color: {{ accent7 }};
+}
+
+terminal.bright-black {
+  color: {{ accent15 }};
+}
+
+terminal.bright-red,
+terminal.bright-yellow {
+  color: {{ accent3 }};
+}
+
+terminal.bright-green,
+terminal.bright-blue,
+terminal.bright-magenta {
+  color: {{ accent1 }};
+}
+
+terminal.bright-cyan {
+  color: {{ accent2 }};
+}
+
+terminal.bright-white {
+  color: {{ accent7 }};
+}
