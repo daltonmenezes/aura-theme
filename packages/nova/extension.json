@@ -1,0 +1,8 @@
+{
+  "identifier": "com.daltonmenezes.aura-theme.nova",
+  "name": "Aura Theme",
+  "organization": "Dalton Menezes",
+  "description": "A beautiful dark theme for Nova.",
+  "version": "1.0.0",
+  "categories": ["themes"]
+}

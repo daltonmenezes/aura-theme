@@ -1,0 +1,8 @@
+{
+  "identifier": "com.{{ author.username }}.{{ slug }}.nova",
+  "name": "{{ displayName }}",
+  "organization": "{{ author.name }}",
+  "description": "A beautiful dark theme for Nova.",
+  "version": "1.0.0",
+  "categories": ["themes"]
+}

@@ -1,0 +1,158 @@
+meta {
+  -theme-interface-style: dark;
+  -theme-vibrancy: none;
+  -theme-accent-color: false;
+}
+
+meta.window,
+meta.titlebar,
+meta.document {
+  background-color: #15141b;
+  border-color: #2d2d2d;
+}
+
+meta.titlebar.inactive {
+  color: #6d6d6d;
+  background-color: #110f18;
+  border-color: #2d2d2d;
+}
+
+meta.button.selected,
+meta.button.highlighted,
+meta.textfield.active {
+  background-color: #a277ff;
+  border-color: #a277ff;
+}
+
+meta.text {
+  color: #edecee;
+  background-color: #15141b;
+}
+
+meta.text.selected {
+  color: #edecee;
+  background-color: #a277ff;
+}
+
+meta.cursor {
+  background-color: #2d2d2d;
+}
+
+meta.gutter {
+  color: #6d6d6d;
+  background-color: #15141b;
+}
+
+meta.gutter.selected {
+  color: #edecee;
+  background-color: #110f18;
+}
+
+meta.indentguide {
+  border-color: #2d2d2d;
+}
+
+comment {
+  color: #6d6d6d;
+  font-style: italic;
+}
+
+keyword,
+storage,
+operator {
+  color: #a277ff;
+}
+
+identifier.function,
+identifier.method,
+support.function {
+  color: #61ffca;
+}
+
+identifier.type,
+support.type,
+support.class {
+  color: #ffca85;
+}
+
+identifier.property,
+identifier.variable,
+support.variable {
+  color: #82e2ff;
+}
+
+string,
+constant.character {
+  color: #61ffca;
+}
+
+constant.numeric,
+constant.language,
+constant.symbol {
+  color: #ffca85;
+}
+
+invalid,
+keyword.exception {
+  color: #ff6767;
+}
+
+regexp,
+markup.heading,
+markup.bold {
+  color: #f694ff;
+}
+
+markup.link,
+markup.underline {
+  color: #82e2ff;
+}
+
+terminal.black {
+  color: #110f18;
+}
+
+terminal.red {
+  color: #ff6767;
+}
+
+terminal.green {
+  color: #61ffca;
+}
+
+terminal.yellow {
+  color: #ffca85;
+}
+
+terminal.blue,
+terminal.magenta {
+  color: #a277ff;
+}
+
+terminal.cyan,
+terminal.white {
+  color: #edecee;
+}
+
+terminal.bright-black {
+  color: #4d4d4d;
+}
+
+terminal.bright-red,
+terminal.bright-yellow {
+  color: #ffca85;
+}
+
+terminal.bright-green,
+terminal.bright-blue,
+terminal.bright-magenta {
+  color: #a277ff;
+}
+
+terminal.bright-cyan {
+  color: #61ffca;
+}
+
+terminal.bright-white {
+  color: #edecee;
+}
