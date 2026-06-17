@@ -1,0 +1,294 @@
+meta {
+  -theme-interface-style: dark;
+  -theme-vibrancy: none;
+  -theme-accent-color: false;
+}
+
+meta.window {
+  background-color: {{ accent12 }};
+  border-color: {{ accent14 }};
+}
+
+meta.titlebar {
+  color: {{ accent7 }};
+  background-color: {{ accent21 }};
+  border-color: {{ accent14 }};
+}
+
+meta.titlebar.inactive {
+  color: {{ accent8 }};
+  background-color: {{ accent12 }};
+  border-color: {{ accent14 }};
+}
+
+meta.button {
+  color: {{ accent7 }};
+  background-color: {{ accent21 }};
+  border-color: {{ accent14 }};
+}
+
+meta.button.highlighted,
+meta.button.selected {
+  color: {{ accent12 }};
+  background-color: {{ accent1 }};
+  border-color: {{ accent1 }};
+}
+
+meta.button.disabled {
+  color: {{ accent22 }};
+  background-color: {{ accent12 }};
+  border-color: {{ accent14 }};
+}
+
+meta.textfield {
+  color: {{ accent7 }};
+  background-color: {{ accent21 }};
+  border-color: {{ accent14 }};
+}
+
+meta.textfield.focused {
+  border-color: {{ accent1 }};
+}
+
+meta.document {
+  color: {{ accent7 }};
+  background-color: {{ accent12 }};
+  border-color: {{ accent14 }};
+}
+
+meta.text {
+  color: {{ accent7 }};
+  background-color: {{ accent12 }};
+}
+
+meta.text.selected {
+  color: {{ accent7 }};
+  background-color: {{ accent20 }};
+}
+
+meta.document.button {
+  color: {{ accent7 }};
+  background-color: {{ accent21 }};
+  border-color: {{ accent14 }};
+}
+
+meta.gutter {
+  color: {{ accent8 }};
+  background-color: {{ accent12 }};
+  border-color: {{ accent14 }};
+}
+
+meta.gutter.selected {
+  color: {{ accent7 }};
+  background-color: {{ accent17 }};
+}
+
+meta.cursor {
+  background-color: {{ accent1 }};
+}
+
+meta.indentguide {
+  border-color: {{ accent22 }};
+}
+
+meta.link {
+  color: {{ accent1 }};
+}
+
+terminal.black {
+  color: {{ accent12 }};
+}
+
+terminal.red {
+  color: {{ accent5 }};
+}
+
+terminal.green {
+  color: {{ accent2 }};
+}
+
+terminal.yellow {
+  color: {{ accent3 }};
+}
+
+terminal.blue {
+  color: {{ accent1 }};
+}
+
+terminal.magenta {
+  color: {{ accent6 }};
+}
+
+terminal.cyan {
+  color: {{ accent2 }};
+}
+
+terminal.white {
+  color: {{ accent7 }};
+}
+
+terminal.bright-black {
+  color: {{ accent13 }};
+}
+
+terminal.bright-red {
+  color: {{ accent3 }};
+}
+
+terminal.bright-green {
+  color: {{ accent1 }};
+}
+
+terminal.bright-yellow {
+  color: {{ accent3 }};
+}
+
+terminal.bright-blue {
+  color: {{ accent1 }};
+}
+
+terminal.bright-magenta {
+  color: {{ accent2 }};
+}
+
+terminal.bright-cyan {
+  color: {{ accent2 }};
+}
+
+terminal.bright-white {
+  color: {{ accent7 }};
+}
+
+comment {
+  color: {{ accent8 }};
+}
+
+value,
+value.boolean,
+value.null,
+value.number,
+value.entity,
+value.symbols,
+constant {
+  color: {{ accent2 }};
+}
+
+entity.name.type,
+entity.name.class,
+support.type,
+identifier.type,
+definition.type,
+definition.class,
+definition.enum,
+definition.struct {
+  color: {{ accent32 }};
+}
+
+entity.name.function,
+support.function,
+identifier.function,
+identifier.method,
+definition.function,
+definition.method {
+  color: {{ accent3 }};
+}
+
+keyword,
+keyword.construct,
+keyword.condition,
+keyword.modifier,
+keyword.operator,
+keyword.self,
+storage.type,
+storage.modifier {
+  color: {{ accent1 }};
+}
+
+string,
+string.quoted,
+string.key,
+string-template,
+regex {
+  color: {{ accent2 }};
+}
+
+variable,
+identifier,
+identifier.variable,
+identifier.argument {
+  color: {{ accent7 }};
+}
+
+variable.language,
+support.variable,
+identifier.global,
+identifier.constant {
+  color: {{ accent6 }};
+}
+
+identifier.property,
+identifier.key,
+property.name,
+entity.other.attribute-name,
+tag.attribute.name,
+style.attribute.name {
+  color: {{ accent6 }};
+}
+
+invalid,
+invalid.illegal {
+  color: {{ accent5 }};
+}
+
+operator,
+bracket,
+processing,
+declaration {
+  color: {{ accent1 }};
+}
+
+tag,
+tag.framework {
+  color: {{ accent1 }};
+}
+
+tag.attribute.value,
+style.value,
+style.value.keyword,
+style.value.color {
+  color: {{ accent2 }};
+}
+
+style.at,
+style.selector,
+style.selector.element,
+style.selector.identifier.id,
+style.selector.identifier.class,
+style.selector.pseudoclass,
+style.selector.pseudoelement {
+  color: {{ accent3 }};
+}
+
+markup.heading {
+  color: {{ accent1 }};
+  font-weight: bold;
+}
+
+markup.bold {
+  color: {{ accent3 }};
+  font-weight: bold;
+}
+
+markup.italic {
+  color: {{ accent6 }};
+  font-style: italic;
+}
+
+markup.link {
+  color: {{ accent1 }};
+}
+
+markup.code,
+markup.raw {
+  color: {{ accent2 }};
+}

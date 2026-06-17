@@ -1,0 +1,294 @@
+meta {
+  -theme-interface-style: dark;
+  -theme-vibrancy: none;
+  -theme-accent-color: false;
+}
+
+meta.window {
+  background-color: #21202e;
+  border-color: #af8aff7f;
+}
+
+meta.titlebar {
+  color: #bdbdbd;
+  background-color: #1c1b22;
+  border-color: #af8aff7f;
+}
+
+meta.titlebar.inactive {
+  color: #6d6d6d;
+  background-color: #21202e;
+  border-color: #af8aff7f;
+}
+
+meta.button {
+  color: #bdbdbd;
+  background-color: #1c1b22;
+  border-color: #af8aff7f;
+}
+
+meta.button.highlighted,
+meta.button.selected {
+  color: #21202e;
+  background-color: #8464c6;
+  border-color: #8464c6;
+}
+
+meta.button.disabled {
+  color: #4d466e;
+  background-color: #21202e;
+  border-color: #af8aff7f;
+}
+
+meta.textfield {
+  color: #bdbdbd;
+  background-color: #1c1b22;
+  border-color: #af8aff7f;
+}
+
+meta.textfield.focused {
+  border-color: #8464c6;
+}
+
+meta.document {
+  color: #bdbdbd;
+  background-color: #21202e;
+  border-color: #af8aff7f;
+}
+
+meta.text {
+  color: #bdbdbd;
+  background-color: #21202e;
+}
+
+meta.text.selected {
+  color: #bdbdbd;
+  background-color: #3d375e7f;
+}
+
+meta.document.button {
+  color: #bdbdbd;
+  background-color: #1c1b22;
+  border-color: #af8aff7f;
+}
+
+meta.gutter {
+  color: #6d6d6d;
+  background-color: #21202e;
+  border-color: #af8aff7f;
+}
+
+meta.gutter.selected {
+  color: #bdbdbd;
+  background-color: #a394f033;
+}
+
+meta.cursor {
+  background-color: #8464c6;
+}
+
+meta.indentguide {
+  border-color: #4d466e;
+}
+
+meta.link {
+  color: #8464c6;
+}
+
+terminal.black {
+  color: #21202e;
+}
+
+terminal.red {
+  color: #c55858;
+}
+
+terminal.green {
+  color: #54c59f;
+}
+
+terminal.yellow {
+  color: #c7a06f;
+}
+
+terminal.blue {
+  color: #8464c6;
+}
+
+terminal.magenta {
+  color: #c17ac8;
+}
+
+terminal.cyan {
+  color: #54c59f;
+}
+
+terminal.white {
+  color: #bdbdbd;
+}
+
+terminal.bright-black {
+  color: #444444;
+}
+
+terminal.bright-red {
+  color: #c7a06f;
+}
+
+terminal.bright-green {
+  color: #8464c6;
+}
+
+terminal.bright-yellow {
+  color: #c7a06f;
+}
+
+terminal.bright-blue {
+  color: #8464c6;
+}
+
+terminal.bright-magenta {
+  color: #54c59f;
+}
+
+terminal.bright-cyan {
+  color: #54c59f;
+}
+
+terminal.bright-white {
+  color: #bdbdbd;
+}
+
+comment {
+  color: #6d6d6d;
+}
+
+value,
+value.boolean,
+value.null,
+value.number,
+value.entity,
+value.symbols,
+constant {
+  color: #54c59f;
+}
+
+entity.name.type,
+entity.name.class,
+support.type,
+identifier.type,
+definition.type,
+definition.class,
+definition.enum,
+definition.struct {
+  color: #6cb2c7;
+}
+
+entity.name.function,
+support.function,
+identifier.function,
+identifier.method,
+definition.function,
+definition.method {
+  color: #c7a06f;
+}
+
+keyword,
+keyword.construct,
+keyword.condition,
+keyword.modifier,
+keyword.operator,
+keyword.self,
+storage.type,
+storage.modifier {
+  color: #8464c6;
+}
+
+string,
+string.quoted,
+string.key,
+string-template,
+regex {
+  color: #54c59f;
+}
+
+variable,
+identifier,
+identifier.variable,
+identifier.argument {
+  color: #bdbdbd;
+}
+
+variable.language,
+support.variable,
+identifier.global,
+identifier.constant {
+  color: #c17ac8;
+}
+
+identifier.property,
+identifier.key,
+property.name,
+entity.other.attribute-name,
+tag.attribute.name,
+style.attribute.name {
+  color: #c17ac8;
+}
+
+invalid,
+invalid.illegal {
+  color: #c55858;
+}
+
+operator,
+bracket,
+processing,
+declaration {
+  color: #8464c6;
+}
+
+tag,
+tag.framework {
+  color: #8464c6;
+}
+
+tag.attribute.value,
+style.value,
+style.value.keyword,
+style.value.color {
+  color: #54c59f;
+}
+
+style.at,
+style.selector,
+style.selector.element,
+style.selector.identifier.id,
+style.selector.identifier.class,
+style.selector.pseudoclass,
+style.selector.pseudoelement {
+  color: #c7a06f;
+}
+
+markup.heading {
+  color: #8464c6;
+  font-weight: bold;
+}
+
+markup.bold {
+  color: #c7a06f;
+  font-weight: bold;
+}
+
+markup.italic {
+  color: #c17ac8;
+  font-style: italic;
+}
+
+markup.link {
+  color: #8464c6;
+}
+
+markup.code,
+markup.raw {
+  color: #54c59f;
+}
