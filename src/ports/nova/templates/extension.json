@@ -1,0 +1,11 @@
+{
+  "identifier": "com.{{ author.username }}.{{ slug }}.nova",
+  "name": "{{ displayName }} for {{ portName }}",
+  "organization": "{{ author.name }}",
+  "description": "Aura Theme port for Panic Nova.",
+  "version": "{{ version }}",
+  "categories": ["themes"],
+  "repository": "{{{ repository }}}",
+  "bugs": "{{{ repository }}}/issues",
+  "license": "MIT"
+}
